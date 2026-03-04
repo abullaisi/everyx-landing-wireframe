@@ -1,0 +1,1404 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EveryX Creative Direction Presentation</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Syne:wght@500;700;800&amp;family=IBM+Plex+Mono:wght@500;700&amp;family=Manrope:wght@400;500;700;800&amp;display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      :root {
+        --bg-dark: #050505;
+        --bg-light: #e8e8e8;
+        --text-dark: #111111;
+        --text-light: #f1f1f1;
+        --muted-dark: rgba(241, 241, 241, 0.65);
+        --muted-light: rgba(17, 17, 17, 0.72);
+        --line-dark: rgba(241, 241, 241, 0.22);
+        --line-light: rgba(17, 17, 17, 0.22);
+        --signal: #94f201;
+        --panel-dark: #0d0d0d;
+        --panel-light: #dcdcdc;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+      }
+
+      body {
+        font-family: "Manrope", sans-serif;
+        background: var(--bg-dark);
+        color: var(--text-light);
+      }
+
+      .deck {
+        height: 100vh;
+        overflow-y: auto;
+        scroll-snap-type: y mandatory;
+        scroll-behavior: smooth;
+      }
+
+      .slide {
+        min-height: 100vh;
+        position: relative;
+        padding: 88px 72px 124px;
+        scroll-snap-align: start;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        overflow: hidden;
+      }
+
+      .slide.dark {
+        background: radial-gradient(circle at 20% 0%, #121212 0%, var(--bg-dark) 45%);
+        color: var(--text-light);
+      }
+
+      .slide.light {
+        background: var(--bg-light);
+        color: var(--text-dark);
+      }
+
+      .slide.dark::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background-image: radial-gradient(rgba(255, 255, 255, 0.08) 0.6px, transparent 0.6px);
+        background-size: 4px 4px;
+        opacity: 0.08;
+        pointer-events: none;
+      }
+
+      .slide-content {
+        position: relative;
+        z-index: 1;
+      }
+
+      .top-strip {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 72px;
+        background: var(--bg-light);
+        color: var(--text-dark);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 42px;
+        font-family: "IBM Plex Mono", monospace;
+        font-size: 13px;
+        text-transform: uppercase;
+        letter-spacing: 0.12em;
+        z-index: 3;
+      }
+
+      .meta-row {
+        display: flex;
+        gap: 28px;
+        align-items: baseline;
+      }
+
+      .small-label {
+        font-family: "IBM Plex Mono", monospace;
+        text-transform: uppercase;
+        letter-spacing: 0.12em;
+        font-size: 12px;
+      }
+
+      .display {
+        margin: 0;
+        font-family: "Syne", sans-serif;
+        font-weight: 700;
+        line-height: 0.9;
+        letter-spacing: -0.03em;
+        font-size: clamp(70px, 11vw, 180px);
+      }
+
+      .section-title {
+        margin: 0 0 14px;
+        font-family: "Syne", sans-serif;
+        font-weight: 700;
+        line-height: 0.96;
+        letter-spacing: -0.025em;
+        font-size: clamp(44px, 6vw, 104px);
+      }
+
+      .lead {
+        margin: 0;
+        max-width: 720px;
+        line-height: 1.5;
+        font-size: clamp(16px, 1.45vw, 23px);
+      }
+
+      .lead.muted {
+        color: var(--muted-light);
+      }
+
+      .dark .lead.muted {
+        color: var(--muted-dark);
+      }
+
+      .cover-grid {
+        margin-top: 64px;
+        display: grid;
+        grid-template-columns: 1.15fr 0.85fr;
+        gap: 56px;
+        align-items: end;
+      }
+
+      .contact-stack {
+        display: grid;
+        gap: 34px;
+        max-width: 360px;
+        justify-self: end;
+      }
+
+      .contact-item h3 {
+        margin: 0 0 10px;
+        font-family: "IBM Plex Mono", monospace;
+        text-transform: uppercase;
+        letter-spacing: 0.12em;
+        font-size: 12px;
+      }
+
+      .contact-item p {
+        margin: 0;
+        line-height: 1.4;
+        font-size: 37px;
+        font-weight: 500;
+      }
+
+      .contact-item .small {
+        font-family: "IBM Plex Mono", monospace;
+        font-size: 13px;
+        letter-spacing: 0.09em;
+      }
+
+      .placeholder {
+        border: 1px dashed currentColor;
+        border-color: inherit;
+        color: inherit;
+        opacity: 0.72;
+        background: repeating-linear-gradient(
+          -45deg,
+          transparent 0px,
+          transparent 14px,
+          rgba(148, 242, 1, 0.06) 14px,
+          rgba(148, 242, 1, 0.06) 28px
+        );
+        display: grid;
+        place-items: center;
+        text-align: center;
+        padding: 20px;
+        line-height: 1.5;
+      }
+
+      .placeholder.large {
+        min-height: 42vh;
+      }
+
+      .placeholder.medium {
+        min-height: 26vh;
+      }
+
+      .values-grid {
+        margin-top: 44px;
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 22px 28px;
+      }
+
+      .value-card {
+        padding-top: 14px;
+        border-top: 1px solid var(--line-dark);
+      }
+
+      .light .value-card {
+        border-top-color: var(--line-light);
+      }
+
+      .value-card h4 {
+        margin: 0 0 8px;
+        font-size: 24px;
+        font-weight: 700;
+        color: var(--signal);
+      }
+
+      .light .value-card h4 {
+        color: #2f5f00;
+      }
+
+      .value-card p {
+        margin: 0;
+        line-height: 1.45;
+      }
+
+      .word-table-wrap {
+        margin-top: 26px;
+        border: 1px solid var(--line-light);
+        overflow-x: auto;
+        overflow-y: hidden;
+        -webkit-overflow-scrolling: touch;
+        touch-action: pan-x;
+        overscroll-behavior-x: contain;
+        max-width: 100%;
+        background: #ececec;
+      }
+
+      table {
+        width: 100%;
+        border-collapse: collapse;
+      }
+
+      th,
+      td {
+        text-align: left;
+        padding: 12px 16px;
+        border: 1px solid var(--line-light);
+        vertical-align: top;
+      }
+
+      th {
+        font-family: "IBM Plex Mono", monospace;
+        text-transform: uppercase;
+        font-size: 12px;
+        letter-spacing: 0.09em;
+      }
+
+      .divider {
+        align-items: flex-start;
+      }
+
+      .divider .section-title {
+        margin-top: 24px;
+        font-size: clamp(72px, 11vw, 170px);
+      }
+
+      .concept-layout {
+        display: grid;
+        grid-template-columns: 1.15fr 0.85fr;
+        gap: 34px;
+        margin-top: 18px;
+      }
+
+      .mood-grid {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 12px;
+      }
+
+      .mood-cell {
+        min-height: 0;
+        aspect-ratio: 16 / 9;
+        background: var(--panel-light);
+        border: 1px solid var(--line-light);
+        position: relative;
+        overflow: hidden;
+      }
+
+      .mood-cell img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+      }
+
+      .concept-copy h3 {
+        margin: 0 0 14px;
+        font-size: 28px;
+        line-height: 1.2;
+      }
+
+      .concept-copy blockquote {
+        margin: 0 0 20px;
+        padding: 16px 18px;
+        border-left: 3px solid var(--signal);
+        background: rgba(0, 0, 0, 0.03);
+        line-height: 1.45;
+      }
+
+      .chips {
+        display: flex;
+        gap: 10px;
+        flex-wrap: wrap;
+        margin: 10px 0 14px;
+      }
+
+      .chip {
+        padding: 9px 12px;
+        border-radius: 99px;
+        font-family: "IBM Plex Mono", monospace;
+        font-size: 12px;
+        border: 1px solid var(--line-light);
+      }
+
+      .chip.black {
+        background: #0a0a0a;
+        color: #f1f1f1;
+      }
+
+      .chip.signal {
+        background: var(--signal);
+        color: #0f0f0f;
+      }
+
+      .chip.surface {
+        background: #1a1a1a;
+        color: #f1f1f1;
+      }
+
+      .chip.offwhite {
+        background: #f0f0f0;
+        color: #181818;
+      }
+
+      .spec-list {
+        margin: 0;
+        display: grid;
+        gap: 12px;
+      }
+
+      .spec-list dt {
+        font-family: "IBM Plex Mono", monospace;
+        text-transform: uppercase;
+        letter-spacing: 0.09em;
+        font-size: 12px;
+        margin-bottom: 4px;
+      }
+
+      .spec-list dd {
+        margin: 0;
+        line-height: 1.45;
+      }
+
+      .comparison-visuals {
+        margin-top: 18px;
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 18px;
+      }
+
+      .concept-panel {
+        border: 1px solid var(--line-light);
+        background: #efefef;
+        padding: 14px;
+        display: grid;
+        gap: 12px;
+      }
+
+      .concept-panel-head {
+        display: flex;
+        align-items: baseline;
+        justify-content: space-between;
+        gap: 12px;
+      }
+
+      .concept-panel-head h3 {
+        margin: 0;
+        font-size: 28px;
+      }
+
+      .concept-tone {
+        margin: 0;
+        font-family: "IBM Plex Mono", monospace;
+        font-size: 11px;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        color: var(--muted-light);
+      }
+
+      .mini-mood-grid {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 8px;
+      }
+
+      .mini-mood-grid img {
+        width: 100%;
+        aspect-ratio: 16 / 9;
+        object-fit: cover;
+        display: block;
+        border: 1px solid var(--line-light);
+      }
+
+      .scorecard {
+        margin-top: 14px;
+        border: 1px solid var(--line-light);
+        background: #f1f1f1;
+        padding: 16px;
+        display: grid;
+        gap: 14px;
+      }
+
+      .score-head {
+        display: flex;
+        align-items: baseline;
+        justify-content: space-between;
+        gap: 14px;
+        flex-wrap: wrap;
+      }
+
+      .score-head h3 {
+        margin: 0;
+        font-size: 24px;
+      }
+
+      .score-head p {
+        margin: 0;
+        font-family: "IBM Plex Mono", monospace;
+        font-size: 12px;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        color: var(--muted-light);
+      }
+
+      .score-row {
+        display: grid;
+        grid-template-columns: minmax(160px, 0.52fr) 1fr;
+        gap: 14px;
+        padding-top: 12px;
+        border-top: 1px solid var(--line-light);
+      }
+
+      .score-meta h4 {
+        margin: 0 0 4px;
+        font-size: 16px;
+      }
+
+      .score-meta p {
+        margin: 0;
+        font-family: "IBM Plex Mono", monospace;
+        font-size: 11px;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        color: var(--muted-light);
+      }
+
+      .score-lines {
+        display: grid;
+        gap: 8px;
+      }
+
+      .score-line {
+        display: grid;
+        grid-template-columns: 72px 1fr 42px;
+        gap: 10px;
+        align-items: center;
+      }
+
+      .score-name {
+        font-family: "IBM Plex Mono", monospace;
+        font-size: 11px;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+      }
+
+      .score-bar {
+        height: 10px;
+        border-radius: 999px;
+        background: #d5d5d5;
+        overflow: hidden;
+      }
+
+      .score-bar > span {
+        height: 100%;
+        display: block;
+        border-radius: inherit;
+      }
+
+      .score-line.signal .score-bar > span {
+        background: #34680a;
+      }
+
+      .score-line.arena .score-bar > span {
+        background: #1a1a1a;
+      }
+
+      .score-value {
+        text-align: right;
+        font-family: "IBM Plex Mono", monospace;
+        font-size: 12px;
+      }
+
+      .decision-strip {
+        margin-top: 14px;
+        border: 1px solid rgba(47, 95, 0, 0.4);
+        background: rgba(148, 242, 1, 0.14);
+        padding: 14px 16px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 12px;
+        flex-wrap: wrap;
+        line-height: 1.4;
+      }
+
+      .decision-strip strong {
+        display: block;
+        margin-bottom: 2px;
+      }
+
+      .decision-score {
+        font-family: "IBM Plex Mono", monospace;
+        font-size: 12px;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+      }
+
+      .next-grid {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 28px;
+        margin-top: 24px;
+      }
+
+      .next-card {
+        border: 1px solid var(--line-dark);
+        background: rgba(255, 255, 255, 0.02);
+        padding: 20px 22px;
+      }
+
+      .next-card h3 {
+        margin: 0 0 12px;
+        font-size: 24px;
+        color: var(--signal);
+      }
+
+      .next-card ol {
+        margin: 0;
+        padding-left: 20px;
+        line-height: 1.6;
+      }
+
+      .thanks-wrap {
+        display: grid;
+        gap: 18px;
+        align-content: center;
+        justify-items: start;
+      }
+
+      .thanks-wrap p {
+        margin: 0;
+        font-size: clamp(20px, 2.2vw, 36px);
+        line-height: 1.3;
+      }
+
+      .footer {
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        height: 72px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 42px;
+        font-family: "IBM Plex Mono", monospace;
+        text-transform: uppercase;
+        letter-spacing: 0.11em;
+        font-size: 12px;
+        z-index: 2;
+      }
+
+      .dark .footer {
+        background: var(--bg-light);
+        color: var(--text-dark);
+      }
+
+      .light .footer {
+        background: var(--bg-dark);
+        color: var(--text-light);
+      }
+
+      .footer-center {
+        opacity: 0.78;
+      }
+
+      .slide-nav {
+        position: fixed;
+        right: 18px;
+        bottom: 90px;
+        display: grid;
+        gap: 9px;
+        justify-items: end;
+        pointer-events: none;
+        z-index: 20;
+      }
+
+      .slide-nav button {
+        width: 44px;
+        height: 44px;
+        border-radius: 50%;
+        border: 1px solid rgba(255, 255, 255, 0.32);
+        background: rgba(0, 0, 0, 0.4);
+        color: #f1f1f1;
+        font-size: 20px;
+        cursor: pointer;
+        pointer-events: auto;
+        transition: transform 120ms ease, background-color 120ms ease;
+      }
+
+      .slide-nav button:hover {
+        transform: translateY(-2px);
+        background: rgba(148, 242, 1, 0.25);
+      }
+
+      .slide-nav button:disabled {
+        opacity: 0.35;
+        cursor: not-allowed;
+        transform: none;
+        background: rgba(0, 0, 0, 0.3);
+      }
+
+      .slide-counter {
+        text-align: right;
+        width: 100%;
+        font-family: "IBM Plex Mono", monospace;
+        color: #d5d5d5;
+        font-size: 12px;
+        letter-spacing: 0.11em;
+        text-transform: uppercase;
+      }
+
+      .reveal {
+        opacity: 1;
+        transform: translateY(0);
+        transition: opacity 500ms ease, transform 500ms ease;
+        transition-delay: var(--d, 0ms);
+      }
+
+      .js-animate .reveal {
+        opacity: 0;
+        transform: translateY(18px);
+      }
+
+      .js-animate .slide.in-view .reveal {
+        opacity: 1;
+        transform: translateY(0);
+      }
+
+      @media (max-width: 1100px) {
+        .slide {
+          padding: 92px 38px 110px;
+        }
+
+        /* Avoid hidden-content failures on tall stacked mobile/tablet slides. */
+        .js-animate .reveal,
+        .js-animate .slide.in-view .reveal {
+          opacity: 1;
+          transform: none;
+        }
+
+        .cover-grid,
+        .concept-layout,
+        .comparison-visuals,
+        .next-grid {
+          grid-template-columns: 1fr;
+        }
+
+        .score-row {
+          grid-template-columns: 1fr;
+        }
+
+        .contact-stack {
+          justify-self: start;
+        }
+
+        .values-grid {
+          grid-template-columns: 1fr;
+        }
+
+        .mood-grid {
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+
+        .word-table-wrap table {
+          width: max-content;
+          min-width: 100%;
+        }
+
+        .word-table-wrap th,
+        .word-table-wrap td {
+          min-width: 190px;
+        }
+      }
+
+      @media (max-width: 760px) {
+        .top-strip,
+        .footer {
+          height: 64px;
+          padding: 0 18px;
+          font-size: 10px;
+        }
+
+        .slide {
+          padding: 82px 18px 98px;
+        }
+
+        .display {
+          font-size: clamp(56px, 17vw, 95px);
+        }
+
+        .section-title {
+          font-size: clamp(40px, 14vw, 68px);
+        }
+
+        .contact-item p {
+          font-size: 29px;
+        }
+
+        .mood-grid {
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+
+        th,
+        td {
+          padding: 10px;
+          font-size: 14px;
+        }
+
+        .word-table-wrap table {
+          min-width: 820px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="slide-nav" aria-label="Slide navigation">
+      <div class="slide-counter" id="slideCounter">001 / 012</div>
+      <button type="button" id="prevSlide" aria-label="Previous slide">&#8593;</button>
+      <button type="button" id="nextSlide" aria-label="Next slide">&#8595;</button>
+    </nav>
+
+    <main class="deck" id="deck">
+      <section class="slide dark" data-index="1">
+        <div class="top-strip">
+          <div class="meta-row">
+            <span>Creative Direction</span>
+          </div>
+          <span>EveryX</span>
+        </div>
+        <div class="slide-content cover-grid">
+          <h1 class="display reveal" style="--d: 100ms">Creative<br />Direction.</h1>
+          <div class="contact-stack">
+            <div class="contact-item reveal" style="--d: 220ms">
+              <h3>Prepared By</h3>
+              <p>Imam Abullaisi</p>
+            </div>
+            <div class="contact-item reveal" style="--d: 320ms">
+              <h3>Prepared For</h3>
+              <p>EveryX Team</p>
+              <p class="small">EveryX.io</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="slide light" data-index="2">
+        <div class="slide-content">
+          <h2 class="section-title reveal" style="--d: 80ms">The Purpose<br />of This Step</h2>
+          <p class="lead muted reveal" style="--d: 170ms">
+            As with any part of the creative process, alignment is key. This step is designed to paint a
+            picture of what EveryX's visual identity could look like, through the curation of references and
+            inspiration. This is for us to collaborate on what approach might suit the vision best, and work
+            to attract the right audience. It is the first step in bringing the brand to life.
+          </p>
+        </div>
+        <footer class="footer">
+          <span>Introduction</span>
+          <span class="footer-center">002</span>
+          <span>Creative Direction</span>
+        </footer>
+      </section>
+
+      <section class="slide dark" data-index="3">
+        <div class="slide-content">
+          <h2 class="section-title reveal" style="--d: 70ms">About<br />the Brand</h2>
+          <p class="lead muted reveal" style="--d: 160ms">
+            EveryX is the world's first prediction market with leverage (up to 10x). Built on dual-chain
+            (BNB + Polygon), self-funded, Philippines-first. At its core: leveraged event trading,
+            AI-driven probability baselines, and esports-rooted competitive culture. The ambition is bigger
+            than a trading platform - it is sentiment data infrastructure.
+          </p>
+          <div class="values-grid">
+            <article class="value-card reveal" style="--d: 230ms">
+              <h4>Clarity</h4>
+              <p>Probability-first UI. Three simple choices instead of order books.</p>
+            </article>
+            <article class="value-card reveal" style="--d: 290ms">
+              <h4>Fairness</h4>
+              <p>Pool-based pricing. Trade the crowd, not a market maker.</p>
+            </article>
+            <article class="value-card reveal" style="--d: 350ms">
+              <h4>Capital Efficiency</h4>
+              <p>Leverage with explicit max loss. No interest on leveraged positions.</p>
+            </article>
+            <article class="value-card reveal" style="--d: 410ms">
+              <h4>Collective Intelligence</h4>
+              <p>Financially backed forecasting that generates crowd-priced data as a public good.</p>
+            </article>
+          </div>
+        </div>
+        <footer class="footer">
+          <span>About The Brand</span>
+          <span class="footer-center">003</span>
+          <span>Creative Direction</span>
+        </footer>
+      </section>
+
+      <section class="slide light" data-index="4">
+        <div class="slide-content">
+          <h2 class="section-title reveal" style="--d: 80ms">Our Goal</h2>
+          <p class="lead muted reveal" style="--d: 170ms">
+            EveryX owns a new rung on the category ladder: Leveraged Prediction Markets. The visual identity
+            must signal that difference without announcing it. The brand should read as a serious tool first,
+            an exciting platform second. The design goal is precision over decoration, infrastructure over
+            hype, and competitive culture held beneath a clean surface.
+          </p>
+        </div>
+        <footer class="footer">
+          <span>Goal</span>
+          <span class="footer-center">004</span>
+          <span>Creative Direction</span>
+        </footer>
+      </section>
+
+      <section class="slide light" data-index="5">
+        <div class="slide-content">
+          <h2 class="section-title reveal" style="--d: 70ms">Word List<br />Brain Dump</h2>
+          <div class="word-table-wrap reveal" style="--d: 170ms">
+            <table>
+              <thead>
+                <tr>
+                  <th>Audience</th>
+                  <th>Character</th>
+                  <th>Feeling</th>
+                  <th>Outcome</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Crypto-native traders 21-40</td>
+                  <td>Precise</td>
+                  <td>Edge</td>
+                  <td>Leverage the crowd's truth</td>
+                </tr>
+                <tr>
+                  <td>Research-driven, opinionated</td>
+                  <td>Confident</td>
+                  <td>Control</td>
+                  <td>Back knowledge with real stakes</td>
+                </tr>
+                <tr>
+                  <td>PVP style competitive</td>
+                  <td>Sharp</td>
+                  <td>Clarity</td>
+                  <td>Win bigger for being right</td>
+                </tr>
+                <tr>
+                  <td>SEA-concentrated, mobile-first</td>
+                  <td>Direct</td>
+                  <td>Excitement</td>
+                  <td>Quantified conviction</td>
+                </tr>
+                <tr>
+                  <td>Community KOLs and partners</td>
+                  <td>Infrastructure-grade</td>
+                  <td>Trust</td>
+                  <td>Category ownership</td>
+                </tr>
+                <tr>
+                  <td>Signal seekers / data analysts</td>
+                  <td>Conviction-driven</td>
+                  <td>Urgency</td>
+                  <td>Forecasting infrastructure</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <footer class="footer">
+          <span>Word List</span>
+          <span class="footer-center">005</span>
+          <span>Creative Direction</span>
+        </footer>
+      </section>
+
+      <section class="slide dark divider" data-index="6">
+        <div class="slide-content">
+          <h2 class="section-title reveal" style="--d: 110ms">Concept 01</h2>
+        </div>
+        <footer class="footer">
+          <span>Overview &amp; Goals</span>
+          <span class="footer-center">006</span>
+          <span>Creative Direction</span>
+        </footer>
+      </section>
+
+      <section class="slide light" data-index="7">
+        <div class="slide-content">
+          <h2 class="section-title reveal" style="--d: 80ms">Concept 01<br />Signal</h2>
+          <div class="concept-layout">
+            <div>
+              <div class="mood-grid reveal" style="--d: 170ms">
+                <div class="mood-cell">
+                  <img src="assets/moodboard-optimized/concept2/c2-01.jpg" alt="Concept 01 moodboard 1" loading="lazy" decoding="async" />
+                </div>
+                <div class="mood-cell">
+                  <img src="assets/moodboard-optimized/concept2/c2-02.jpg" alt="Concept 01 moodboard 2" loading="lazy" decoding="async" />
+                </div>
+                <div class="mood-cell">
+                  <img src="assets/moodboard-optimized/concept2/c2-03.jpg" alt="Concept 01 moodboard 3" loading="lazy" decoding="async" />
+                </div>
+                <div class="mood-cell">
+                  <img src="assets/moodboard-optimized/concept2/c2-04.jpg" alt="Concept 01 moodboard 4" loading="lazy" decoding="async" />
+                </div>
+                <div class="mood-cell">
+                  <img src="assets/moodboard-optimized/concept2/c2-05.jpg" alt="Concept 01 moodboard 5" loading="lazy" decoding="async" />
+                </div>
+                <div class="mood-cell">
+                  <img src="assets/moodboard-optimized/concept2/c2-06.jpg" alt="Concept 01 moodboard 6" loading="lazy" decoding="async" />
+                </div>
+                <div class="mood-cell">
+                  <img src="assets/moodboard-optimized/concept2/c2-07.jpg" alt="Concept 01 moodboard 7" loading="lazy" decoding="async" />
+                </div>
+                <div class="mood-cell">
+                  <img src="assets/moodboard-optimized/concept2/c2-08.jpg" alt="Concept 01 moodboard 8" loading="lazy" decoding="async" />
+                </div>
+                <div class="mood-cell">
+                  <img src="assets/moodboard-optimized/concept2/c2-09.jpg" alt="Concept 01 moodboard 9" loading="lazy" decoding="async" />
+                </div>
+              </div>
+            </div>
+            <div class="concept-copy reveal" style="--d: 180ms">
+              <h3>Signal - Precision - Infrastructure</h3>
+              <blockquote>
+                EveryX is the forecasting tool for traders who have done the research. Every design decision
+                reads infrastructure first - data precise, minimal, authoritative. The volt green is deployed
+                sparingly as the signal color: it marks what matters.
+              </blockquote>
+
+              <dl class="spec-list">
+                <div>
+                  <dt>Colour</dt>
+                  <dd class="chips">
+                    <span class="chip black">#0A0A0A</span>
+                    <span class="chip signal">#94F201</span>
+                    <span class="chip offwhite">#F0F0F0</span>
+                  </dd>
+                </div>
+                <div>
+                  <dt>Type</dt>
+                  <dd>Neue Haas Grotesk Bold / Space Grotesk. Geometric, heavy weight, precision feel.</dd>
+                </div>
+                <div>
+                  <dt>Imagery</dt>
+                  <dd>Data visualization, probability curves, dark studio photography.</dd>
+                </div>
+                <div>
+                  <dt>Texture</dt>
+                  <dd>No organic texture. Fine grid or dot-matrix as structural background element only.</dd>
+                </div>
+              </dl>
+            </div>
+          </div>
+        </div>
+        <footer class="footer">
+          <span>Concept 01</span>
+          <span class="footer-center">007</span>
+          <span>Creative Direction</span>
+        </footer>
+      </section>
+
+      <section class="slide dark divider" data-index="8">
+        <div class="slide-content">
+          <h2 class="section-title reveal" style="--d: 110ms">Concept 02</h2>
+        </div>
+        <footer class="footer">
+          <span>Overview &amp; Goals</span>
+          <span class="footer-center">008</span>
+          <span>Creative Direction</span>
+        </footer>
+      </section>
+
+      <section class="slide light" data-index="9">
+        <div class="slide-content">
+          <h2 class="section-title reveal" style="--d: 80ms">Concept 02<br />Arena</h2>
+          <div class="concept-layout">
+            <div>
+              <div class="mood-grid reveal" style="--d: 170ms">
+                <div class="mood-cell">
+                  <img src="assets/moodboard-optimized/concept1/c1-01.jpg" alt="Concept 02 moodboard 1" loading="lazy" decoding="async" />
+                </div>
+                <div class="mood-cell">
+                  <img src="assets/moodboard-optimized/concept1/c1-02.jpg" alt="Concept 02 moodboard 2" loading="lazy" decoding="async" />
+                </div>
+                <div class="mood-cell">
+                  <img src="assets/moodboard-optimized/concept1/c1-03.jpg" alt="Concept 02 moodboard 3" loading="lazy" decoding="async" />
+                </div>
+                <div class="mood-cell">
+                  <img src="assets/moodboard-optimized/concept1/c1-04.jpg" alt="Concept 02 moodboard 4" loading="lazy" decoding="async" />
+                </div>
+                <div class="mood-cell">
+                  <img src="assets/moodboard-optimized/concept1/c1-05.jpg" alt="Concept 02 moodboard 5" loading="lazy" decoding="async" />
+                </div>
+                <div class="mood-cell">
+                  <img src="assets/moodboard-optimized/concept1/c1-06.jpg" alt="Concept 02 moodboard 6" loading="lazy" decoding="async" />
+                </div>
+                <div class="mood-cell">
+                  <img src="assets/moodboard-optimized/concept1/c1-07.jpg" alt="Concept 02 moodboard 7" loading="lazy" decoding="async" />
+                </div>
+                <div class="mood-cell">
+                  <img src="assets/moodboard-optimized/concept1/c1-08.jpg" alt="Concept 02 moodboard 8" loading="lazy" decoding="async" />
+                </div>
+                <div class="mood-cell">
+                  <img src="assets/moodboard-optimized/concept1/c1-09.jpg" alt="Concept 02 moodboard 9" loading="lazy" decoding="async" />
+                </div>
+              </div>
+            </div>
+            <div class="concept-copy reveal" style="--d: 180ms">
+              <h3>Arena - Conviction - PVP Culture</h3>
+              <blockquote>
+                EveryX as competitive arena. The brand leans into the PVP trading identity rooted in esports
+                culture - bold, fast, high-contrast. Green is more aggressive here, used as energy rather than
+                signal.
+              </blockquote>
+
+              <dl class="spec-list">
+                <div>
+                  <dt>Colour</dt>
+                  <dd class="chips">
+                    <span class="chip black">#0A0A0A</span>
+                    <span class="chip signal">#94F201</span>
+                    <span class="chip surface">#1A1A1A</span>
+                  </dd>
+                </div>
+                <div>
+                  <dt>Type</dt>
+                  <dd>Space Grotesk ExtraBold / Barlow Condensed. Wide tracking caps. Numbers as hero.</dd>
+                </div>
+                <div>
+                  <dt>Imagery</dt>
+                  <dd>Esports event photography, competitive screens, leaderboard UI, high-action moments.</dd>
+                </div>
+                <div>
+                  <dt>Texture</dt>
+                  <dd>Scan lines or fine grid at low opacity. Subtle noise overlay on dark surfaces.</dd>
+                </div>
+              </dl>
+            </div>
+          </div>
+        </div>
+        <footer class="footer">
+          <span>Concept 02</span>
+          <span class="footer-center">009</span>
+          <span>Creative Direction</span>
+        </footer>
+      </section>
+
+      <section class="slide light" data-index="10">
+        <div class="slide-content">
+          <h2 class="section-title reveal" style="--d: 80ms">Concept Comparison</h2>
+          <div class="comparison-visuals reveal" style="--d: 140ms">
+            <article class="concept-panel">
+              <div class="concept-panel-head">
+                <h3>Concept 01 - Signal</h3>
+                <p class="concept-tone">Restrained / Precise / Institutional</p>
+              </div>
+              <div class="mini-mood-grid">
+                <img src="assets/moodboard-optimized/concept2/c2-01.jpg" alt="Concept 01 visual reference 1" loading="lazy" decoding="async" />
+                <img src="assets/moodboard-optimized/concept2/c2-04.jpg" alt="Concept 01 visual reference 2" loading="lazy" decoding="async" />
+                <img src="assets/moodboard-optimized/concept2/c2-07.jpg" alt="Concept 01 visual reference 3" loading="lazy" decoding="async" />
+              </div>
+            </article>
+            <article class="concept-panel">
+              <div class="concept-panel-head">
+                <h3>Concept 02 - Arena</h3>
+                <p class="concept-tone">Aggressive / Bold / Competitive</p>
+              </div>
+              <div class="mini-mood-grid">
+                <img src="assets/moodboard-optimized/concept1/c1-01.jpg" alt="Concept 02 visual reference 1" loading="lazy" decoding="async" />
+                <img src="assets/moodboard-optimized/concept1/c1-04.jpg" alt="Concept 02 visual reference 2" loading="lazy" decoding="async" />
+                <img src="assets/moodboard-optimized/concept1/c1-08.jpg" alt="Concept 02 visual reference 3" loading="lazy" decoding="async" />
+              </div>
+            </article>
+          </div>
+
+          <div class="scorecard reveal" style="--d: 220ms">
+            <div class="score-head">
+              <h3>Weighted Decision Scorecard</h3>
+              <p>Scale: 1.0-5.0</p>
+            </div>
+
+            <div class="score-row">
+              <div class="score-meta">
+                <h4>Infrastructure Fit</h4>
+                <p>Weight 35%</p>
+              </div>
+              <div class="score-lines">
+                <div class="score-line signal">
+                  <span class="score-name">Signal</span>
+                  <div class="score-bar"><span style="width: 96%"></span></div>
+                  <span class="score-value">4.8</span>
+                </div>
+                <div class="score-line arena">
+                  <span class="score-name">Arena</span>
+                  <div class="score-bar"><span style="width: 72%"></span></div>
+                  <span class="score-value">3.6</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="score-row">
+              <div class="score-meta">
+                <h4>Trust / Seriousness</h4>
+                <p>Weight 20%</p>
+              </div>
+              <div class="score-lines">
+                <div class="score-line signal">
+                  <span class="score-name">Signal</span>
+                  <div class="score-bar"><span style="width: 92%"></span></div>
+                  <span class="score-value">4.6</span>
+                </div>
+                <div class="score-line arena">
+                  <span class="score-name">Arena</span>
+                  <div class="score-bar"><span style="width: 66%"></span></div>
+                  <span class="score-value">3.3</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="score-row">
+              <div class="score-meta">
+                <h4>Category Differentiation</h4>
+                <p>Weight 15%</p>
+              </div>
+              <div class="score-lines">
+                <div class="score-line signal">
+                  <span class="score-name">Signal</span>
+                  <div class="score-bar"><span style="width: 86%"></span></div>
+                  <span class="score-value">4.3</span>
+                </div>
+                <div class="score-line arena">
+                  <span class="score-name">Arena</span>
+                  <div class="score-bar"><span style="width: 84%"></span></div>
+                  <span class="score-value">4.2</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="score-row">
+              <div class="score-meta">
+                <h4>Community Energy</h4>
+                <p>Weight 15%</p>
+              </div>
+              <div class="score-lines">
+                <div class="score-line signal">
+                  <span class="score-name">Signal</span>
+                  <div class="score-bar"><span style="width: 70%"></span></div>
+                  <span class="score-value">3.5</span>
+                </div>
+                <div class="score-line arena">
+                  <span class="score-name">Arena</span>
+                  <div class="score-bar"><span style="width: 96%"></span></div>
+                  <span class="score-value">4.8</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="score-row">
+              <div class="score-meta">
+                <h4>Long-term Scalability</h4>
+                <p>Weight 15%</p>
+              </div>
+              <div class="score-lines">
+                <div class="score-line signal">
+                  <span class="score-name">Signal</span>
+                  <div class="score-bar"><span style="width: 94%"></span></div>
+                  <span class="score-value">4.7</span>
+                </div>
+                <div class="score-line arena">
+                  <span class="score-name">Arena</span>
+                  <div class="score-bar"><span style="width: 74%"></span></div>
+                  <span class="score-value">3.7</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="decision-strip reveal" style="--d: 290ms">
+            <div>
+              <strong>Recommended Direction: Concept 01 (Signal)</strong>
+              Best aligned to the Forecasting Infrastructure narrative and long-term B2B trust posture.
+            </div>
+            <div class="decision-score">Weighted: Signal 4.48 / Arena 3.83</div>
+          </div>
+        </div>
+        <footer class="footer">
+          <span>Comparison</span>
+          <span class="footer-center">010</span>
+          <span>Creative Direction</span>
+        </footer>
+      </section>
+
+      <section class="slide dark" data-index="11">
+        <div class="slide-content">
+          <h2 class="section-title reveal" style="--d: 80ms">Next Steps</h2>
+          <div class="next-grid">
+            <article class="next-card reveal" style="--d: 170ms">
+              <h3>Feedback Needed from EveryX</h3>
+              <ol>
+                <li>Does Concept 01 (Signal) capture the heart of the brand as you see it?</li>
+                <li>With the goal of owning Leveraged Prediction Markets, are we on the right track?</li>
+                <li>Will the ideal EveryX user feel connection to the Signal aesthetic?</li>
+                <li>Is there any element of Concept 02 (Arena) worth carrying into the primary direction?</li>
+              </ol>
+            </article>
+            <article class="next-card reveal" style="--d: 230ms">
+              <h3>Deliverable Roadmap</h3>
+              <ol>
+                <li>Brand Guide - logo, color, type, spacing, tone of voice</li>
+                <li>Landing Page</li>
+                <li>Mission Page</li>
+                <li>Points and Rewards Page</li>
+              </ol>
+            </article>
+          </div>
+        </div>
+        <footer class="footer">
+          <span>Next Steps</span>
+          <span class="footer-center">011</span>
+          <span>Creative Direction</span>
+        </footer>
+      </section>
+
+      <section class="slide dark" data-index="12">
+        <div class="slide-content thanks-wrap">
+          <h2 class="section-title reveal" style="--d: 90ms">Thank You</h2>
+          <p class="reveal" style="--d: 170ms">Imam Abullaisi</p>
+          <p class="reveal" style="--d: 250ms">everyx.io</p>
+        </div>
+        <footer class="footer">
+          <span>Creative Direction</span>
+          <span class="footer-center">012</span>
+          <span>EveryX</span>
+        </footer>
+      </section>
+    </main>
+
+    <script>
+      const slides = Array.from(document.querySelectorAll(".slide"));
+      const counter = document.getElementById("slideCounter");
+      const prevButton = document.getElementById("prevSlide");
+      const nextButton = document.getElementById("nextSlide");
+      const tableWrappers = Array.from(document.querySelectorAll(".word-table-wrap"));
+      let currentIndex = 0;
+
+      document.body.classList.add("js-animate");
+
+      function setCurrent(index) {
+        currentIndex = Math.max(0, Math.min(index, slides.length - 1));
+        const label = String(currentIndex + 1).padStart(3, "0");
+        const total = String(slides.length).padStart(3, "0");
+        counter.textContent = `${label} / ${total}`;
+        prevButton.disabled = currentIndex === 0;
+        nextButton.disabled = currentIndex === slides.length - 1;
+      }
+
+      function goTo(index) {
+        setCurrent(index);
+        slides[currentIndex].scrollIntoView({ behavior: "smooth", block: "start" });
+      }
+
+      prevButton.addEventListener("click", () => goTo(currentIndex - 1));
+      nextButton.addEventListener("click", () => goTo(currentIndex + 1));
+
+      document.addEventListener(
+        "keydown",
+        (event) => {
+          const key = event.key;
+          if (key === "ArrowDown" || key === "PageDown" || key === " ") {
+            event.preventDefault();
+            goTo(currentIndex + 1);
+          } else if (key === "ArrowUp" || key === "PageUp") {
+            event.preventDefault();
+            goTo(currentIndex - 1);
+          }
+        },
+        { passive: false }
+      );
+
+      const observer = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              const active = slides.indexOf(entry.target);
+              if (active >= 0) {
+                setCurrent(active);
+              }
+              entry.target.classList.add("in-view");
+            }
+          });
+        },
+        { threshold: 0.15 }
+      );
+
+      slides.forEach((slide) => observer.observe(slide));
+      slides[0].classList.add("in-view");
+      setCurrent(0);
+
+      // Allow horizontal drag on tables inside a vertically snapping deck.
+      tableWrappers.forEach((wrap) => {
+        let startX = 0;
+        let startY = 0;
+        let startLeft = 0;
+        let touching = false;
+
+        wrap.addEventListener(
+          "touchstart",
+          (event) => {
+            if (!event.touches || event.touches.length !== 1) return;
+            const touch = event.touches[0];
+            touching = true;
+            startX = touch.pageX;
+            startY = touch.pageY;
+            startLeft = wrap.scrollLeft;
+          },
+          { passive: true }
+        );
+
+        wrap.addEventListener(
+          "touchmove",
+          (event) => {
+            if (!touching || !event.touches || event.touches.length !== 1) return;
+            const touch = event.touches[0];
+            const deltaX = touch.pageX - startX;
+            const deltaY = touch.pageY - startY;
+            if (Math.abs(deltaX) > Math.abs(deltaY)) {
+              wrap.scrollLeft = startLeft - deltaX;
+              event.preventDefault();
+            }
+          },
+          { passive: false }
+        );
+
+        wrap.addEventListener("touchend", () => {
+          touching = false;
+        });
+      });
+    </script>
+  </body>
+</html>
