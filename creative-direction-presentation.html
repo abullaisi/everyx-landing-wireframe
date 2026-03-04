@@ -278,6 +278,20 @@
         letter-spacing: 0.09em;
       }
 
+      .table-subtitle-row th {
+        text-transform: none;
+        font-family: "Manrope", sans-serif;
+        font-size: 13px;
+        letter-spacing: 0;
+        font-weight: 500;
+        font-style: italic;
+        color: var(--muted-light);
+      }
+
+      .primary-row td {
+        font-weight: 700;
+      }
+
       .divider {
         align-items: flex-start;
       }
@@ -355,6 +369,11 @@
         color: #0f0f0f;
       }
 
+      .chip.red {
+        background: #c41230;
+        color: #f3f3f3;
+      }
+
       .chip.surface {
         background: #1a1a1a;
         color: #f1f1f1;
@@ -384,178 +403,87 @@
         line-height: 1.45;
       }
 
-      .comparison-visuals {
-        margin-top: 18px;
-        display: grid;
-        grid-template-columns: repeat(2, minmax(0, 1fr));
-        gap: 18px;
-      }
-
-      .concept-panel {
+      .comparison-table-wrap {
+        margin-top: 20px;
         border: 1px solid var(--line-light);
         background: #efefef;
-        padding: 14px;
-        display: grid;
-        gap: 12px;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        touch-action: pan-x;
+        overscroll-behavior-x: contain;
       }
 
-      .concept-panel-head {
-        display: flex;
-        align-items: baseline;
-        justify-content: space-between;
-        gap: 12px;
+      .comparison-table {
+        width: 100%;
+        min-width: 760px;
+        border-collapse: collapse;
       }
 
-      .concept-panel-head h3 {
-        margin: 0;
-        font-size: 28px;
+      .comparison-table th,
+      .comparison-table td {
+        border: 1px solid var(--line-light);
+        padding: 12px 14px;
+        vertical-align: top;
       }
 
-      .concept-tone {
-        margin: 0;
+      .comparison-table th {
         font-family: "IBM Plex Mono", monospace;
-        font-size: 11px;
-        letter-spacing: 0.08em;
+        font-size: 12px;
         text-transform: uppercase;
-        color: var(--muted-light);
+        letter-spacing: 0.08em;
       }
 
-      .mini-mood-grid {
+      .comparison-table td {
+        line-height: 1.45;
+      }
+
+      .comparison-criteria {
+        font-weight: 700;
+        width: 20%;
+        min-width: 140px;
+      }
+
+      .comparison-callout {
+        margin: 14px 0 0;
+        border: 1px solid rgba(148, 242, 1, 0.22);
+        border-left: 3px solid var(--signal);
+        background: #111111;
+        color: #e7efe2;
+        padding: 14px 16px;
+        line-height: 1.4;
+      }
+
+      .comparison-callout strong {
+        color: var(--signal);
+      }
+
+      .comparison-image-block {
+        margin-top: 14px;
         display: grid;
-        grid-template-columns: repeat(3, minmax(0, 1fr));
-        gap: 8px;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 14px;
       }
 
-      .mini-mood-grid img {
+      .comparison-thumb {
+        border: 1px solid var(--line-light);
+        background: #121212;
+        padding: 10px;
+      }
+
+      .comparison-thumb h3 {
+        margin: 0 0 8px;
+        font-family: "IBM Plex Mono", monospace;
+        font-size: 12px;
+        text-transform: uppercase;
+        letter-spacing: 0.09em;
+        color: #f0f0f0;
+      }
+
+      .comparison-thumb img {
         width: 100%;
         aspect-ratio: 16 / 9;
         object-fit: cover;
         display: block;
-        border: 1px solid var(--line-light);
-      }
-
-      .scorecard {
-        margin-top: 14px;
-        border: 1px solid var(--line-light);
-        background: #f1f1f1;
-        padding: 16px;
-        display: grid;
-        gap: 14px;
-      }
-
-      .score-head {
-        display: flex;
-        align-items: baseline;
-        justify-content: space-between;
-        gap: 14px;
-        flex-wrap: wrap;
-      }
-
-      .score-head h3 {
-        margin: 0;
-        font-size: 24px;
-      }
-
-      .score-head p {
-        margin: 0;
-        font-family: "IBM Plex Mono", monospace;
-        font-size: 12px;
-        letter-spacing: 0.08em;
-        text-transform: uppercase;
-        color: var(--muted-light);
-      }
-
-      .score-row {
-        display: grid;
-        grid-template-columns: minmax(160px, 0.52fr) 1fr;
-        gap: 14px;
-        padding-top: 12px;
-        border-top: 1px solid var(--line-light);
-      }
-
-      .score-meta h4 {
-        margin: 0 0 4px;
-        font-size: 16px;
-      }
-
-      .score-meta p {
-        margin: 0;
-        font-family: "IBM Plex Mono", monospace;
-        font-size: 11px;
-        letter-spacing: 0.08em;
-        text-transform: uppercase;
-        color: var(--muted-light);
-      }
-
-      .score-lines {
-        display: grid;
-        gap: 8px;
-      }
-
-      .score-line {
-        display: grid;
-        grid-template-columns: 72px 1fr 42px;
-        gap: 10px;
-        align-items: center;
-      }
-
-      .score-name {
-        font-family: "IBM Plex Mono", monospace;
-        font-size: 11px;
-        letter-spacing: 0.08em;
-        text-transform: uppercase;
-      }
-
-      .score-bar {
-        height: 10px;
-        border-radius: 999px;
-        background: #d5d5d5;
-        overflow: hidden;
-      }
-
-      .score-bar > span {
-        height: 100%;
-        display: block;
-        border-radius: inherit;
-      }
-
-      .score-line.signal .score-bar > span {
-        background: #34680a;
-      }
-
-      .score-line.arena .score-bar > span {
-        background: #1a1a1a;
-      }
-
-      .score-value {
-        text-align: right;
-        font-family: "IBM Plex Mono", monospace;
-        font-size: 12px;
-      }
-
-      .decision-strip {
-        margin-top: 14px;
-        border: 1px solid rgba(47, 95, 0, 0.4);
-        background: rgba(148, 242, 1, 0.14);
-        padding: 14px 16px;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        gap: 12px;
-        flex-wrap: wrap;
-        line-height: 1.4;
-      }
-
-      .decision-strip strong {
-        display: block;
-        margin-bottom: 2px;
-      }
-
-      .decision-score {
-        font-family: "IBM Plex Mono", monospace;
-        font-size: 12px;
-        letter-spacing: 0.08em;
-        text-transform: uppercase;
       }
 
       .next-grid {
@@ -704,12 +632,7 @@
 
         .cover-grid,
         .concept-layout,
-        .comparison-visuals,
         .next-grid {
-          grid-template-columns: 1fr;
-        }
-
-        .score-row {
           grid-template-columns: 1fr;
         }
 
@@ -718,7 +641,7 @@
         }
 
         .values-grid {
-          grid-template-columns: 1fr;
+          grid-template-columns: repeat(2, minmax(0, 1fr));
         }
 
         .mood-grid {
@@ -888,15 +811,21 @@
                   <th>Feeling</th>
                   <th>Outcome</th>
                 </tr>
+                <tr class="table-subtitle-row">
+                  <th><em>How would you describe our users?</em></th>
+                  <th><em>Your personality. How you sound.</em></th>
+                  <th><em>The feelings the brand inspires in others.</em></th>
+                  <th><em>The tangible outcome, offering, features.</em></th>
+                </tr>
               </thead>
               <tbody>
-                <tr>
+                <tr class="primary-row">
                   <td>Crypto-native traders 21-40</td>
                   <td>Precise</td>
                   <td>Edge</td>
                   <td>Leverage the crowd's truth</td>
                 </tr>
-                <tr>
+                <tr class="primary-row">
                   <td>Research-driven, opinionated</td>
                   <td>Confident</td>
                   <td>Control</td>
@@ -943,7 +872,7 @@
         </div>
         <footer class="footer">
           <span>Overview &amp; Goals</span>
-          <span class="footer-center">006</span>
+          <span class="footer-center">005</span>
           <span>Creative Direction</span>
         </footer>
       </section>
@@ -955,31 +884,31 @@
             <div>
               <div class="mood-grid reveal" style="--d: 170ms">
                 <div class="mood-cell">
-                  <img src="assets/moodboard-optimized/concept2/c2-01.jpg" alt="Concept 01 moodboard 1" loading="lazy" decoding="async" />
+                  <img src="assets/moodboard-optimized/concept1/c1-01.jpg" alt="Concept 01 moodboard 1" loading="lazy" decoding="async" />
                 </div>
                 <div class="mood-cell">
-                  <img src="assets/moodboard-optimized/concept2/c2-02.jpg" alt="Concept 01 moodboard 2" loading="lazy" decoding="async" />
+                  <img src="assets/moodboard-optimized/concept1/c1-02.jpg" alt="Concept 01 moodboard 2" loading="lazy" decoding="async" />
                 </div>
                 <div class="mood-cell">
-                  <img src="assets/moodboard-optimized/concept2/c2-03.jpg" alt="Concept 01 moodboard 3" loading="lazy" decoding="async" />
+                  <img src="assets/moodboard-optimized/concept1/c1-03.jpg" alt="Concept 01 moodboard 3" loading="lazy" decoding="async" />
                 </div>
                 <div class="mood-cell">
-                  <img src="assets/moodboard-optimized/concept2/c2-04.jpg" alt="Concept 01 moodboard 4" loading="lazy" decoding="async" />
+                  <img src="assets/moodboard-optimized/concept1/c1-04.jpg" alt="Concept 01 moodboard 4" loading="lazy" decoding="async" />
                 </div>
                 <div class="mood-cell">
-                  <img src="assets/moodboard-optimized/concept2/c2-05.jpg" alt="Concept 01 moodboard 5" loading="lazy" decoding="async" />
+                  <img src="assets/moodboard-optimized/concept1/c1-05.jpg" alt="Concept 01 moodboard 5" loading="lazy" decoding="async" />
                 </div>
                 <div class="mood-cell">
-                  <img src="assets/moodboard-optimized/concept2/c2-06.jpg" alt="Concept 01 moodboard 6" loading="lazy" decoding="async" />
+                  <img src="assets/moodboard-optimized/concept1/c1-06.jpg" alt="Concept 01 moodboard 6" loading="lazy" decoding="async" />
                 </div>
                 <div class="mood-cell">
-                  <img src="assets/moodboard-optimized/concept2/c2-07.jpg" alt="Concept 01 moodboard 7" loading="lazy" decoding="async" />
+                  <img src="assets/moodboard-optimized/concept1/c1-07.jpg" alt="Concept 01 moodboard 7" loading="lazy" decoding="async" />
                 </div>
                 <div class="mood-cell">
-                  <img src="assets/moodboard-optimized/concept2/c2-08.jpg" alt="Concept 01 moodboard 8" loading="lazy" decoding="async" />
+                  <img src="assets/moodboard-optimized/concept1/c1-08.jpg" alt="Concept 01 moodboard 8" loading="lazy" decoding="async" />
                 </div>
                 <div class="mood-cell">
-                  <img src="assets/moodboard-optimized/concept2/c2-09.jpg" alt="Concept 01 moodboard 9" loading="lazy" decoding="async" />
+                  <img src="assets/moodboard-optimized/concept1/c1-09.jpg" alt="Concept 01 moodboard 9" loading="lazy" decoding="async" />
                 </div>
               </div>
             </div>
@@ -995,14 +924,18 @@
                 <div>
                   <dt>Colour</dt>
                   <dd class="chips">
-                    <span class="chip black">#0A0A0A</span>
-                    <span class="chip signal">#94F201</span>
-                    <span class="chip offwhite">#F0F0F0</span>
+                    <span class="chip black">#0A0A0A Near black</span>
+                    <span class="chip red">#C41230 Brand red (cover + hero)</span>
+                    <span class="chip signal">#94F201 Volt green (UI signal only)</span>
+                    <span class="chip offwhite">#F0F0F0 Off-white text</span>
                   </dd>
                 </div>
                 <div>
                   <dt>Type</dt>
-                  <dd>Neue Haas Grotesk Bold / Space Grotesk. Geometric, heavy weight, precision feel.</dd>
+                  <dd>
+                    Display and wordmark: Space Grotesk Bold. UI and body: Geist. Data and live figures:
+                    Geist Mono.
+                  </dd>
                 </div>
                 <div>
                   <dt>Imagery</dt>
@@ -1018,7 +951,7 @@
         </div>
         <footer class="footer">
           <span>Concept 01</span>
-          <span class="footer-center">007</span>
+          <span class="footer-center">006</span>
           <span>Creative Direction</span>
         </footer>
       </section>
@@ -1029,7 +962,7 @@
         </div>
         <footer class="footer">
           <span>Overview &amp; Goals</span>
-          <span class="footer-center">008</span>
+          <span class="footer-center">007</span>
           <span>Creative Direction</span>
         </footer>
       </section>
@@ -1041,31 +974,31 @@
             <div>
               <div class="mood-grid reveal" style="--d: 170ms">
                 <div class="mood-cell">
-                  <img src="assets/moodboard-optimized/concept1/c1-01.jpg" alt="Concept 02 moodboard 1" loading="lazy" decoding="async" />
+                  <img src="assets/moodboard-optimized/concept2/c2-01.jpg" alt="Concept 02 moodboard 1" loading="lazy" decoding="async" />
                 </div>
                 <div class="mood-cell">
-                  <img src="assets/moodboard-optimized/concept1/c1-02.jpg" alt="Concept 02 moodboard 2" loading="lazy" decoding="async" />
+                  <img src="assets/moodboard-optimized/concept2/c2-02.jpg" alt="Concept 02 moodboard 2" loading="lazy" decoding="async" />
                 </div>
                 <div class="mood-cell">
-                  <img src="assets/moodboard-optimized/concept1/c1-03.jpg" alt="Concept 02 moodboard 3" loading="lazy" decoding="async" />
+                  <img src="assets/moodboard-optimized/concept2/c2-03.jpg" alt="Concept 02 moodboard 3" loading="lazy" decoding="async" />
                 </div>
                 <div class="mood-cell">
-                  <img src="assets/moodboard-optimized/concept1/c1-04.jpg" alt="Concept 02 moodboard 4" loading="lazy" decoding="async" />
+                  <img src="assets/moodboard-optimized/concept2/c2-04.jpg" alt="Concept 02 moodboard 4" loading="lazy" decoding="async" />
                 </div>
                 <div class="mood-cell">
-                  <img src="assets/moodboard-optimized/concept1/c1-05.jpg" alt="Concept 02 moodboard 5" loading="lazy" decoding="async" />
+                  <img src="assets/moodboard-optimized/concept2/c2-05.jpg" alt="Concept 02 moodboard 5" loading="lazy" decoding="async" />
                 </div>
                 <div class="mood-cell">
-                  <img src="assets/moodboard-optimized/concept1/c1-06.jpg" alt="Concept 02 moodboard 6" loading="lazy" decoding="async" />
+                  <img src="assets/moodboard-optimized/concept2/c2-06.jpg" alt="Concept 02 moodboard 6" loading="lazy" decoding="async" />
                 </div>
                 <div class="mood-cell">
-                  <img src="assets/moodboard-optimized/concept1/c1-07.jpg" alt="Concept 02 moodboard 7" loading="lazy" decoding="async" />
+                  <img src="assets/moodboard-optimized/concept2/c2-07.jpg" alt="Concept 02 moodboard 7" loading="lazy" decoding="async" />
                 </div>
                 <div class="mood-cell">
-                  <img src="assets/moodboard-optimized/concept1/c1-08.jpg" alt="Concept 02 moodboard 8" loading="lazy" decoding="async" />
+                  <img src="assets/moodboard-optimized/concept2/c2-08.jpg" alt="Concept 02 moodboard 8" loading="lazy" decoding="async" />
                 </div>
                 <div class="mood-cell">
-                  <img src="assets/moodboard-optimized/concept1/c1-09.jpg" alt="Concept 02 moodboard 9" loading="lazy" decoding="async" />
+                  <img src="assets/moodboard-optimized/concept2/c2-09.jpg" alt="Concept 02 moodboard 9" loading="lazy" decoding="async" />
                 </div>
               </div>
             </div>
@@ -1081,14 +1014,18 @@
                 <div>
                   <dt>Colour</dt>
                   <dd class="chips">
-                    <span class="chip black">#0A0A0A</span>
-                    <span class="chip signal">#94F201</span>
-                    <span class="chip surface">#1A1A1A</span>
+                    <span class="chip black">#0A0A0A Near black</span>
+                    <span class="chip red">#C41230 Brand red (energy fills)</span>
+                    <span class="chip signal">#94F201 Volt green (live indicators)</span>
+                    <span class="chip surface">#1A1A1A Card surface</span>
                   </dd>
                 </div>
                 <div>
                   <dt>Type</dt>
-                  <dd>Space Grotesk ExtraBold / Barlow Condensed. Wide tracking caps. Numbers as hero.</dd>
+                  <dd>
+                    Display and wordmark: DM Sans ExtraBold. UI and body: DM Sans Regular. Hero numbers and
+                    leaderboard figures: Bebas Neue (display use only).
+                  </dd>
                 </div>
                 <div>
                   <dt>Imagery</dt>
@@ -1104,7 +1041,7 @@
         </div>
         <footer class="footer">
           <span>Concept 02</span>
-          <span class="footer-center">009</span>
+          <span class="footer-center">008</span>
           <span>Creative Direction</span>
         </footer>
       </section>
@@ -1112,144 +1049,62 @@
       <section class="slide light" data-index="10">
         <div class="slide-content">
           <h2 class="section-title reveal" style="--d: 80ms">Concept Comparison</h2>
-          <div class="comparison-visuals reveal" style="--d: 140ms">
-            <article class="concept-panel">
-              <div class="concept-panel-head">
-                <h3>Concept 01 - Signal</h3>
-                <p class="concept-tone">Restrained / Precise / Institutional</p>
-              </div>
-              <div class="mini-mood-grid">
-                <img src="assets/moodboard-optimized/concept2/c2-01.jpg" alt="Concept 01 visual reference 1" loading="lazy" decoding="async" />
-                <img src="assets/moodboard-optimized/concept2/c2-04.jpg" alt="Concept 01 visual reference 2" loading="lazy" decoding="async" />
-                <img src="assets/moodboard-optimized/concept2/c2-07.jpg" alt="Concept 01 visual reference 3" loading="lazy" decoding="async" />
-              </div>
+          <div class="comparison-table-wrap reveal" style="--d: 170ms">
+            <table class="comparison-table">
+              <thead>
+                <tr>
+                  <th>Criteria</th>
+                  <th>Concept 01 - Signal</th>
+                  <th>Concept 02 - Arena</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="comparison-criteria">Tone</td>
+                  <td>Restrained · Precise · Institutional</td>
+                  <td>Aggressive · Bold · Competitive</td>
+                </tr>
+                <tr>
+                  <td class="comparison-criteria">Best For</td>
+                  <td>B2B positioning, API product, data infrastructure narrative</td>
+                  <td>Community growth, SEA market, esports partnerships</td>
+                </tr>
+                <tr>
+                  <td class="comparison-criteria">Watch For</td>
+                  <td>May feel cold or overly minimal to PVP-oriented users</td>
+                  <td>Risk of drifting toward crypto-hype aesthetic if not controlled</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="comparison-image-block reveal" style="--d: 230ms">
+            <article class="comparison-thumb">
+              <h3>Signal</h3>
+              <img
+                src="assets/moodboard-optimized/concept1/c1-01.jpg"
+                alt="Concept 01 Signal moodboard thumbnail"
+                loading="lazy"
+                decoding="async"
+              />
             </article>
-            <article class="concept-panel">
-              <div class="concept-panel-head">
-                <h3>Concept 02 - Arena</h3>
-                <p class="concept-tone">Aggressive / Bold / Competitive</p>
-              </div>
-              <div class="mini-mood-grid">
-                <img src="assets/moodboard-optimized/concept1/c1-01.jpg" alt="Concept 02 visual reference 1" loading="lazy" decoding="async" />
-                <img src="assets/moodboard-optimized/concept1/c1-04.jpg" alt="Concept 02 visual reference 2" loading="lazy" decoding="async" />
-                <img src="assets/moodboard-optimized/concept1/c1-08.jpg" alt="Concept 02 visual reference 3" loading="lazy" decoding="async" />
-              </div>
+            <article class="comparison-thumb">
+              <h3>Arena</h3>
+              <img
+                src="assets/moodboard-optimized/concept2/c2-01.jpg"
+                alt="Concept 02 Arena moodboard thumbnail"
+                loading="lazy"
+                decoding="async"
+              />
             </article>
           </div>
-
-          <div class="scorecard reveal" style="--d: 220ms">
-            <div class="score-head">
-              <h3>Weighted Decision Scorecard</h3>
-              <p>Scale: 1.0-5.0</p>
-            </div>
-
-            <div class="score-row">
-              <div class="score-meta">
-                <h4>Infrastructure Fit</h4>
-                <p>Weight 35%</p>
-              </div>
-              <div class="score-lines">
-                <div class="score-line signal">
-                  <span class="score-name">Signal</span>
-                  <div class="score-bar"><span style="width: 96%"></span></div>
-                  <span class="score-value">4.8</span>
-                </div>
-                <div class="score-line arena">
-                  <span class="score-name">Arena</span>
-                  <div class="score-bar"><span style="width: 72%"></span></div>
-                  <span class="score-value">3.6</span>
-                </div>
-              </div>
-            </div>
-
-            <div class="score-row">
-              <div class="score-meta">
-                <h4>Trust / Seriousness</h4>
-                <p>Weight 20%</p>
-              </div>
-              <div class="score-lines">
-                <div class="score-line signal">
-                  <span class="score-name">Signal</span>
-                  <div class="score-bar"><span style="width: 92%"></span></div>
-                  <span class="score-value">4.6</span>
-                </div>
-                <div class="score-line arena">
-                  <span class="score-name">Arena</span>
-                  <div class="score-bar"><span style="width: 66%"></span></div>
-                  <span class="score-value">3.3</span>
-                </div>
-              </div>
-            </div>
-
-            <div class="score-row">
-              <div class="score-meta">
-                <h4>Category Differentiation</h4>
-                <p>Weight 15%</p>
-              </div>
-              <div class="score-lines">
-                <div class="score-line signal">
-                  <span class="score-name">Signal</span>
-                  <div class="score-bar"><span style="width: 86%"></span></div>
-                  <span class="score-value">4.3</span>
-                </div>
-                <div class="score-line arena">
-                  <span class="score-name">Arena</span>
-                  <div class="score-bar"><span style="width: 84%"></span></div>
-                  <span class="score-value">4.2</span>
-                </div>
-              </div>
-            </div>
-
-            <div class="score-row">
-              <div class="score-meta">
-                <h4>Community Energy</h4>
-                <p>Weight 15%</p>
-              </div>
-              <div class="score-lines">
-                <div class="score-line signal">
-                  <span class="score-name">Signal</span>
-                  <div class="score-bar"><span style="width: 70%"></span></div>
-                  <span class="score-value">3.5</span>
-                </div>
-                <div class="score-line arena">
-                  <span class="score-name">Arena</span>
-                  <div class="score-bar"><span style="width: 96%"></span></div>
-                  <span class="score-value">4.8</span>
-                </div>
-              </div>
-            </div>
-
-            <div class="score-row">
-              <div class="score-meta">
-                <h4>Long-term Scalability</h4>
-                <p>Weight 15%</p>
-              </div>
-              <div class="score-lines">
-                <div class="score-line signal">
-                  <span class="score-name">Signal</span>
-                  <div class="score-bar"><span style="width: 94%"></span></div>
-                  <span class="score-value">4.7</span>
-                </div>
-                <div class="score-line arena">
-                  <span class="score-name">Arena</span>
-                  <div class="score-bar"><span style="width: 74%"></span></div>
-                  <span class="score-value">3.7</span>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="decision-strip reveal" style="--d: 290ms">
-            <div>
-              <strong>Recommended Direction: Concept 01 (Signal)</strong>
-              Best aligned to the Forecasting Infrastructure narrative and long-term B2B trust posture.
-            </div>
-            <div class="decision-score">Weighted: Signal 4.48 / Arena 3.83</div>
-          </div>
+          <p class="comparison-callout reveal" style="--d: 280ms">
+            <strong>Recommended direction: Concept 01 (Signal)</strong> - aligned with the preference for
+            Forecasting Infrastructure and long-term B2B positioning.
+          </p>
         </div>
         <footer class="footer">
           <span>Comparison</span>
-          <span class="footer-center">010</span>
+          <span class="footer-center">009</span>
           <span>Creative Direction</span>
         </footer>
       </section>
@@ -1280,7 +1135,7 @@
         </div>
         <footer class="footer">
           <span>Next Steps</span>
-          <span class="footer-center">011</span>
+          <span class="footer-center"></span>
           <span>Creative Direction</span>
         </footer>
       </section>
@@ -1293,7 +1148,7 @@
         </div>
         <footer class="footer">
           <span>Creative Direction</span>
-          <span class="footer-center">012</span>
+          <span class="footer-center"></span>
           <span>EveryX</span>
         </footer>
       </section>
@@ -1304,7 +1159,9 @@
       const counter = document.getElementById("slideCounter");
       const prevButton = document.getElementById("prevSlide");
       const nextButton = document.getElementById("nextSlide");
-      const tableWrappers = Array.from(document.querySelectorAll(".word-table-wrap"));
+      const tableWrappers = Array.from(
+        document.querySelectorAll(".word-table-wrap, .comparison-table-wrap")
+      );
       let currentIndex = 0;
 
       document.body.classList.add("js-animate");
