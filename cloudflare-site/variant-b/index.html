@@ -566,14 +566,7 @@
     }
 
     .section-tag {
-      border: 1px solid rgba(94, 66, 145, 0.34);
-      border-radius: 999px;
-      background: rgba(255, 255, 255, 0.82);
-      color: #563a7a;
-      font-weight: 700;
-      letter-spacing: .11em;
-      padding: 6px 12px;
-      backdrop-filter: blur(4px);
+      display: none !important;
     }
 
     .nav-shell {
@@ -618,9 +611,8 @@
       background:
         linear-gradient(rgba(30, 15, 45, 0.42), rgba(30, 15, 45, 0.38)),
         url("./assets/plasma-hero.webp") center/cover no-repeat;
-      color: #f9efff;
-      letter-spacing: 0.03em;
-      font-weight: 600;
+      color: transparent;
+      font-size: 0;
     }
 
     .hero-content {
@@ -668,6 +660,26 @@
       color: #5f4d7d;
     }
 
+    .nav-left .placeholder {
+      font-size: 0;
+      border-radius: 999px;
+      border-color: rgba(131, 64, 184, 0.4);
+      background:
+        radial-gradient(circle at 100% 0%, rgba(238, 95, 131, 0.35), transparent 56%),
+        radial-gradient(circle at 0% 100%, rgba(125, 57, 245, 0.35), transparent 54%),
+        rgba(255, 255, 255, 0.94) url("./assets/plasma-icon.svg") center/24px 24px no-repeat;
+    }
+
+    .hero-content > .placeholder {
+      color: transparent;
+      font-size: 0;
+      border-color: rgba(131, 64, 184, 0.35);
+      background:
+        linear-gradient(132deg, rgba(125, 57, 245, 0.26), rgba(238, 95, 131, 0.22), rgba(255, 142, 81, 0.18)),
+        url("./assets/plasma-feature-1.webp") center/cover no-repeat;
+      box-shadow: 0 24px 65px rgba(75, 34, 112, 0.28);
+    }
+
     .differentiators .placeholder {
       width: 58px;
       height: 58px;
@@ -713,6 +725,34 @@
         var(--surface-strong);
     }
 
+    .market-image {
+      border-radius: 12px;
+      border: 1px solid rgba(140, 111, 176, 0.36);
+      font-size: 0;
+      color: transparent;
+      background:
+        linear-gradient(145deg, rgba(255, 255, 255, 0.18), rgba(125, 57, 245, 0.15)),
+        url("./assets/plasma-feature-1.webp") center/cover no-repeat;
+    }
+
+    .market-card:nth-child(2) .market-image {
+      background:
+        linear-gradient(145deg, rgba(255, 255, 255, 0.18), rgba(125, 57, 245, 0.15)),
+        url("./assets/plasma-feature-2.webp") center/cover no-repeat;
+    }
+
+    .market-card:nth-child(3) .market-image {
+      background:
+        linear-gradient(145deg, rgba(255, 255, 255, 0.18), rgba(125, 57, 245, 0.15)),
+        url("./assets/plasma-feature-3.webp") center/cover no-repeat;
+    }
+
+    .market-card:nth-child(4) .market-image {
+      background:
+        linear-gradient(145deg, rgba(255, 255, 255, 0.18), rgba(125, 57, 245, 0.15)),
+        url("./assets/plasma-hero.webp") center/cover no-repeat;
+    }
+
     .market-actions .button {
       flex: 1;
       font-size: 13px;
@@ -746,6 +786,32 @@
       background: rgba(255, 255, 255, 0.58);
     }
 
+    .avatar {
+      width: 32px;
+      height: 32px;
+      border-radius: 999px;
+      font-size: 0;
+      color: transparent;
+      border: 1px solid rgba(131, 64, 184, 0.42);
+      background: linear-gradient(140deg, #a857ff, #7d39f5 56%, #ff7c68);
+    }
+
+    tbody tr:nth-child(2) .avatar {
+      background: linear-gradient(140deg, #ff95d5, #cf58ff 58%, #8c69ff);
+    }
+
+    tbody tr:nth-child(3) .avatar {
+      background: linear-gradient(140deg, #8de0ff, #7f85ff 58%, #9653f2);
+    }
+
+    tbody tr:nth-child(4) .avatar {
+      background: linear-gradient(140deg, #ffd58e, #ff8e51 58%, #ee5f83);
+    }
+
+    tbody tr:nth-child(5) .avatar {
+      background: linear-gradient(140deg, #95f0ca, #53c4b5 58%, #7a69ff);
+    }
+
     .quote {
       border-left: 5px solid var(--brand);
       padding: 28px;
@@ -762,10 +828,9 @@
 <body>
   <header class="nav-shell">
     <div class="container">
-      <div class="section-tag">[NAV BAR]</div>
       <nav class="nav" aria-label="Primary">
         <div class="nav-left">
-          <div class="placeholder" style="width:120px; height:32px;">LOGO</div>
+          <div class="placeholder" style="width:120px; height:32px;"></div>
         </div>
         <button class="nav-toggle" type="button" aria-label="Toggle navigation" aria-expanded="false">
           <span class="nav-toggle-bar"></span>
@@ -788,8 +853,7 @@
   <main>
     <section class="section hero">
       <div class="container hero-container">
-        <div class="section-tag">[HERO]</div>
-        <div class="placeholder hero-bg">PARTICLE FIELD / DARK COSMIC BG</div>
+        <div class="placeholder hero-bg"></div>
         <div class="hero-content">
           <h1>The Prediction Market Built for Conviction</h1>
           <h2>Trade global events PVP. Back your position with up to 10x leverage.</h2>
@@ -797,27 +861,26 @@
             <a class="button" href="#">Start Trading</a>
             <a class="button" href="#">Explore Markets</a>
           </div>
-          <div class="placeholder" style="width:600px; max-width:100%; height:400px;">ORBITING GLOBE MOTIF / HERO VISUAL</div>
+          <div class="placeholder" style="width:600px; max-width:100%; height:400px;"></div>
         </div>
       </div>
     </section>
 
     <section class="section">
       <div class="container">
-        <div class="section-tag">[DIFFERENTIATOR STRIP]</div>
         <div class="differentiators">
           <article class="diff-card">
-            <div class="placeholder" style="width:48px; height:48px;">ICON</div>
+            <div class="placeholder" style="width:48px; height:48px;"></div>
             <strong>Up to 10x Leverage</strong>
             <p>Amplify your position, know your max loss upfront</p>
           </article>
           <article class="diff-card">
-            <div class="placeholder" style="width:48px; height:48px;">ICON</div>
+            <div class="placeholder" style="width:48px; height:48px;"></div>
             <strong>AI Probability Baseline</strong>
             <p>Every event has an AI-generated starting probability</p>
           </article>
           <article class="diff-card">
-            <div class="placeholder" style="width:48px; height:48px;">ICON</div>
+            <div class="placeholder" style="width:48px; height:48px;"></div>
             <strong>Pool-Based PVP</strong>
             <p>You trade against the crowd, not a market maker</p>
           </article>
@@ -827,23 +890,22 @@
 
     <section class="section">
       <div class="container">
-        <div class="section-tag">[HOW IT WORKS]</div>
         <h2>How It Works</h2>
         <div class="steps">
           <article class="step">
-            <div class="placeholder" style="width:48px; height:48px;">ICON</div>
+            <div class="placeholder" style="width:48px; height:48px;"></div>
             <strong>Pick an Event</strong>
             <p>Choose from Sports, Crypto, Esports, Politics and more</p>
           </article>
           <div class="arrow">-&gt;</div>
           <article class="step">
-            <div class="placeholder" style="width:48px; height:48px;">ICON</div>
+            <div class="placeholder" style="width:48px; height:48px;"></div>
             <strong>Set Your Position + Leverage</strong>
             <p>Go long or short with 1x to 10x multiplier</p>
           </article>
           <div class="arrow">-&gt;</div>
           <article class="step">
-            <div class="placeholder" style="width:48px; height:48px;">ICON</div>
+            <div class="placeholder" style="width:48px; height:48px;"></div>
             <strong>Win Based on Outcome</strong>
             <p>Correct prediction pays out. Max loss is always known.</p>
           </article>
@@ -856,11 +918,10 @@
 
     <section class="section">
       <div class="container">
-        <div class="section-tag">[LIVE MARKETS PREVIEW]</div>
         <h2>Live Markets</h2>
         <div class="cards-scroll" aria-label="Live market cards">
           <article class="market-card">
-            <div class="placeholder market-image">EVENT IMAGE</div>
+            <div class="placeholder market-image"></div>
             <div>Event Title Placeholder</div>
             <div class="yn-row">
               <button class="button" type="button">YES</button>
@@ -869,7 +930,7 @@
             <small>AI Probability: 62%</small>
           </article>
           <article class="market-card">
-            <div class="placeholder market-image">EVENT IMAGE</div>
+            <div class="placeholder market-image"></div>
             <div>Event Title Placeholder</div>
             <div class="yn-row">
               <button class="button" type="button">YES</button>
@@ -878,7 +939,7 @@
             <small>AI Probability: 62%</small>
           </article>
           <article class="market-card">
-            <div class="placeholder market-image">EVENT IMAGE</div>
+            <div class="placeholder market-image"></div>
             <div>Event Title Placeholder</div>
             <div class="yn-row">
               <button class="button" type="button">YES</button>
@@ -887,7 +948,7 @@
             <small>AI Probability: 62%</small>
           </article>
           <article class="market-card">
-            <div class="placeholder market-image">EVENT IMAGE</div>
+            <div class="placeholder market-image"></div>
             <div>Event Title Placeholder</div>
             <div class="yn-row">
               <button class="button" type="button">YES</button>
@@ -904,7 +965,6 @@
 
     <section class="section">
       <div class="container">
-        <div class="section-tag">[LEADERBOARD TEASER]</div>
         <h2>This Week's Top Traders</h2>
         <div class="table-wrap">
           <table>
@@ -920,35 +980,35 @@
             <tbody>
               <tr>
                 <td>1</td>
-                <td><div class="placeholder avatar">32x32</div></td>
+                <td><div class="placeholder avatar"></div></td>
                 <td>Trader_01</td>
                 <td>Placeholder</td>
                 <td>Placeholder</td>
               </tr>
               <tr>
                 <td>2</td>
-                <td><div class="placeholder avatar">32x32</div></td>
+                <td><div class="placeholder avatar"></div></td>
                 <td>Trader_02</td>
                 <td>Placeholder</td>
                 <td>Placeholder</td>
               </tr>
               <tr>
                 <td>3</td>
-                <td><div class="placeholder avatar">32x32</div></td>
+                <td><div class="placeholder avatar"></div></td>
                 <td>Trader_03</td>
                 <td>Placeholder</td>
                 <td>Placeholder</td>
               </tr>
               <tr>
                 <td>4</td>
-                <td><div class="placeholder avatar">32x32</div></td>
+                <td><div class="placeholder avatar"></div></td>
                 <td>Trader_04</td>
                 <td>Placeholder</td>
                 <td>Placeholder</td>
               </tr>
               <tr>
                 <td>5</td>
-                <td><div class="placeholder avatar">32x32</div></td>
+                <td><div class="placeholder avatar"></div></td>
                 <td>Trader_05</td>
                 <td>Placeholder</td>
                 <td>Placeholder</td>
@@ -964,7 +1024,6 @@
 
     <section class="section">
       <div class="container">
-        <div class="section-tag">[SOCIAL PROOF]</div>
         <div class="stats">
           <div class="stat">500+ Events Live</div>
           <div class="stat">12,000+ Traders</div>
@@ -979,7 +1038,6 @@
 
     <section class="section">
       <div class="container final-cta">
-        <div class="section-tag">[FINAL CTA SECTION]</div>
         <h2>Your insights should pay off.</h2>
         <p>Join thousands of traders already backing their convictions on EveryX.</p>
         <p><a class="button" href="#">Create Free Account</a></p>
@@ -990,7 +1048,6 @@
 
   <footer class="section" style="background:#fafafa;">
     <div class="container">
-      <div class="section-tag">[FOOTER]</div>
       <div class="footer-columns">
         <div class="footer-col">
           <h4>Product</h4>
