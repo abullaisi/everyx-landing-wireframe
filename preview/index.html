@@ -6,361 +6,118 @@
   <title>EveryX Preview Dashboard</title>
   <style>
     :root {
-      color-scheme: dark;
-      --background: 240 10% 3.9%;
-      --foreground: 0 0% 98%;
-      --card: 240 7% 8.8%;
-      --card-foreground: 0 0% 98%;
-      --muted: 240 3.7% 15.9%;
-      --muted-foreground: 240 5% 64.9%;
-      --border: 240 3.7% 18.9%;
-      --input: 240 3.7% 18.9%;
-      --primary: 0 0% 98%;
-      --primary-foreground: 240 5.9% 10%;
-      --ring: 240 4.9% 83.9%;
-      --radius: 0.75rem;
+      --bg: #0f1118;
+      --card: #161a23;
+      --text: #eaf0ff;
+      --muted: #9ca8c8;
+      --accent: #8b5cf6;
+      --accent2: #f97316;
     }
-
-    * {
-      box-sizing: border-box;
-    }
-
-    html,
-    body {
-      height: 100%;
-    }
-
+    * { box-sizing: border-box; }
     body {
       margin: 0;
-      font-family: "Geist", "Geist Sans", "SF Pro Text", "Segoe UI", sans-serif;
-      color: hsl(var(--foreground));
-      background-color: hsl(var(--background));
-      background-image:
-        linear-gradient(180deg, hsl(229 42% 13%) 0%, hsl(240 10% 3.9%) 42%, hsl(240 10% 3.9%) 100%);
-      background-repeat: no-repeat;
-      background-attachment: fixed;
+      font-family: Inter, system-ui, sans-serif;
+      color: var(--text);
+      background: radial-gradient(circle at 20% 0%, #1d2340, transparent 45%), var(--bg);
     }
-
     .wrap {
-      max-width: 1320px;
+      max-width: 1280px;
       margin: 0 auto;
-      padding: 28px 24px;
+      padding: 24px;
     }
-
     h1 {
-      margin: 0;
-      font-size: clamp(1.9rem, 3vw, 2.4rem);
-      line-height: 1.15;
-      letter-spacing: -0.02em;
-      font-weight: 600;
+      margin: 0 0 8px;
+      font-size: 28px;
     }
-
-    .button {
-      height: 1.85rem;
-      border-radius: calc(var(--radius) - 0.25rem);
-      border: 1px solid hsl(var(--input));
-      font-size: 0.8rem;
-      font-weight: 500;
-      line-height: 1;
-    }
-
-    .button:focus-visible,
-    .card:focus-visible {
-      box-shadow: 0 0 0 3px hsl(var(--ring) / 0.18);
-      outline: none;
-    }
-
-    .button {
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      gap: 0.45rem;
-      text-decoration: none;
-      cursor: pointer;
-      padding: 0 0.9rem;
-      transition: background-color 0.2s ease, border-color 0.2s ease, color 0.2s ease;
-    }
-
-    .button-outline {
-      border-color: hsl(var(--input));
-      background: hsl(var(--background));
-      color: hsl(var(--foreground));
-    }
-
-    .button-outline:hover {
-      background: hsl(var(--muted));
-    }
-
-    .mobile-picker {
-      display: none;
-      margin-top: 10px;
-      gap: 8px;
-      align-items: center;
-    }
-
-    .select {
-      flex: 1;
-      height: 1.95rem;
-      border-radius: calc(var(--radius) - 0.25rem);
-      border: 1px solid hsl(var(--input));
-      background: hsl(var(--card));
-      color: hsl(var(--foreground));
-      font-size: 0.85rem;
-      font-weight: 500;
-      line-height: 1.95rem;
-      padding: 0 0.6rem;
-      appearance: none;
-      outline: none;
-    }
-
-    .select:focus-visible {
-      box-shadow: 0 0 0 3px hsl(var(--ring) / 0.18);
-      outline: none;
-    }
-
+    p { margin: 0; color: var(--muted); }
     .grid {
-      margin-top: 10px;
+      margin-top: 18px;
       display: grid;
       grid-template-columns: repeat(3, minmax(0, 1fr));
       gap: 12px;
     }
-
     .card {
-      border: 1px solid hsl(var(--border));
-      border-radius: var(--radius);
-      padding: 10px 12px;
-      background: hsl(var(--card));
-      color: hsl(var(--card-foreground));
+      background: var(--card);
+      border: 1px solid #2a3040;
+      border-radius: 14px;
+      padding: 14px;
       cursor: pointer;
-      transition: border-color 0.2s ease, box-shadow 0.2s ease, transform 0.14s ease;
-      box-shadow: 0 8px 24px -24px hsl(var(--foreground) / 0.6);
+      transition: transform .15s ease, border-color .2s ease;
     }
-
-    .card:hover {
-      transform: translateY(-1px);
-      border-color: hsl(240 4% 28%);
+    .card:hover { transform: translateY(-1px); border-color: #536088; }
+    .card.active { border-color: var(--accent); box-shadow: 0 0 0 1px var(--accent) inset; }
+    .card h2 { margin: 0 0 6px; font-size: 16px; }
+    .meta { font-size: 13px; color: var(--muted); }
+    .actions { margin-top: 8px; display: flex; gap: 8px; }
+    .actions a {
+      text-decoration: none;
+      color: white;
+      font-size: 12px;
+      border-radius: 999px;
+      padding: 6px 10px;
+      background: linear-gradient(90deg, var(--accent), var(--accent2));
     }
-
-    .card.active {
-      border-color: hsl(var(--primary));
-      box-shadow: 0 0 0 1px hsl(var(--primary) / 0.3) inset, 0 8px 24px -22px hsl(var(--foreground) / 0.65);
-    }
-
-    .card h2 {
-      margin: 0;
-      font-size: 1.02rem;
-      line-height: 1;
-      letter-spacing: -0.015em;
-      font-weight: 500;
-    }
-
-    .card-body {
-      display: flex;
-      flex-direction: column;
-      gap: 4px;
-    }
-
-    .card-head {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 10px;
-    }
-
-    .actions {
-      display: flex;
-      justify-content: flex-end;
-      align-items: center;
-      gap: 6px;
-      flex-shrink: 0;
-    }
-
     .preview {
       margin-top: 16px;
-      border: 1px solid hsl(var(--border));
-      border-radius: 1rem;
+      border-radius: 16px;
       overflow: hidden;
-      background: hsl(240 9% 5%);
-      box-shadow: 0 18px 42px -26px hsl(var(--foreground) / 0.35);
-      height: calc(100dvh - 210px);
-      min-height: 520px;
+      border: 1px solid #2a3040;
+      background: #0b0d14;
+      height: calc(100vh - 280px);
+      min-height: 560px;
     }
-
     iframe {
       width: 100%;
       height: 100%;
       border: 0;
-      background: #0b0f14;
+      background: #fff;
     }
-
-    @media (max-width: 980px) {
-      .grid {
-        display: none;
-      }
-
-      .card-head {
-        align-items: center;
-      }
-
-      .mobile-picker {
-        display: flex;
-      }
-
-      .preview {
-        height: 72vh;
-        min-height: 480px;
-        width: 100vw;
-        margin-left: calc(50% - 50vw);
-        margin-right: calc(50% - 50vw);
-        border-radius: 0;
-      }
+    @media (max-width: 960px) {
+      .grid { grid-template-columns: 1fr; }
+      .preview { height: 70vh; }
     }
   </style>
 </head>
 <body>
   <div class="wrap">
-    <h1>EveryX Variant + Prototype Preview</h1>
-
-    <div class="mobile-picker">
-      <select class="select" id="variant-select" aria-label="Select variant">
-        <option value="../prototype-a/index.html">Prototype A (AlignUI)</option>
-        <option value="../prototype-b/index.html">Prototype B (App Shell)</option>
-        <option value="../variant-a/index.html">Variant A</option>
-        <option value="../variant-b/index.html">Variant B</option>
-        <option value="../wireframe/index.html">Wireframe Backup</option>
-      </select>
-      <a class="button button-outline" id="open-selected" href="../prototype-a/index.html" target="_blank" rel="noopener">Open</a>
-    </div>
+    <h1>EveryX Landing Variants Preview</h1>
+    <p>Review wireframe backup plus two redesigned variants before Cloudflare/GitHub deployment.</p>
 
     <div class="grid" id="cards">
-      <div class="card active" data-src="../prototype-a/index.html" tabindex="0" role="button" aria-label="Preview Prototype A">
-        <div class="card-body">
-          <div class="card-head">
-            <h2>Prototype A</h2>
-            <div class="actions">
-              <a class="button button-outline" href="../prototype-a/index.html" target="_blank" rel="noopener">Open</a>
-            </div>
-          </div>
-        </div>
+      <div class="card active" data-src="../wireframe/index.html">
+        <h2>Wireframe Backup</h2>
+        <div class="meta">Path: <code>/wireframe</code></div>
+        <div class="actions"><a href="../wireframe/index.html" target="_blank" rel="noopener">Open</a></div>
       </div>
-      <div class="card" data-src="../prototype-b/index.html" tabindex="0" role="button" aria-label="Preview Prototype B">
-        <div class="card-body">
-          <div class="card-head">
-            <h2>Prototype B</h2>
-            <div class="actions">
-              <a class="button button-outline" href="../prototype-b/index.html" target="_blank" rel="noopener">Open</a>
-            </div>
-          </div>
-        </div>
+      <div class="card" data-src="../variant-a/index.html">
+        <h2>Variant A (Scalar)</h2>
+        <div class="meta">Path: <code>/variant-a</code></div>
+        <div class="actions"><a href="../variant-a/index.html" target="_blank" rel="noopener">Open</a></div>
       </div>
-      <div class="card" data-src="../variant-a/index.html" tabindex="0" role="button" aria-label="Preview Variant A">
-        <div class="card-body">
-          <div class="card-head">
-            <h2>Variant A</h2>
-            <div class="actions">
-              <a class="button button-outline" href="../variant-a/index.html" target="_blank" rel="noopener">Open</a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="card" data-src="../variant-b/index.html" tabindex="0" role="button" aria-label="Preview Variant B">
-        <div class="card-body">
-          <div class="card-head">
-            <h2>Variant B</h2>
-            <div class="actions">
-              <a class="button button-outline" href="../variant-b/index.html" target="_blank" rel="noopener">Open</a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="card" data-src="../wireframe/index.html" tabindex="0" role="button" aria-label="Preview Wireframe Backup">
-        <div class="card-body">
-          <div class="card-head">
-            <h2>Wireframe Backup</h2>
-            <div class="actions">
-              <a class="button button-outline" href="../wireframe/index.html" target="_blank" rel="noopener">Open</a>
-            </div>
-          </div>
-        </div>
+      <div class="card" data-src="../variant-b/index.html">
+        <h2>Variant B (Plasma)</h2>
+        <div class="meta">Path: <code>/variant-b</code></div>
+        <div class="actions"><a href="../variant-b/index.html" target="_blank" rel="noopener">Open</a></div>
       </div>
     </div>
 
     <div class="preview">
-      <iframe id="stage" src="../prototype-a/index.html" title="EveryX Preview"></iframe>
+      <iframe id="stage" src="../wireframe/index.html" title="EveryX Preview"></iframe>
     </div>
   </div>
 
   <script>
     (function () {
-      var cards = Array.from(document.querySelectorAll(".card"));
-      var preview = document.querySelector(".preview");
-      var frame = document.getElementById("stage");
-      var select = document.getElementById("variant-select");
-      var openSelected = document.getElementById("open-selected");
-      var desktopQuery = window.matchMedia("(max-width: 980px)");
-
-      function syncPreviewHeight() {
-        if (!preview || !frame) return;
-
-        if (desktopQuery.matches) {
-          preview.style.height = "72vh";
-          preview.style.minHeight = "480px";
-          return;
-        }
-
-        var viewportHeight = window.innerHeight || document.documentElement.clientHeight;
-        var topOffset = preview.getBoundingClientRect().top;
-        var availableHeight = Math.floor(viewportHeight - topOffset - 20);
-        var nextHeight = Math.max(520, availableHeight);
-        preview.style.height = nextHeight + "px";
-        preview.style.minHeight = "520px";
-      }
-
-      function setActive(src) {
-        var targetSrc = src || cards[0].getAttribute("data-src");
-        var targetCard = cards.find(function (card) {
-          return card.getAttribute("data-src") === targetSrc;
-        });
-
-        if (!targetCard) {
-          targetCard = cards[0];
-          targetSrc = targetCard.getAttribute("data-src");
-        }
-
-        cards.forEach(function (card) {
-          card.classList.remove("active");
-        });
-        targetCard.classList.add("active");
-
-        frame.src = targetSrc;
-        if (select) select.value = targetSrc;
-        if (openSelected) openSelected.href = targetSrc;
-      }
-
+      var cards = Array.from(document.querySelectorAll('.card'));
+      var frame = document.getElementById('stage');
       cards.forEach(function (card) {
-        card.addEventListener("click", function (event) {
-          if (event.target.closest("a")) return;
-          setActive(card.getAttribute("data-src"));
-        });
-
-        card.addEventListener("keydown", function (event) {
-          if (event.key === "Enter" || event.key === " ") {
-            event.preventDefault();
-            setActive(card.getAttribute("data-src"));
-          }
+        card.addEventListener('click', function (event) {
+          if (event.target.closest('a')) return;
+          cards.forEach(function (c) { c.classList.remove('active'); });
+          card.classList.add('active');
+          frame.src = card.getAttribute('data-src');
         });
       });
-
-      if (select) {
-        select.addEventListener("change", function () {
-          setActive(select.value);
-        });
-      }
-
-      frame.addEventListener("load", syncPreviewHeight);
-      window.addEventListener("resize", syncPreviewHeight);
-      setActive(cards[0].getAttribute("data-src"));
-      syncPreviewHeight();
     })();
   </script>
 </body>
