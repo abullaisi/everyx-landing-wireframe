@@ -1,0 +1,5248 @@
+1:"$Sreact.fragment"
+2:I[61483,["4277","static/chunks/4277-c844ed74ed67748b.js","6874","static/chunks/6874-1342d0f1d455f0ef.js","3063","static/chunks/3063-6125fb576da86a3f.js","1915","static/chunks/1915-bbeedcb4e091f74d.js","9690","static/chunks/9690-5225937eca0313d7.js","897","static/chunks/897-7695f95aedb4001e.js","4489","static/chunks/4489-c6effa3b9d9f71fc.js","7177","static/chunks/app/layout-ad3de83d1c0d1109.js"],"ThemeProvider"]
+3:I[82008,["4277","static/chunks/4277-c844ed74ed67748b.js","6874","static/chunks/6874-1342d0f1d455f0ef.js","3063","static/chunks/3063-6125fb576da86a3f.js","1915","static/chunks/1915-bbeedcb4e091f74d.js","9690","static/chunks/9690-5225937eca0313d7.js","897","static/chunks/897-7695f95aedb4001e.js","4489","static/chunks/4489-c6effa3b9d9f71fc.js","7177","static/chunks/app/layout-ad3de83d1c0d1109.js"],"RootProvider"]
+4:I[74766,["4277","static/chunks/4277-c844ed74ed67748b.js","6874","static/chunks/6874-1342d0f1d455f0ef.js","3063","static/chunks/3063-6125fb576da86a3f.js","1915","static/chunks/1915-bbeedcb4e091f74d.js","9690","static/chunks/9690-5225937eca0313d7.js","897","static/chunks/897-7695f95aedb4001e.js","4489","static/chunks/4489-c6effa3b9d9f71fc.js","7177","static/chunks/app/layout-ad3de83d1c0d1109.js"],"default"]
+5:I[87555,[],""]
+6:I[31295,[],""]
+7:I[6874,["6874","static/chunks/6874-1342d0f1d455f0ef.js","3063","static/chunks/3063-6125fb576da86a3f.js","8974","static/chunks/app/page-5c904213f32e3b8e.js"],""]
+a:I[15665,["4277","static/chunks/4277-c844ed74ed67748b.js","6874","static/chunks/6874-1342d0f1d455f0ef.js","4345","static/chunks/app/not-found-a55984285cd3b8ee.js"],"Meteors"]
+b:I[36996,["4277","static/chunks/4277-c844ed74ed67748b.js","6874","static/chunks/6874-1342d0f1d455f0ef.js","3063","static/chunks/3063-6125fb576da86a3f.js","1915","static/chunks/1915-bbeedcb4e091f74d.js","9690","static/chunks/9690-5225937eca0313d7.js","897","static/chunks/897-7695f95aedb4001e.js","4489","static/chunks/4489-c6effa3b9d9f71fc.js","7177","static/chunks/app/layout-ad3de83d1c0d1109.js"],"default"]
+d:I[59665,[],"MetadataBoundary"]
+f:I[59665,[],"OutletBoundary"]
+12:I[74911,[],"AsyncMetadataOutlet"]
+14:I[59665,[],"ViewportBoundary"]
+16:I[26614,[],""]
+:HL["/prototype-a/_next/static/media/4cf2300e9c8272f7-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/prototype-a/_next/static/media/93f479601ee12b01-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/prototype-a/_next/static/css/d320597e5f2664fe.css","style"]
+:HL["/prototype-a/_next/static/css/dee167c6c4f219a2.css","style"]
+8:T50e,M524.531,69.836a1.5,1.5,0,0,0-.764-.7A485.065,485.065,0,0,0,404.081,32.03a1.816,1.816,0,0,0-1.923.91,337.461,337.461,0,0,0-14.9,30.6,447.848,447.848,0,0,0-134.426,0,309.541,309.541,0,0,0-15.135-30.6,1.89,1.89,0,0,0-1.924-.91A483.689,483.689,0,0,0,116.085,69.137a1.712,1.712,0,0,0-.788.676C39.068,183.651,18.186,294.69,28.43,404.354a2.016,2.016,0,0,0,.765,1.375A487.666,487.666,0,0,0,176.02,479.918a1.9,1.9,0,0,0,2.063-.676A348.2,348.2,0,0,0,208.12,430.4a1.86,1.86,0,0,0-1.019-2.588,321.173,321.173,0,0,1-45.868-21.853,1.885,1.885,0,0,1-.185-3.126c3.082-2.309,6.166-4.711,9.109-7.137a1.819,1.819,0,0,1,1.9-.256c96.229,43.917,200.41,43.917,295.5,0a1.812,1.812,0,0,1,1.924.233c2.944,2.426,6.027,4.851,9.132,7.16a1.884,1.884,0,0,1-.162,3.126,301.407,301.407,0,0,1-45.89,21.83,1.875,1.875,0,0,0-1,2.611,391.055,391.055,0,0,0,30.014,48.815,1.864,1.864,0,0,0,2.063.7A486.048,486.048,0,0,0,610.7,405.729a1.882,1.882,0,0,0,.765-1.352C623.729,277.594,590.933,167.465,524.531,69.836ZM222.491,337.58c-28.972,0-52.844-26.587-52.844-59.239S193.056,219.1,222.491,219.1c29.665,0,53.306,26.82,52.843,59.239C275.334,310.993,251.924,337.58,222.491,337.58Zm195.38,0c-28.971,0-52.843-26.587-52.843-59.239S388.437,219.1,417.871,219.1c29.667,0,53.307,26.82,52.844,59.239C470.715,310.993,447.538,337.58,417.871,337.58Z9:T518,M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z0:{"P":null,"b":"6_Q6ekEjlghCiRAgw9IFV","p":"/prototype-a","c":["","blog",""],"i":false,"f":[[["",{"children":["blog",{"children":["__PAGE__",{}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/prototype-a/_next/static/css/d320597e5f2664fe.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/prototype-a/_next/static/css/dee167c6c4f219a2.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","className":"dark","suppressHydrationWarning":true,"children":["$","body",null,{"className":"__variable_f12ac4 __variable_1246d4 flex min-h-screen flex-col antialiased","children":["$","$L2",null,{"attribute":"class","defaultTheme":"dark","forcedTheme":"dark","enableSystem":false,"disableTransitionOnChange":true,"children":["$","$L3",null,{"search":{"options":{"type":"static"}},"children":[["$","$L4",null,{}],["$","main",null,{"className":"flex-1","children":["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","section",null,{"className":"container","children":[["$","div",null,{"className":"border-x","children":[["$","div",null,{"className":"bordered-div-padding flex flex-col items-center space-y-6 md:space-y-8 lg:space-y-12 lg:!py-25","children":[["$","span",null,{"data-slot":"badge","className":"inline-flex items-center justify-center tracking-tight rounded-sm border px-3 font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden text-foreground bg-card [a&]:hover:bg-accent [a&]:hover:text-accent-foreground gap-2 py-1.25 text-sm","children":[["$","div",null,{"className":"bg-secondary size-2 rounded-full"}],"404 error"]}],["$","h1",null,{"className":"font-weight-display text-2xl leading-snug tracking-tighter md:text-3xl lg:text-5xl","children":"We can't find this page"}],["$","p",null,{"className":"text-muted-foreground mx-auto max-w-[700px] text-sm leading-relaxed md:text-lg lg:text-xl","children":"The page you are looking for doesn't exist or has been moved."}],["$","div",null,{"className":"pt-4","children":["$","$L7",null,{"href":"/","children":["$","button",null,{"data-slot":"button","className":"inline-flex items-center cursor-pointer justify-center tracking-normal whitespace-nowrap font-medium transition-all disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-primary text-primary-foreground hover:bg-primary/90 md:h-12 px-6 md:px-7 py-2 rounded-full gap-3.5 text-sm md:text-base font-weight-display h-10","children":[["$","svg",null,{"ref":"$undefined","xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-house size-4 md:size-5","aria-hidden":"true","children":[["$","path","5wwlr5",{"d":"M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8"}],["$","path","1d0kgt",{"d":"M3 10a2 2 0 0 1 .709-1.528l7-5.999a2 2 0 0 1 2.582 0l7 5.999A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"}],"$undefined"]}],"Go Home"]}]}]}]]}],["$","div",null,{"className":"border-t","children":["$","div",null,{"className":"grid divide-y","children":[["$","$L7","0",{"href":"https://www.shadcnblocks.com/","target":"_blank","className":"bordered-div-padding hover:bg-muted/30 dark:hover:bg-muted transition-color","children":["$","div",null,{"className":"mx-auto flex max-w-3xl items-center justify-between gap-3","children":[["$","div",null,{"className":"flex items-center gap-3","children":[["$","svg",null,{"stroke":"currentColor","fill":"currentColor","strokeWidth":"0","viewBox":"0 0 640 512","className":"size-5 shrink-0 md:size-6","children":["$undefined",[["$","path","0",{"d":"$8","children":[]}]]],"style":{"color":"$undefined"},"height":"1em","width":"1em","xmlns":"http://www.w3.org/2000/svg"}],["$","div",null,{"children":[["$","h3",null,{"className":"font-medium","children":"Discord"}],["$","p",null,{"className":"text-muted-foreground mt-1 text-sm","children":"Ask questions, share ideas, or just hang out."}]]}]]}],["$","div",null,{"className":"bg-card flex size-8 shrink-0 items-center justify-center rounded-sm border","children":["$","svg",null,{"ref":"$undefined","xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-chevron-right size-5 shrink-0 tracking-tight transition-transform duration-200","aria-hidden":"true","children":[["$","path","mthhwq",{"d":"m9 18 6-6-6-6"}],"$undefined"]}]}]]}]}],["$","$L7","1",{"href":"https://www.shadcnblocks.com/","target":"_blank","className":"bordered-div-padding hover:bg-muted/30 dark:hover:bg-muted transition-color","children":["$","div",null,{"className":"mx-auto flex max-w-3xl items-center justify-between gap-3","children":[["$","div",null,{"className":"flex items-center gap-3","children":[["$","svg",null,{"stroke":"currentColor","fill":"currentColor","strokeWidth":"0","viewBox":"0 0 496 512","className":"size-5 shrink-0 md:size-6","children":["$undefined",[["$","path","0",{"d":"$9","children":[]}]]],"style":{"color":"$undefined"},"height":"1em","width":"1em","xmlns":"http://www.w3.org/2000/svg"}],["$","div",null,{"children":[["$","h3",null,{"className":"font-medium","children":"GitHub"}],["$","p",null,{"className":"text-muted-foreground mt-1 text-sm","children":"We&apos;re always open to PRs and feature requests."}]]}]]}],["$","div",null,{"className":"bg-card flex size-8 shrink-0 items-center justify-center rounded-sm border","children":["$","svg",null,{"ref":"$undefined","xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-chevron-right size-5 shrink-0 tracking-tight transition-transform duration-200","aria-hidden":"true","children":[["$","path","mthhwq",{"d":"m9 18 6-6-6-6"}],"$undefined"]}]}]]}]}],["$","$L7","2",{"href":"https://www.shadcnblocks.com/","target":"_blank","className":"bordered-div-padding hover:bg-muted/30 dark:hover:bg-muted transition-color","children":["$","div",null,{"className":"mx-auto flex max-w-3xl items-center justify-between gap-3","children":[["$","div",null,{"className":"flex items-center gap-3","children":[["$","svg",null,{"stroke":"currentColor","fill":"currentColor","strokeWidth":"0","viewBox":"0 0 512 512","className":"size-5 shrink-0 md:size-6","children":["$undefined",[["$","path","0",{"d":"M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z","children":[]}]]],"style":{"color":"$undefined"},"height":"1em","width":"1em","xmlns":"http://www.w3.org/2000/svg"}],["$","div",null,{"children":[["$","h3",null,{"className":"font-medium","children":"Twitter/X"}],["$","p",null,{"className":"text-muted-foreground mt-1 text-sm","children":"Keep up with releases and behind-the-scenes moments."}]]}]]}],["$","div",null,{"className":"bg-card flex size-8 shrink-0 items-center justify-center rounded-sm border","children":["$","svg",null,{"ref":"$undefined","xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-chevron-right size-5 shrink-0 tracking-tight transition-transform duration-200","aria-hidden":"true","children":[["$","path","mthhwq",{"d":"m9 18 6-6-6-6"}],"$undefined"]}]}]]}]}]]}]}]]}],["$","div",null,{"className":"relative hidden overflow-hidden border-x border-t p-12 md:block md:p-20","children":["$","$La",null,{"number":1000,"angle":65,"maxDuration":20,"minDuration":5,"className":"opacity-10 [&>div]:opacity-10"}]}]]}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}],["$","$Lb",null,{}]]}]}]}]}]]}],{"children":["blog",["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$Lc",["$","$Ld",null,{"children":"$Le"}],null,["$","$Lf",null,{"children":["$L10","$L11",["$","$L12",null,{"promise":"$@13"}]]}]]}],{},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","uWR_G7OSPVO11Ss4ENW5e",{"children":[["$","$L14",null,{"children":"$L15"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],null]}],false]],"m":"$undefined","G":["$16","$undefined"],"s":false,"S":true}
+17:"$Sreact.suspense"
+18:I[74911,[],"AsyncMetadata"]
+1a:I[56683,["4277","static/chunks/4277-c844ed74ed67748b.js","6874","static/chunks/6874-1342d0f1d455f0ef.js","3063","static/chunks/3063-6125fb576da86a3f.js","1915","static/chunks/1915-bbeedcb4e091f74d.js","9690","static/chunks/9690-5225937eca0313d7.js","2083","static/chunks/2083-ca80a4494571a9ca.js","9093","static/chunks/9093-ccfa229aecedc42d.js","6544","static/chunks/6544-33aa1b1863b51b99.js","3831","static/chunks/app/blog/page-8da9bffd730fb356.js"],"default"]
+e:["$","$17",null,{"fallback":null,"children":["$","$L18",null,{"promise":"$@19"}]}]
+1b:Tb5a,
+## Code-first content modeling
+
+Explore the advantages of code-first schemas and how Scalar brings structure and flexibility to your stack.
+
+## Introduction
+
+In the rapidly evolving landscape of content management, the code-first approach has emerged as a powerful paradigm for defining and managing content structures. Unlike traditional UI-based schema editors, code-first modeling puts developers in their comfort zone - working directly with code to define content models.
+
+## What is Code-First Content Modeling?
+
+Code-first content modeling is an approach where content schemas are defined in code rather than through graphical user interfaces. This approach offers several advantages:
+
+- **Version control integration** - Your content models live alongside your application code
+- **Type safety** - Strong typing ensures consistency across your content
+- **Developer workflow** - Use familiar tools and processes for schema changes
+- **Reduced context switching** - Stay in your code editor rather than jumping between interfaces
+
+## How Scalar Implements the Code-First Approach
+
+Scalar's approach to code-first content modeling emphasizes:
+
+### 1. Type Definitions as Schema
+
+```typescript
+type Author = {
+  name: string;
+  image: Media;
+  bio: RichText;
+};
+
+type BlogPost = {
+  title: string;
+  slug: string;
+  publishDate: Date;
+  author: Reference<Author>;
+  content: RichText;
+  tags: string[];
+};
+```
+
+### 2. Automatic API Generation
+
+From your type definitions, Scalar automatically generates:
+
+- GraphQL API endpoints
+- REST API endpoints
+- Admin UI forms
+- Validation logic
+
+### 3. Schema Evolution
+
+As your application evolves, your content models can evolve with it:
+
+- Add new fields without breaking existing content
+- Migrate data between schema versions
+- Deploy schema changes alongside code changes
+
+![Code-first content modeling illustration showing type definitions and schema generation](/images/blog/blog-1.webp)
+
+## Benefits for Different Teams
+
+### For Developers
+
+- Work in familiar environments
+- Maintain consistency through type safety
+- Test schema changes with standard tools
+- Generate documentation automatically
+
+### For Content Teams
+
+- Structured content enforces quality standards
+- Predictable content models enable automation
+- Powerful querying capabilities
+- Reduced dependency on development for content structure changes
+
+## Getting Started with Code-First Modeling
+
+To start implementing code-first content modeling with Scalar:
+
+1. Define your content types in TypeScript
+2. Import the Scalar SDK
+3. Register your models
+4. Auto-generate your content API
+
+## Conclusion
+
+Code-first content modeling represents the natural evolution of content management for development teams. By bringing content modeling into the developer workflow, Scalar enables more robust, type-safe, and maintainable content structures that can evolve alongside your application.
+1c:Tdd9,
+## How Scalar generates GraphQL APIs instantly
+
+Learn how Scalar turns your content models into ready-to-query GraphQL endpoints - no backend setup required.
+
+## The GraphQL Revolution
+
+GraphQL has revolutionized how we build and consume APIs. Unlike REST, GraphQL allows clients to request exactly the data they need, reducing over-fetching and under-fetching problems. However, implementing GraphQL traditionally requires significant backend work - from schema design to resolver implementation.
+
+## Scalar's Zero-Config GraphQL
+
+Scalar's approach eliminates this complexity through automatic GraphQL API generation from your content models. Here's how it works:
+
+### 1. From Content Model to GraphQL Schema
+
+When you define a content model in Scalar, whether through the UI or code-first approach, Scalar automatically:
+
+- Generates a corresponding GraphQL schema
+- Creates appropriate types, queries, and mutations
+- Handles relationships between content types
+- Sets up filtering, pagination, and sorting
+
+### 2. Intelligent Type Mapping
+
+Scalar maps your content fields to appropriate GraphQL types:
+
+| Content Field | GraphQL Type        |
+| ------------- | ------------------- |
+| Text          | String              |
+| Number        | Float or Int        |
+| Boolean       | Boolean             |
+| Date          | DateTime            |
+| Rich Text     | JSON                |
+| References    | Custom Object Types |
+| Media         | Asset Type          |
+
+### 3. Automatic Resolver Generation
+
+Behind the scenes, Scalar generates optimized resolvers that:
+
+- Efficiently fetch data from the database
+- Handle connections between content types
+- Implement pagination with cursor-based navigation
+- Apply security rules and access control
+
+## Developer Experience
+
+Using Scalar's GraphQL API is straightforward:
+
+```graphql
+query {
+  blogPosts(
+    where: { tags: { contains: "GraphQL" } }
+    orderBy: { publishDate: desc }
+    first: 10
+  ) {
+    edges {
+      node {
+        title
+        description
+        publishDate
+        author {
+          name
+          image {
+            url
+          }
+        }
+      }
+    }
+  }
+}
+```
+
+## Performance Optimizations
+
+Scalar's GraphQL implementation includes several performance optimizations:
+
+- **DataLoader integration** - Prevents N+1 query problems
+- **Query complexity analysis** - Protects against abusive queries
+- **Automatic caching** - Reduces database load
+- **Query batching** - Consolidates multiple operations
+
+## Beyond Basic Queries
+
+Scalar's GraphQL API supports advanced features:
+
+### Full-Text Search
+
+```graphql
+query {
+  blogPosts(where: {
+    OR: [
+      { title: { contains: "GraphQL" } },
+      { content: { contains: "GraphQL" } }
+    ]
+  }) {
+    # fields
+  }
+}
+```
+
+### Localization
+
+```graphql
+query {
+  blogPosts(locale: "fr-FR") {
+    title
+    description
+  }
+}
+```
+
+### Content Previews
+
+```graphql
+query {
+  blogPosts(preview: true) {
+    # Includes unpublished content
+  }
+}
+```
+
+## Integration with Frontend Frameworks
+
+Scalar's GraphQL API works seamlessly with popular frontend tooling:
+
+- **React** with Apollo Client or React Query
+- **Vue** with Vue Apollo
+- **Next.js** with built-in data fetching
+- **Mobile apps** with Apollo iOS/Android
+
+## Conclusion
+
+By automatically generating GraphQL APIs from your content models, Scalar eliminates a significant development burden. This approach lets teams focus on building features rather than implementing API layers, while still benefiting from GraphQL's flexibility and performance advantages.
+1d:Tf1a,
+## Scaling content teams without slowing down
+
+Role-based permissions, draft workflows, and live preview - how Scalar empowers content editors to move fast without breaking things.
+
+## The Growing Pains of Content Teams
+
+As organizations grow, content operations face increasing challenges:
+
+- More content creators and editors working simultaneously
+- Complex approval workflows across departments
+- Higher quality standards and brand consistency requirements
+- Faster publishing cycles with less room for error
+- Integration with multiple distribution channels
+
+Traditional content management systems often become bottlenecks during this scaling phase. Scalar is designed specifically to solve these challenges.
+
+## Role-Based Permissions: The Right Access for Everyone
+
+### Granular Permission Control
+
+Scalar's role-based permission system allows you to define exactly what each team member can do:
+
+- **Viewer** - Can see content but not edit
+- **Editor** - Can create and modify content, but not publish
+- **Publisher** - Can approve and publish content
+- **Admin** - Full control over content and settings
+- **Custom roles** - Define specialized roles for your workflow
+
+### Content-Type Specific Permissions
+
+Permissions can be assigned at the content-type level, so you can:
+
+- Restrict blog editing to the content team
+- Allow product teams to manage product descriptions
+- Give legal teams review access for compliance-sensitive content
+- Enable marketing to manage promotional materials
+
+## Draft Workflows: Safe Content Evolution
+
+### Multi-Stage Approval Process
+
+Scalar's draft workflows enable clear content progression:
+
+1. **Draft** - Initial content creation
+2. **In Review** - Ready for editorial feedback
+3. **Approved** - Validated but not yet published
+4. **Published** - Live content
+5. **Archived** - Previously published content
+
+### Parallel Workstreams
+
+With draft workflows, your team can:
+
+- Work on future content while current content is live
+- Prepare seasonal campaigns in advance
+- A/B test different content variations
+- Maintain evergreen content alongside timely updates
+
+## Live Preview: What You See Is What You Get
+
+### Real-Time Visualization
+
+Content creators can see exactly how their content will appear:
+
+- Preview across multiple device sizes
+- See how content renders in different contexts
+- Visualize content with actual design and layout
+
+### Contextual Editing
+
+Live preview provides important context for content decisions:
+
+- Understand character and word limits visually
+- See how images and text interact
+- Identify layout issues before publishing
+- Test interactive elements
+
+## Version Control: A Safety Net for Your Content
+
+### Comprehensive History
+
+Every content change is tracked with:
+
+- Who made the change
+- When it was made
+- What specifically was changed
+- Comments explaining the change
+
+### Easy Rollback
+
+If issues arise, content can be quickly restored:
+
+- Compare any two versions
+- Restore previous versions with one click
+- Selectively roll back specific fields
+- Track changes across publishing stages
+
+## Collaborative Tools: Working Together Seamlessly
+
+### Commenting and Feedback
+
+Team members can:
+
+- Leave feedback on specific content elements
+- Request changes with clear context
+- Mention colleagues to bring them into discussions
+- Resolve comments when addressed
+
+### Notifications and Alerts
+
+Keep everyone in the loop with:
+
+- Publishing reminders and deadlines
+- Approval requests
+- Mention notifications
+- Content status changes
+
+## Conclusion
+
+As content teams scale, their tools must evolve to support more complex workflows without adding friction. Scalar's approach to permissions, drafts, previews, and collaboration creates an environment where content teams can scale efficiently - publishing more content, with more contributors, without sacrificing quality or speed.
+1e:Te08,
+## Introducing Scalar Cloud
+
+We are launching Scalar Cloud - everything you love about Scalar, now hosted with autoscale, team features, and zero setup.
+
+## A Major Milestone
+
+Today marks a significant evolution in Scalar's journey. After more than a year of development and extensive beta testing with select customers, we're thrilled to announce the general availability of **Scalar Cloud**.
+
+Scalar Cloud brings the power of our headless CMS to a fully-managed, cloud-native environment with enhanced security, reliability, and collaboration features.
+
+## Why Scalar Cloud?
+
+While our open-source version continues to power thousands of websites and applications worldwide, we heard consistent feedback from enterprise customers and growing teams:
+
+> "We love Scalar's developer experience and content modeling, but we need more robust scaling, security, and team features without having to manage the infrastructure ourselves."
+
+Scalar Cloud is our answer to these needs.
+
+## Key Features
+
+### Zero-Configuration Deployment
+
+Getting started with Scalar Cloud takes less than 5 minutes:
+
+1. Sign up for a Scalar Cloud account
+2. Create a new project
+3. Import your content models or start fresh
+4. Invite your team
+
+No servers to provision, databases to configure, or scaling parameters to tune.
+
+### Autoscaling Infrastructure
+
+Scalar Cloud automatically scales to meet your needs:
+
+- Handles traffic spikes gracefully
+- Scales down during quiet periods to optimize costs
+- Automatically distributes load across regions
+- No configuration required
+
+### Enhanced Team Collaboration
+
+Scalar Cloud adds powerful team features:
+
+- **Organization management** - Create and manage multiple teams
+- **SSO integration** - Connect with your identity provider (Google, GitHub, Okta)
+- **Audit logs** - Track all system and content changes
+- **Advanced permissions** - Fine-grained role definitions
+
+### Global Content Delivery
+
+Your content is served from the edge:
+
+- Global CDN integration
+- Automatic cache invalidation
+- Regional data residency options
+- Low-latency API responses worldwide
+
+### Enterprise-Grade Security
+
+Scalar Cloud adds enhanced security measures:
+
+- SOC 2 compliance (Type II in progress)
+- GDPR and CCPA compliant data handling
+- Automatic backups with point-in-time recovery
+- Dedicated VP-Cs available for enterprise plans
+
+## Pricing Options
+
+Scalar Cloud is available in four tiers:
+
+### Starter - $29/month
+
+- Up to 3 team members
+- 25GB asset storage
+- 1M API requests/month
+- Community support
+
+### Professional - $99/month
+
+- Up to 10 team members
+- 100GB asset storage
+- 5M API requests/month
+- Email support
+
+### Business - $299/month
+
+- Up to 25 team members
+- 500GB asset storage
+- 25M API requests/month
+- Priority support & SLA
+
+### Enterprise - Custom pricing
+
+- Unlimited team members
+- Custom storage limits
+- Custom request limits
+- Dedicated support & custom SLA
+
+## Open Source Commitment
+
+Our commitment to open source remains unwavering. Scalar Cloud is built on the same core as our open source offering, and improvements will continue to flow in both directions. The open source version will always remain free and will continue to receive feature updates and security patches.
+
+Revenue from Scalar Cloud will help fund more extensive work on both versions.
+
+## Get Started Today
+
+We're offering a 14-day free trial of Scalar Cloud with no credit card required. Experience the full power of the platform and see how it can transform your content operations.
+
+[Try Scalar Cloud →](https://cloud.scalar.dev)
+
+We can't wait to see what you build!
+1f:T1579,
+## REST vs GraphQL
+
+A practical look at when to use GraphQL vs REST APIs for headless CMS integrations - and how Scalar supports both.
+
+## The API Dilemma
+
+When building applications that consume content from a headless CMS, one of the first architectural decisions is choosing between REST and GraphQL APIs. Both approaches have passionate advocates, and both have distinct strengths and limitations.
+
+Rather than declaring a winner, this guide helps you make an informed choice based on your specific project needs. At Scalar, we support both API paradigms because we understand different projects have different requirements.
+
+## Understanding the Basics
+
+### REST: The Established Standard
+
+REST (Representational State Transfer) has been the dominant API pattern for over a decade. It organizes resources into endpoints that follow standard HTTP methods (GET, POST, PUT, DELETE):
+
+```
+GET /api/blog-posts          # Get all blog posts
+GET /api/blog-posts/123      # Get a specific blog post
+POST /api/blog-posts         # Create a new blog post
+PUT /api/blog-posts/123      # Update a blog post
+DELETE /api/blog-posts/123   # Delete a blog post
+```
+
+### GraphQL: The Flexible Newcomer
+
+GraphQL, developed by Facebook and released in 2015, uses a single endpoint where clients specify exactly what data they need:
+
+```graphql
+query {
+  blogPost(id: "123") {
+    title
+    author {
+      name
+      profileImage
+    }
+    comments {
+      text
+      createdAt
+    }
+  }
+}
+```
+
+## Key Differences
+
+| Aspect         | REST                                                 | GraphQL                                            |
+| -------------- | ---------------------------------------------------- | -------------------------------------------------- |
+| Endpoints      | Multiple endpoints for different resources           | Single endpoint for all operations                 |
+| Data fetching  | Often requires multiple requests to get related data | Can fetch complex related data in a single request |
+| Overfetching   | Common - endpoints return fixed data structures      | Rare - clients specify exactly what they need      |
+| Underfetching  | Common - may need multiple requests                  | Rare - can request all needed data at once         |
+| Caching        | Simple, built into HTTP                              | Requires custom implementation                     |
+| File uploads   | Native support                                       | Requires extensions                                |
+| Error handling | HTTP status codes                                    | Always returns 200 with errors in response         |
+| Tooling        | Vast ecosystem                                       | Growing ecosystem                                  |
+
+## When to Choose REST
+
+REST may be your better option when:
+
+### 1. You need simple, resource-oriented operations
+
+For basic CRUD operations on well-defined resources, REST provides a straightforward implementation that most developers already understand.
+
+### 2. You want to leverage HTTP caching
+
+REST's alignment with HTTP methods makes it easy to use standard caching mechanisms, both on the client side and with CDNs.
+
+### 3. Your API consumers have bandwidth limitations
+
+REST can be more efficient for small, focused requests where you don't need related data.
+
+### 4. You need straightforward file handling
+
+REST handles file uploads natively through multipart requests, while GraphQL requires additional implementation.
+
+## When to Choose GraphQL
+
+GraphQL shines when:
+
+### 1. Your frontend needs flexible data requirements
+
+Different views may need different fields from the same resources. GraphQL lets clients specify exactly what they need.
+
+### 2. You want to reduce network requests
+
+Instead of making multiple API calls to assemble a complex view, GraphQL can fetch all required data in a single request.
+
+### 3. Your data is highly relational
+
+GraphQL makes it easy to traverse relationships between resources without additional endpoint calls.
+
+### 4. You need strong typing and introspection
+
+GraphQL's schema system provides built-in documentation and type checking.
+
+## How Scalar Supports Both Approaches
+
+Scalar gives you the freedom to choose the right API for your needs:
+
+### REST API Features
+
+- Resource-based endpoints for all content types
+- Standard CRUD operations
+- Filtering, sorting, and pagination
+- Relationship expansion via query parameters
+- Asset handling and file uploads
+- Comprehensive documentation
+
+### GraphQL API Features
+
+- Full schema generation from your content models
+- Nested queries for related content
+- Mutations for content creation and updates
+- Filtering, sorting, and pagination arguments
+- Built-in documentation via introspection
+- Performance optimizations to prevent N+1 queries
+
+## Hybrid Approaches
+
+Many Scalar users adopt a hybrid approach:
+
+- Using GraphQL for complex, data-heavy frontend views
+- Using REST for simple administrative actions or file uploads
+- Leveraging REST for public-facing cached content
+- Employing GraphQL for personalized or dynamic content
+
+## Conclusion
+
+There's no one-size-fits-all answer to the REST vs GraphQL question. By supporting both API styles, Scalar gives you the flexibility to choose the right approach for each specific use case in your project.
+
+Whether you prefer the simplicity and familiarity of REST or the flexibility and efficiency of GraphQL, Scalar provides optimized implementations of both paradigms.
+20:T1f2a,
+## Building a blog with Scalar, Next.js, and Tailwind
+
+Follow this step-by-step guide to launch a performant, developer-friendly blog using Scalar CMS and your favorite tools.
+
+## The Perfect Tech Stack for Modern Blogs
+
+Blogs remain one of the most effective ways to share knowledge, build authority, and connect with your audience. But today's readers expect fast, responsive, and visually appealing blog experiences.
+
+In this tutorial, we'll build a high-performance blog using three powerful technologies:
+
+- **Scalar** for flexible content management
+- **Next.js** for fast, SEO-friendly rendering
+- **Tailwind CSS** for beautiful, responsive designs
+
+This combination gives you the benefits of a headless CMS approach (content flexibility, developer experience, performance) without sacrificing the ease of use content creators expect.
+
+## Prerequisites
+
+Before we start, make sure you have:
+
+- Node.js 18+ installed
+- A Scalar account (free tier works fine)
+- Basic familiarity with React and Next.js
+- Git for version control
+
+## Step 1: Setting Up Your Scalar Project
+
+Let's start by configuring our content models in Scalar.
+
+### Creating a New Project
+
+1. Log in to your Scalar account
+2. Create a new project named "Next.js Blog"
+3. Choose the blank template
+
+### Defining Content Models
+
+We'll create two main content types: `Author` and `BlogPost`.
+
+#### Author Model
+
+```typescript
+// In Scalar Schema Editor
+type Author = {
+  name: string;
+  bio: RichText;
+  avatar: Media;
+  socialLinks?: {
+    twitter?: string;
+    github?: string;
+    linkedin?: string;
+  };
+};
+```
+
+#### Blog Post Model
+
+```typescript
+// In Scalar Schema Editor
+type BlogPost = {
+  title: string;
+  slug: string;
+  summary: string;
+  content: RichText;
+  coverImage: Media;
+  publishedDate: Date;
+  featured: boolean;
+  author: Reference<Author>;
+  tags: string[];
+  seo?: {
+    title?: string;
+    description?: string;
+    keywords?: string[];
+  };
+};
+```
+
+### Adding Sample Content
+
+Before we move to the frontend, let's add:
+
+- At least one author
+- 3-5 blog posts with varied content
+
+## Step 2: Creating Your Next.js Project
+
+Now let's set up our frontend application.
+
+```bash
+# Create a new Next.js project
+npx create-next-app@latest my-scalar-blog --typescript --tailwind --app
+
+# Navigate to your project
+cd my-scalar-blog
+
+# Install Scalar SDK and other dependencies
+npm install @scalar/api-client date-fns reading-time
+```
+
+## Step 3: Connecting to Scalar
+
+Create a new file at `lib/scalar.ts`:
+
+```typescript
+import { createClient } from '@scalar/api-client';
+
+export const scalarClient = createClient({
+  projectId: process.env.SCALAR_PROJECT_ID!,
+  apiKey: process.env.SCALAR_API_KEY!,
+});
+
+export async function getBlogPosts({
+  featured,
+  limit,
+}: {
+  featured?: boolean;
+  limit?: number;
+} = {}) {
+  const query: any = {};
+
+  if (featured !== undefined) {
+    query.featured = featured;
+  }
+
+  const posts = await scalarClient.getBlogPosts({
+    query,
+    sort: { publishedDate: 'desc' },
+    limit,
+    include: ['author'],
+  });
+
+  return posts;
+}
+
+export async function getBlogPostBySlug(slug: string) {
+  const posts = await scalarClient.getBlogPosts({
+    query: { slug },
+    limit: 1,
+    include: ['author'],
+  });
+
+  return posts[0] || null;
+}
+```
+
+Create a `.env.local` file:
+
+```
+SCALAR_PROJECT_ID=your-project-id
+SCALAR_API_KEY=your-api-key
+```
+
+## Step 4: Building the Blog Homepage
+
+Create `app/page.tsx`:
+
+```tsx
+import Link from 'next/link';
+import Image from 'next/image';
+import { getBlogPosts } from '@/lib/scalar';
+
+export default async function HomePage() {
+  const posts = await getBlogPosts({ limit: 10 });
+  const featuredPost = posts.find((post) => post.featured);
+  const regularPosts = posts.filter((post) => !post.featured);
+
+  return (
+    <main className="mx-auto max-w-5xl px-4 py-12">
+      <h1 className="mb-12 text-4xl font-bold">My Blog</h1>
+
+      {featuredPost && (
+        <div className="mb-16">
+          <h2 className="mb-4 text-2xl font-bold">Featured</h2>
+          <FeaturedPostCard post={featuredPost} />
+        </div>
+      )}
+
+      <div className="grid grid-cols-1 gap-8 md:grid-cols-2">
+        {regularPosts.map((post) => (
+          <PostCard key={post.id} post={post} />
+        ))}
+      </div>
+    </main>
+  );
+}
+
+// Add FeaturedPostCard and PostCard components here
+```
+
+## Step 5: Creating the Blog Post Page
+
+Create `app/blog/[slug]/page.tsx`:
+
+```tsx
+import Image from 'next/image';
+import { notFound } from 'next/navigation';
+import { getBlogPostBySlug } from '@/lib/scalar';
+import { formatDate } from '@/lib/utils';
+
+export default async function BlogPostPage({
+  params,
+}: {
+  params: { slug: string };
+}) {
+  const post = await getBlogPostBySlug(params.slug);
+
+  if (!post) {
+    notFound();
+  }
+
+  return (
+    <article className="mx-auto max-w-3xl px-4 py-12">
+      <h1 className="mb-4 text-4xl font-bold">{post.title}</h1>
+
+      <div className="mb-8 flex items-center">
+        <Image
+          src={post.author.avatar.url}
+          alt={post.author.name}
+          width={40}
+          height={40}
+          className="mr-4 rounded-full"
+        />
+        <div>
+          <p className="font-medium">{post.author.name}</p>
+          <p className="text-sm text-gray-500">
+            {formatDate(post.publishedDate)}
+          </p>
+        </div>
+      </div>
+
+      <Image
+        src={post.coverImage.url}
+        alt={post.title}
+        width={900}
+        height={500}
+        className="mb-8 rounded-lg"
+      />
+
+      <div className="prose lg:prose-lg">
+        {/* Render your rich text content here */}
+        {post.content}
+      </div>
+    </article>
+  );
+}
+```
+
+## Step 6: Adding Navigation and Layout
+
+Create or modify `app/layout.tsx`:
+
+```tsx
+import './globals.css';
+import Link from 'next/link';
+
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
+  return (
+    <html lang="en">
+      <body>
+        <header className="border-b">
+          <div className="mx-auto flex max-w-5xl items-center justify-between px-4 py-6">
+            <Link href="/" className="text-2xl font-bold">
+              My Blog
+            </Link>
+            <nav>
+              <ul className="flex gap-6">
+                <li>
+                  <Link href="/">Home</Link>
+                </li>
+                <li>
+                  <Link href="/about">About</Link>
+                </li>
+                <li>
+                  <Link href="/contact">Contact</Link>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </header>
+
+        {children}
+
+        <footer className="mt-12 border-t">
+          <div className="mx-auto max-w-5xl px-4 py-8 text-center text-gray-500">
+            © {new Date().getFullYear()} My Blog. All rights reserved.
+          </div>
+        </footer>
+      </body>
+    </html>
+  );
+}
+```
+
+## Step 7: Enhancing Your Blog
+
+To take your blog to the next level, consider these enhancements:
+
+### Adding a Rich Text Renderer
+
+Install a package to render your rich text content:
+
+```bash
+npm install @scalar/rich-text-react
+```
+
+Use it in your blog post page.
+
+### Implementing Tags and Categories
+
+Create tag and category pages to organize your content.
+
+### Adding Search Functionality
+
+Implement search using Scalar's filtering capabilities.
+
+### Setting up Analytics
+
+Add a web analytics tool to track visitor engagement.
+
+## Deployment
+
+The simplest way to deploy your Next.js blog is with Vercel:
+
+```bash
+npm install -g vercel
+vercel
+```
+
+Make sure to add your Scalar environment variables in the Vercel dashboard.
+
+## Conclusion
+
+You now have a fully functioning blog powered by Scalar, Next.js, and Tailwind CSS. This stack gives you:
+
+- A clean, type-safe content API
+- Blazing fast page loads with SSR and static generation
+- Beautiful responsive design
+- Great developer experience
+
+From here, you can continue customizing your blog with additional features, design tweaks, and content strategy.
+21:T1443,
+## From markdown to structured content
+
+Why content teams are moving away from flat files and how structured data unlocks collaboration, APIs, and automation.
+
+## The Evolution of Content Management
+
+Content management has evolved dramatically over the past decade. From basic text files to sophisticated structured content systems, the way we create, store, and distribute content continues to transform. This evolution reflects changing needs:
+
+- Higher content volumes across more channels
+- More complex relationships between content pieces
+- Growing teams with specialized roles
+- The rise of programmatic content consumption
+- Requirements for personalization and dynamic delivery
+
+Markdown files were a major improvement over raw HTML or proprietary formats, but as organizations scale, flat files show their limitations.
+
+## The Limitations of Flat File Content
+
+Markdown and other flat file approaches offer simplicity but present challenges for growing organizations:
+
+### 1. Limited Structured Data Support
+
+Markdown is excellent for basic content like paragraphs, lists, and simple formatting. However, it struggles with complex data like:
+
+- Product specifications with multiple attributes
+- Author profiles with social links and expertise areas
+- Event listings with dates, locations, and registration links
+- Media assets with licensing and usage information
+
+While frontmatter helps, it's ultimately a workaround for a format not designed for complex data.
+
+### 2. Weak Content Relationships
+
+Flat files exist in isolation, making relationships difficult to express and maintain:
+
+- Cross-references between related content
+- Content reuse across multiple pages
+- Parent-child relationships
+- Many-to-many associations
+
+This isolation leads to duplication, inconsistency, and maintenance headaches.
+
+### 3. Challenging Collaboration Workflows
+
+As teams grow, file-based systems become problematic:
+
+- Concurrent editing conflicts
+- No built-in review mechanisms
+- Limited accountability tracking
+- Manual publishing processes
+- Difficult permissions management
+
+### 4. Poor API Support
+
+In an API-driven world, flat files require significant additional infrastructure:
+
+- Custom parsing and transformation
+- Ad-hoc caching systems
+- Manual API implementation
+- Limited query capabilities
+
+## The Benefits of Structured Content
+
+Structured content addresses these limitations by treating content as data with defined schemas, relationships, and workflows.
+
+### 1. Content Modeling Flexibility
+
+Structured content systems let you define custom models that precisely match your needs:
+
+```javascript
+// A sample content model
+type Author = {
+  name: string;
+  biography: RichText;
+  expertise: string[];
+  headshot: Image;
+  socialProfiles: {
+    twitter?: string;
+    linkedin?: string;
+    github?: string;
+  };
+};
+
+type Article = {
+  title: string;
+  subtitle?: string;
+  slug: string;
+  author: Reference<Author>;
+  publishDate: DateTime;
+  category: Reference<Category>;
+  tags: string[];
+  featuredImage: Image;
+  content: RichText;
+  relatedArticles: Reference<Article>[];
+};
+```
+
+This approach ensures consistency while offering complete flexibility.
+
+### 2. API-First Architecture
+
+Structured content is inherently API-ready:
+
+- Consistent, well-documented endpoints
+- Rich filtering and query capabilities
+- Built-in versioning
+- Comprehensive CRUD operations
+- Format transformation (JSON, XML, etc.)
+
+### 3. Collaborative Workflows
+
+Modern structured content systems include robust collaboration features:
+
+- Real-time collaborative editing
+- Role-based access control
+- Approval workflows
+- Comment threads and feedback
+- Publishing scheduling
+- Comprehensive audit trails
+
+### 4. Automation and Integration
+
+Structured content enables powerful automation:
+
+- Triggered workflows based on content changes
+- Scheduled content operations
+- Integration with marketing automation
+- Analytics and performance tracking
+- Localization workflows
+
+## Making the Transition
+
+Moving from markdown or other flat file systems to structured content requires planning:
+
+### 1. Content Audit and Modeling
+
+- Inventory your existing content
+- Identify common patterns and structures
+- Define content types and their relationships
+- Consider future content needs
+
+### 2. Migration Strategy
+
+- Develop a phased approach
+- Create scripts for automated conversion
+- Plan for manual enrichment of complex content
+- Maintain parallel systems during transition
+
+### 3. Team Training
+
+- Document new workflows
+- Provide hands-on training
+- Gather feedback and refine processes
+- Identify and empower system champions
+
+## Conclusion
+
+While markdown and flat files have served content teams well, structured content represents the next evolution in content management. By treating content as data with defined schemas, relationships, and workflows, organizations unlock new capabilities around collaboration, automation, and delivery.
+
+The transition requires investment, but the returns in efficiency, consistency, and capabilities make it worthwhile for growing content operations. Structured content doesn't just solve today's problems—it prepares you for tomorrow's opportunities.
+22:T27ee,
+## How we built Scalar's visual model editor
+
+Go behind the scenes with our product team on building Scalar's drag-and-drop schema editor - and what's coming next.
+
+## The Challenge of Content Modeling
+
+When we started building Scalar, we identified a critical pain point in the content management space: content modeling tools were either too technical or too simplistic. Developers wanted precision and control, while content teams needed intuitive interfaces. Both needed to collaborate effectively.
+
+We challenged ourselves to build a visual content modeling interface that would:
+
+1. Be approachable enough for non-technical users
+2. Offer the depth and flexibility developers expect
+3. Support complex content relationships and structures
+4. Generate production-ready schemas without compromise
+
+This post details our journey building Scalar's visual model editor, the technical challenges we faced, and what we learned along the way.
+
+## Starting with User Research
+
+Before writing a single line of code, we conducted extensive user research with both developers and content creators. A few key insights emerged:
+
+- Developers appreciated visual tools but distrusted them if they couldn't see or control the underlying code
+- Content teams often felt excluded from modeling decisions, despite having the best understanding of content needs
+- Both groups valued being able to quickly iterate on content structures
+- Everyone disliked unpleasant surprises when models were deployed to production
+
+These insights formed our core design principles: transparency, collaboration, and precision.
+
+## The Technical Approach
+
+### Architecture Decisions
+
+We knew from the start we needed a robust, real-time system with a clear separation of concerns:
+
+```
+┌─────────────────┐      ┌────────────────┐      ┌────────────────┐
+│                 │      │                │      │                │
+│  Visual Editor  │◄────►│  Schema Store  │◄────►│   Code Layer   │
+│                 │      │                │      │                │
+└─────────────────┘      └────────────────┘      └────────────────┘
+        ▲                        ▲                       ▲
+        │                        │                       │
+        └────────────────────────┼───────────────────────┘
+                                 │
+                         ┌───────▼───────┐
+                         │               │
+                         │ Persistence & │
+                         │    Sync       │
+                         │               │
+                         └───────────────┘
+```
+
+This architecture ensured changes in the visual editor would instantly reflect in the code layer and vice versa.
+
+### Technology Stack
+
+Our technology choices focused on performance and developer experience:
+
+- **Frontend**: React with TypeScript for type safety
+- **State Management**: A custom Redux-inspired store with middleware
+- **Schema Validation**: JSON Schema with custom extensions
+- **Real-time Synchronization**: WebSockets with conflict resolution
+- **Code Generation**: Abstract syntax tree manipulation
+
+### The Canvas Interface
+
+The heart of our editor is the canvas interface. We needed to balance flexibility with guidance, which led to several key features:
+
+1. **Drag-and-drop field creation** - Simple yet powerful
+2. **Visual relationship mapping** - Connecting content types intuitively
+3. **Nested field structures** - Supporting complex data hierarchies
+4. **Real-time validation** - Catching errors before they become problems
+5. **Instant previews** - Showing how content would look in the editing interface
+
+## Technical Challenges
+
+Building the editor presented several non-trivial challenges:
+
+### Challenge 1: Schema Synchronization
+
+Keep the visual representation and code representation in perfect sync proved complex. Our solution:
+
+```typescript
+// Simplified synchronization middleware
+const synchronizationMiddleware = (store) => (next) => (action) => {
+  const prevState = store.getState();
+  const result = next(action);
+  const nextState = store.getState();
+
+  if (action.source === 'visual-editor') {
+    // Update code representation
+    const generatedCode = generateCodeFromSchema(nextState.schema);
+    if (generatedCode !== prevState.codeRepresentation) {
+      store.dispatch({
+        type: 'UPDATE_CODE_REPRESENTATION',
+        payload: generatedCode,
+        source: 'synchronization',
+      });
+    }
+  } else if (action.source === 'code-editor') {
+    // Update visual representation
+    const parsedSchema = parseCodeToSchema(nextState.codeRepresentation);
+    if (!isEquivalent(parsedSchema, prevState.schema)) {
+      store.dispatch({
+        type: 'UPDATE_SCHEMA',
+        payload: parsedSchema,
+        source: 'synchronization',
+      });
+    }
+  }
+
+  return result;
+};
+```
+
+### Challenge 2: Relationship Visualization
+
+Representing complex relationships visually required careful design:
+
+```typescript
+// Relationship rendering logic (simplified)
+function renderRelationship(relationship, viewportState) {
+  const { source, target, type } = relationship;
+  const sourcePosition = getNodePosition(source, viewportState);
+  const targetPosition = getNodePosition(target, viewportState);
+
+  // Calculate control points for curved lines
+  const controlPoints = calculateBezierControlPoints(
+    sourcePosition,
+    targetPosition,
+    type
+  );
+
+  return (
+    <svg className="relationship-line">
+      <path
+        d={generatePathData(sourcePosition, targetPosition, controlPoints)}
+        className={`relationship-type-${type}`}
+      />
+      {/* Render relationship labels and interaction controls */}
+      <RelationshipLabels
+        source={source}
+        target={target}
+        type={type}
+        controlPoints={controlPoints}
+      />
+    </svg>
+  );
+}
+```
+
+### Challenge 3: Undo/Redo with Branching History
+
+Supporting a robust undo/redo system with branching history proved essential for experimentation:
+
+```typescript
+// Action history management
+class ActionHistory {
+  constructor() {
+    this.past = [];
+    this.future = [];
+    this.branches = new Map();
+    this.currentBranch = null;
+  }
+
+  recordAction(action, resultingState) {
+    // Truncate future if we're in the middle of history
+    if (this.future.length > 0) {
+      // Save as potential branch before truncating
+      this.saveBranch();
+      this.future = [];
+    }
+
+    this.past.push({ action, state: deepClone(resultingState) });
+  }
+
+  undo() {
+    if (this.past.length <= 1) return null; // Keep initial state
+
+    const current = this.past.pop();
+    this.future.unshift(current);
+
+    return this.past[this.past.length - 1].state;
+  }
+
+  redo() {
+    if (this.future.length === 0) return null;
+
+    const next = this.future.shift();
+    this.past.push(next);
+
+    return next.state;
+  }
+
+  // Branch management methods...
+}
+```
+
+## User Experience Considerations
+
+Technical implementation was only half the battle. Creating an intuitive user experience required careful attention to several aspects:
+
+### Progressive Disclosure
+
+Not all users need to see all options at once. We implemented progressive disclosure to reduce cognitive load:
+
+1. Basic field properties visible by default
+2. Advanced options accessible through expandable sections
+3. Developer-focused features available but not intrusive
+
+### Real-time Collaboration
+
+Multiple team members often work on content models simultaneously. Our collaboration features include:
+
+- Live cursor positions
+- User presence indicators
+- Action attribution
+- Conflict resolution with smart merging
+- Change history with author information
+
+### Documentation Integration
+
+We integrated contextual documentation directly into the editor:
+
+- Field type explanations
+- Best practice suggestions
+- Schema validation warnings
+- Performance impact notes
+
+## What's Coming Next
+
+The current visual model editor is just the beginning. Our roadmap includes:
+
+### 1. AI-assisted modeling
+
+- Suggestion of field types based on names
+- Schema generation from natural language descriptions
+- Automatic detection of common patterns
+- Optimization recommendations
+
+### 2. Advanced visualization options
+
+- Alternative layout algorithms
+- Custom themes and visual styles
+- Expanded relationship visualization
+- Filtered views for complex models
+
+### 3. Enhanced collaboration
+
+- Comment threads on specific model elements
+- Approval workflows for schema changes
+- Role-based access controls
+- Contextual communication tools
+
+## Lessons Learned
+
+Building Scalar's visual model editor taught us valuable lessons about balancing technical precision with usability:
+
+1. **Start with clear constraints** - Defining the boundaries of what the editor should do helped focus our efforts
+2. **Invest in real-time capabilities** - The instant feedback loop between visual and code representations was worth the implementation complexity
+3. **Test with real-world models** - Our initial assumptions about typical model complexity were challenged by user testing
+4. **Prioritize developer trust** - Power users need to see and control the underlying implementation
+5. **Design for evolving schemas** - Content models change over time, and the editing experience needs to support that evolution
+
+## Conclusion
+
+Creating an intuitive yet powerful visual content modeling tool required solving complex technical challenges and thoughtful UX design. The result is a flexible editor that bridges the gap between technical and non-technical users, enabling teams to collaborate on content models effectively.
+
+We're continuously refining the editor based on user feedback, and we're excited about the roadmap ahead. If you have ideas or suggestions for our visual model editor, we'd love to hear from you!
+23:T1aa2,
+## Open Source at the core of Scalar
+
+Why we chose to open source Scalar, how we think about sustainability, and how you can get involved.
+
+## Our Open Source Philosophy
+
+From day one, we knew Scalar would be an open source project. This wasn't just a marketing decision or a philosophical stance—it was fundamental to our vision for what a modern content management system should be.
+
+We believe that content infrastructure is too important to be locked behind proprietary walls. Organizations need to own their content model, understand how their data is structured, and have the freedom to evolve their tech stack without vendor lock-in.
+
+This post explains our approach to open source, how we balance community and commercial interests, and how you can contribute to Scalar's future.
+
+## Why We Chose Open Source
+
+Our decision to make Scalar open source was driven by several key factors:
+
+### 1. Developer Trust
+
+Developers rightfully hesitate to build on black boxes. Open source creates trust through transparency—you can see exactly what you're building on, how it works, and even modify it if needed.
+
+### 2. Community Innovation
+
+No single company can match the creativity and diverse use cases of a vibrant community. Some of Scalar's most valuable features came from community contributions addressing real-world problems we hadn't encountered.
+
+### 3. Long-term Viability
+
+Open source provides an "insurance policy" for users. Even if our company changed direction, the core technology would remain available to the community. This stability is crucial for organizations building mission-critical systems.
+
+### 4. Educational Value
+
+Open source code serves as a living educational resource. Many developers have told us they learned about content modeling, TypeScript, or API design by exploring Scalar's codebase.
+
+## Our Open Source Model
+
+Scalar follows a "open core" model, with different components under different licenses:
+
+### MIT Licensed Components
+
+The core Scalar engine, including:
+
+- Content type definition system
+- Schema validation
+- API generation framework
+- Command line interface
+- Core plugins
+
+### Commercial Components
+
+Some enterprise-focused features remain proprietary:
+
+- Team collaboration tools
+- Enterprise authentication integrations
+- Enhanced security features
+- White-label customization
+
+This model allows us to balance openness with building a sustainable business that can continue investing in Scalar's development.
+
+## Governance Structure
+
+Transparency extends to our governance process as well:
+
+### RFC Process
+
+Significant changes to Scalar begin as Request for Comments (RFC) documents, which are:
+
+1. Published publicly for community review
+2. Open for comments for at least two weeks
+3. Reviewed by core maintainers
+4. Either accepted, rejected, or sent back for revision
+
+This process ensures major decisions benefit from community input while maintaining a clear direction.
+
+### Maintainer Team
+
+Our maintainer team includes both Scalar employees and community contributors. Maintainers have authority to:
+
+- Review and merge pull requests
+- Participate in RFC discussions
+- Handle issue triage
+- Guide community discussions
+
+We're actively working to increase the diversity of our maintainer team, both in terms of backgrounds and organizations represented.
+
+## Building a Sustainable Project
+
+Open source needs sustainable funding to thrive long-term. Our approach includes:
+
+### Cloud Services
+
+Scalar Cloud provides hosted, managed Scalar instances with additional features. Revenue from this service directly funds open source development.
+
+### Enterprise Support
+
+Organizations that need guaranteed support, custom features, or compliance assistance can purchase enterprise support packages.
+
+### Development Partnerships
+
+For organizations with specific needs, we offer development partnerships where we build features they need, which then become available to the broader community.
+
+### Transparent Allocation
+
+We commit to reinvesting at least 30% of our revenue into open source development, community resources, and documentation.
+
+## Community Contributions
+
+We've been humbled by the quality and quantity of community contributions to Scalar. Contributors have:
+
+- Fixed bugs and improved performance
+- Added support for new database backends
+- Created integrations with other tools
+- Translated documentation
+- Developed educational content
+
+We express our gratitude not just with words, but through:
+
+- Highlighting contributors in our release notes
+- Featuring community projects in our showcase
+- Providing direct mentorship for regular contributors
+- Offering special perks like conference tickets and early feature access
+
+## How To Get Involved
+
+If you're interested in contributing to Scalar, there are many ways to get started:
+
+### For Developers
+
+- Browse our [good first issues](https://github.com/scalar/scalar/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22) on GitHub
+- Join the #dev channel in our Discord
+- Try building a plugin using our extension API
+- Help improve test coverage
+
+### For Content Experts
+
+- Contribute to documentation
+- Create tutorials and blog posts
+- Answer questions in the community forum
+- Provide feedback on UX and workflows
+
+### For Organizations
+
+- Share case studies of how you're using Scalar
+- Sponsor development of specific features
+- Contribute developer time to the project
+- Provide infrastructure or services
+
+## Success Stories
+
+Several key contributions show the power of our community:
+
+### MongoDB Integration
+
+A community member built first-class MongoDB support, which is now one of our most popular database options.
+
+### GraphQL Subscriptions
+
+Real-time GraphQL subscriptions began as a community plugin before becoming a core feature.
+
+### Localization Framework
+
+Our entire localization system was designed and implemented by a community contributor who needed multilingual content support.
+
+## The Road Ahead
+
+Our open source vision continues to evolve. Upcoming initiatives include:
+
+- Establishing a more formal governance structure
+- Creating a contributor development program
+- Launching a grant program for ecosystem projects
+- Expanding our documentation in multiple languages
+
+## Conclusion
+
+Open source isn't just a licensing decision—it's about building technology that respects users' freedom and leverages collective intelligence. We're grateful for every contribution, whether it's code, documentation, bug reports, or simply spreading the word about Scalar.
+
+If you're using Scalar, consider getting involved in the community. And if you're considering contributing, we're here to help you get started. Together, we're building not just a content management system, but an ecosystem that makes structured content more accessible to everyone.
+24:T2666,
+## Designing a CMS developers actually want to use
+
+![Scalar CMS interface showing a clean design focused on developer experience](/images/blog/blog-10.webp)
+
+A deep dive into our design philosophy at Scalar - from intuitive APIs to a clean UI that feels like part of your stack.
+
+## Why most CMS interfaces miss the mark
+
+We've all been there. You're building a website or application and need a content management system. You evaluate the options, pick one that seems promising, and then the frustration begins:
+
+- Overly complex admin interfaces that editors struggle to navigate
+- Developer experiences that feel like they're from another era
+- APIs that require extensive documentation to understand
+- Integration patterns that fight against your preferred stack
+- Extension systems that are either too limiting or too complex
+
+After years of experiencing these frustrations firsthand, we started to wonder: **why isn't there a CMS that developers actually want to use?**
+
+This question became the foundation of Scalar's design philosophy.
+
+## Developer experience as the north star
+
+When we started designing Scalar, we established a clear set of principles that would guide our decisions:
+
+### 1. Code-first, visual-optional
+
+Developers should be able to define content models in code using familiar patterns. Visual tools should enhance, not replace, the code experience.
+
+```typescript
+// This is how content modeling should feel
+const Author = defineType({
+  name: 'author',
+  fields: {
+    name: fields.text({ required: true }),
+    bio: fields.richText(),
+    avatar: fields.image({ aspectRatio: 1 }),
+    socialLinks: fields.object({
+      twitter: fields.url(),
+      github: fields.url(),
+      website: fields.url(),
+    }),
+  },
+});
+```
+
+### 2. Your stack, your rules
+
+A CMS should adapt to your development workflow, not the other way around. Scalar is designed to:
+
+- Work with any frontend framework
+- Support multiple data storage backends
+- Integrate with your existing auth systems
+- Deploy anywhere (serverless, containers, VMs)
+- Version control content alongside code if desired
+
+### 3. Minimal API surface
+
+APIs should be intuitive enough that you rarely need to check documentation. We obsess over naming, consistency, and predictability.
+
+```typescript
+// Our APIs aim for this level of clarity
+const posts = await scalar
+  .query('post')
+  .where({ category: 'engineering' })
+  .orderBy({ publishDate: 'desc' })
+  .limit(10)
+  .include(['author', 'relatedPosts'])
+  .exec();
+```
+
+### 4. Progressive disclosure
+
+Simple tasks should be simple. Complex tasks should be possible. We use progressive disclosure to maintain this balance:
+
+- Core APIs cover 80% of use cases with minimal complexity
+- Extension points reveal power when needed
+- Advanced features don't clutter the basic experience
+
+### 5. Performance by default
+
+Performance shouldn't be an afterthought or a premium feature. Scalar is built for speed from the ground up:
+
+- Optimized query execution
+- Efficient caching at multiple levels
+- Assets optimized automatically
+- Server and client performance monitoring
+
+## Understanding developer pain points
+
+To create a better CMS, we needed to deeply understand what frustrates developers about existing solutions. We conducted extensive research, including:
+
+- Interviews with 100+ developers across different experience levels
+- Analysis of GitHub issues in popular CMS repositories
+- Surveys of developer satisfaction with existing CMS tools
+- User testing of early Scalar prototypes
+
+Several key pain points emerged consistently:
+
+### Content modeling limitations
+
+Many CMS platforms either impose rigid structures or offer too little guidance, leading to suboptimal content models.
+
+Our solution:
+
+- Flexible type system with sensible defaults
+- Clear patterns for common modeling needs
+- Rich relationship types with referential integrity
+- Schema validation with helpful error messages
+
+### API inconsistency
+
+Developers described the cognitive load of working with inconsistent, poorly designed APIs as a major pain point.
+
+Our solution:
+
+- Consistent API patterns across all interfaces
+- Predictable naming conventions
+- Type-safe client libraries
+- Clear documentation with plenty of examples
+
+### Deployment complexity
+
+Setting up and maintaining CMS infrastructure shouldn't be a project in itself.
+
+Our solution:
+
+- Single-command deployment options
+- Infrastructure as code templates
+- Clear separation of concerns
+- Containerized architecture
+
+### Poor editor experiences
+
+Developers often have to apologize to content teams for the clunky interfaces they're forced to use.
+
+Our solution:
+
+- Clean, minimalist UI design
+- Context-aware editing experiences
+- Customizable workflows
+- Performance optimizations for editor tasks
+
+## Balancing developer and editor needs
+
+One of the most difficult challenges in CMS design is balancing the needs of developers and content editors. Too often, platforms prioritize one at the expense of the other.
+
+At Scalar, we believe this is a false dichotomy. By understanding the true needs of both groups, we can design experiences that work well for everyone.
+
+### Content modeling that serves both audiences
+
+Scalar's content modeling approach separates structure (developer concern) from presentation (editor concern):
+
+```typescript
+// Structure defined by developers
+const ProductModel = defineType({
+  name: 'product',
+  fields: {
+    name: fields.text({ required: true }),
+    price: fields.number({
+      required: true,
+      validation: { min: 0 },
+    }),
+    description: fields.richText(),
+    // ...other fields
+  },
+});
+
+// Presentation configured separately
+configureEditingExperience({
+  type: 'product',
+  groups: [
+    {
+      name: 'Basic Info',
+      fields: ['name', 'price', 'category'],
+    },
+    {
+      name: 'Details',
+      fields: ['description', 'specifications', 'images'],
+    },
+    {
+      name: 'SEO & Marketing',
+      fields: ['seoTitle', 'seoDescription', 'promoText'],
+    },
+  ],
+});
+```
+
+This separation allows:
+
+- Developers to focus on data integrity and structure
+- Editors to work in a well-organized interface
+- Both sides to collaborate on optimal workflows
+
+### Schema-driven UI
+
+Scalar automatically generates editing interfaces from your content models, but gives you control where it matters:
+
+- Field types determine appropriate input components
+- Validation rules create inline validation
+- Field metadata configures options and behaviors
+- Custom field types for specialized needs
+
+## Real-world examples
+
+Let's look at how our design philosophy translates to real-world developer experiences:
+
+### Case Study: Blog Migration
+
+A development team was migrating from a legacy CMS to Scalar. Their experience highlighted several positive outcomes:
+
+1. **Content modeling clarity**  
+   "Defining our content models in TypeScript made the structure explicit in a way our previous CMS never did. We uncovered and fixed several data inconsistencies during the migration."
+
+2. **Migration ease**  
+   "The migration CLI helped us map our old content to the new models, and the validation tools caught issues early."
+
+3. **Frontend integration**  
+   "Our React components connect directly to Scalar's hooks, which reduced the amount of data fetching code we needed to write by around 70%."
+
+4. **Editor satisfaction**  
+   "Our content team reported that the new editing experience was significantly faster and more intuitive."
+
+### Case Study: E-commerce Product Catalog
+
+An e-commerce developer shared their experience implementing a product catalog:
+
+1. **Flexible content modeling**  
+   "We needed to support products with drastically different attribute sets. Scalar's union types and conditional fields made this straightforward."
+
+2. **Performance at scale**  
+   "With over 50,000 products, query performance was a concern. Scalar's automatic indexing and query optimization kept things fast without manual tuning."
+
+3. **Custom field types**  
+   "Creating custom field types for product-specific attributes like size charts and color swatches took less than a day."
+
+4. **Integration with existing systems**  
+   "The webhook system made it easy to keep our inventory management system in sync with the CMS."
+
+## The road ahead
+
+While we've made progress on creating a CMS developers actually want to use, our work is far from complete. Our roadmap is guided by ongoing developer feedback:
+
+### Near-term improvements
+
+- Enhanced TypeScript inference for even better type safety
+- More granular permissions and role definitions
+- Expanded integrations with development tools
+- Performance improvements for extremely large datasets
+
+### Longer-term vision
+
+- AI-assisted content modeling and optimization
+- Enhanced collaboration tools for development teams
+- More powerful visual customization options
+- Community plugin marketplace
+
+## Conclusion
+
+Designing a CMS that developers actually want to use requires a deep understanding of developer workflows, pain points, and mental models. At Scalar, we've made this understanding the foundation of our design philosophy.
+
+By prioritizing code-first workflows, consistent APIs, flexible integration patterns, and performance, we're building a CMS that feels like a natural extension of your development stack rather than a separate system to fight against.
+
+We believe that when developers enjoy working with a CMS, it leads to better content models, more efficient workflows, and ultimately better experiences for content creators and end users alike.
+
+If you're a developer who's experienced the frustrations of traditional CMS platforms, we'd love to hear your perspective. What makes a CMS enjoyable (or painful) to work with? Share your thoughts in the comments below or join our Discord community to continue the conversation.
+25:T2a35,
+## Serverless Deployment for Scalar Applications
+
+Learn how to deploy your Scalar CMS to serverless environments for better scaling, cost efficiency, and simplified management.
+
+## Why Serverless Makes Sense for Content Management
+
+The serverless paradigm has transformed how we build and deploy applications. For content management systems like Scalar, serverless architectures offer particularly compelling benefits:
+
+- **Cost efficiency:** Pay only for the resources you actually use
+- **Auto-scaling:** Handle traffic spikes without manual intervention
+- **Reduced maintenance:** No server management or patching
+- **Global distribution:** Deploy close to your users worldwide
+- **High availability:** Built-in redundancy and fault tolerance
+
+In this guide, we'll walk through deploying a Scalar application to popular serverless platforms, examining the specific configuration needed for optimal performance.
+
+## Preparing Your Scalar Application for Serverless
+
+Before deploying to a serverless environment, ensure your Scalar application follows these best practices:
+
+### 1. Stateless Operation
+
+Serverless functions should be stateless, with any state stored in external services:
+
+```typescript
+// Good: Using external state management
+import { createClient } from '@scalar/client';
+
+export const handler = async (event) => {
+  const client = createClient({
+    projectId: process.env.SCALAR_PROJECT_ID,
+    // State is managed in the external service
+  });
+
+  // Process request...
+};
+```
+
+### 2. Environment Configuration
+
+Store all configuration in environment variables:
+
+```bash
+# .env.production example
+SCALAR_DATABASE_URL=postgresql://user:password@host:port/database
+SCALAR_STORAGE_PROVIDER=s3
+SCALAR_STORAGE_BUCKET=my-content-bucket
+SCALAR_API_KEY=sk_prod_xxxxxxxxxxxx
+```
+
+### 3. Optimized Cold Starts
+
+Minimize dependencies and leverage connection pooling to reduce cold start times:
+
+```typescript
+// Database connection with connection pooling
+import { Pool } from 'pg';
+
+// Create the pool once, outside the handler
+const pool = new Pool({
+  connectionString: process.env.SCALAR_DATABASE_URL,
+  max: 1, // Limit connections in serverless environments
+});
+
+export const handler = async (event) => {
+  // Reuse the pool connection
+  const client = await pool.connect();
+  try {
+    // Process request...
+  } finally {
+    client.release();
+  }
+};
+```
+
+### 4. Asset Handling
+
+Configure asset storage to use cloud-native solutions:
+
+```typescript
+// scalar.config.ts
+export default defineConfig({
+  storage: {
+    provider: 'cloud',
+    options: {
+      // Use environment variables for configuration
+      provider: process.env.SCALAR_STORAGE_PROVIDER,
+      bucket: process.env.SCALAR_STORAGE_BUCKET,
+      region: process.env.SCALAR_STORAGE_REGION,
+    },
+  },
+});
+```
+
+## Deploying to AWS Lambda
+
+AWS Lambda is one of the most popular serverless platforms. Here's how to deploy Scalar:
+
+### Setting Up Infrastructure
+
+We recommend using AWS CDK or CloudFormation to define your infrastructure as code:
+
+```typescript
+// Example AWS CDK stack
+import * as cdk from 'aws-cdk-lib';
+import * as lambda from 'aws-cdk-lib/aws-lambda';
+import * as apigateway from 'aws-cdk-lib/aws-apigateway';
+
+export class ScalarServerlessStack extends cdk.Stack {
+  constructor(scope: cdk.Construct, id: string, props?: cdk.StackProps) {
+    super(scope, id, props);
+
+    // Create Lambda function for Scalar API
+    const scalarFunction = new lambda.Function(this, 'ScalarAPIFunction', {
+      runtime: lambda.Runtime.NODEJS_18_X,
+      handler: 'dist/serverless.handler',
+      code: lambda.Code.fromAsset(path.join(__dirname, '../')),
+      memorySize: 1024,
+      timeout: cdk.Duration.seconds(30),
+      environment: {
+        SCALAR_DATABASE_URL: process.env.SCALAR_DATABASE_URL!,
+        SCALAR_STORAGE_PROVIDER: 's3',
+        SCALAR_STORAGE_BUCKET: scalarBucket.bucketName,
+        // Other environment variables...
+      },
+    });
+
+    // Create API Gateway
+    const api = new apigateway.RestApi(this, 'ScalarAPI', {
+      deployOptions: {
+        stageName: 'prod',
+      },
+    });
+
+    // Set up proxy integration
+    const scalarIntegration = new apigateway.LambdaIntegration(scalarFunction);
+    api.root.addProxy({
+      defaultIntegration: scalarIntegration,
+    });
+  }
+}
+```
+
+### Optimizing for Lambda
+
+To improve performance on Lambda:
+
+1. **Increase memory allocation:** This also increases CPU allocation, improving performance
+2. **Enable provisioned concurrency:** Eliminates cold starts for critical endpoints
+3. **Configure proper timeouts:** Set API Gateway and Lambda timeouts appropriately
+4. **Use RDS Proxy:** If using RDS, connect through RDS Proxy to manage database connections
+
+## Deploying to Vercel
+
+Vercel provides a streamlined deployment experience that works well with Scalar:
+
+### Project Configuration
+
+Create a `vercel.json` configuration file:
+
+```json
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "api/serverless.js",
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/api/(.*)",
+      "dest": "api/serverless.js"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/api/serverless.js"
+    }
+  ]
+}
+```
+
+### Database Configuration
+
+For optimal performance on Vercel:
+
+1. **Use edge-compatible databases:** Like Neon, PlanetScale, or Supabase
+2. **Configure connection pooling:** To handle concurrent serverless invocations
+3. **Set proper connection limits:** To avoid exhausting connection pools
+
+```typescript
+// api/serverless.js
+import { createServerAdapter } from '@scalar/adapter-vercel';
+import { createApp } from '../src/app';
+
+const app = createApp();
+const adapter = createServerAdapter(app, {
+  poolConnections: true,
+  maxPoolConnections: 10,
+});
+
+export default adapter;
+```
+
+## Deploying to Cloudflare Workers
+
+Cloudflare Workers provides a global, low-latency serverless platform ideal for content-heavy applications:
+
+### Scalar Configuration
+
+Create a `wrangler.toml` file:
+
+```toml
+name = "scalar-cms"
+type = "javascript"
+account_id = "your-account-id"
+workers_dev = true
+compatibility_date = "2023-01-01"
+
+[build]
+command = "npm run build:worker"
+[build.upload]
+format = "service-worker"
+
+[env.production]
+route = "cms.yourdomain.com/*"
+```
+
+### Edge-Optimized Adapter
+
+Use Scalar's Cloudflare adapter for optimal performance:
+
+```typescript
+// worker.js
+import { createServerAdapter } from '@scalar/adapter-cloudflare';
+import { createApp } from './app';
+
+export default {
+  async fetch(request, env, ctx) {
+    const app = createApp({
+      database: {
+        type: 'cloudflare-d1',
+        binding: env.SCALAR_DB,
+      },
+      storage: {
+        type: 'cloudflare-r2',
+        binding: env.SCALAR_ASSETS,
+      },
+    });
+
+    const adapter = createServerAdapter(app);
+    return adapter.fetch(request, env, ctx);
+  },
+};
+```
+
+### Cloudflare-Native Storage
+
+For optimal performance, use Cloudflare D1 and R2:
+
+```typescript
+// Migrations using Scalar's D1 adapter
+export default defineScalarConfig({
+  database: {
+    adapter: 'd1',
+    options: {
+      binding: 'SCALAR_DB',
+    },
+  },
+  storage: {
+    adapter: 'r2',
+    options: {
+      binding: 'SCALAR_ASSETS',
+      publicUrl: 'https://assets.yourdomain.com',
+    },
+  },
+});
+```
+
+## Performance Optimization Tips
+
+Regardless of your serverless platform, these optimization tips apply:
+
+### 1. Database Connection Management
+
+Database connections are precious in serverless environments:
+
+- Use connection pooling with appropriate limits
+- Keep connections alive between invocations when possible
+- Consider serverless-friendly databases like Aurora Serverless
+
+### 2. Caching Strategy
+
+Implement multi-level caching:
+
+- **CDN caching:** For public content
+- **Edge caching:** For authenticated but non-personalized content
+- **Application caching:** For frequently accessed data
+- **Database query caching:** For expensive computations
+
+```typescript
+// Example caching configuration
+export default defineScalarConfig({
+  caching: {
+    cdn: {
+      enabled: true,
+      maxAge: 3600, // 1 hour
+    },
+    edge: {
+      enabled: true,
+      maxAge: 60, // 1 minute
+    },
+    application: {
+      enabled: true,
+      ttl: 30, // 30 seconds
+    },
+  },
+});
+```
+
+### 3. Asset Optimization
+
+Optimize asset handling:
+
+- Use signed URLs for asset uploads
+- Implement on-demand image transformations
+- Enable HTTP/2 for parallel asset loading
+
+### 4. GraphQL Optimization
+
+If using Scalar's GraphQL API:
+
+- Enable persisted queries for production
+- Implement query complexity analysis
+- Use field-level permissions to restrict data access
+
+```typescript
+// GraphQL optimization configuration
+export default defineScalarConfig({
+  graphql: {
+    persistedQueries: true,
+    complexityLimit: 1000,
+    depthLimit: 7,
+    introspection: process.env.NODE_ENV !== 'production',
+  },
+});
+```
+
+## Monitoring and Debugging
+
+Properly monitoring your serverless Scalar deployment is crucial:
+
+### Key Metrics to Track
+
+- **Invocation count:** Track API usage patterns
+- **Execution duration:** Identify performance bottlenecks
+- **Error rate:** Detect issues quickly
+- **Cold start frequency:** Measure user experience impact
+- **Database connection usage:** Prevent connection exhaustion
+
+### Logging Best Practices
+
+Structure your logs for serverless environments:
+
+```typescript
+// Structured logging example
+import { createLogger } from '@scalar/logger';
+
+const logger = createLogger({
+  level: process.env.LOG_LEVEL || 'info',
+  format: 'json',
+  context: {
+    service: 'scalar-cms',
+    environment: process.env.NODE_ENV,
+  },
+});
+
+// Usage
+logger.info('Processing request', {
+  requestId: context.awsRequestId,
+  path: event.path,
+  method: event.httpMethod,
+});
+```
+
+## Cost Considerations
+
+Serverless deployments can be very cost-effective, but require attention to these factors:
+
+- **Execution time:** Optimize code to reduce execution time
+- **Memory allocation:** Balance between cost and performance
+- **Database connections:** Use serverless-compatible databases
+- **Data transfer:** Implement proper caching to reduce data movement
+- **Storage costs:** Optimize asset storage and delivery
+
+## Conclusion
+
+Deploying Scalar to serverless environments provides numerous benefits, from cost optimization to simplified management. By following the platform-specific guidelines and general best practices outlined in this guide, you can ensure your Scalar CMS performs optimally in production.
+
+For more detailed deployment instructions, including platform-specific tutorials, check our [deployment documentation](https://docs.scalar.com/deployment). If you have specific questions or need assistance, join our [Discord community](https://discord.gg/scalar) where our team and community members can help you troubleshoot your serverless deployment.
+26:T309f,
+## Implementing Multilingual Content with Scalar
+
+![A world map with connecting lines between different language nodes showing Scalar's multilingual capabilities](/images/blog/blog-12.webp)
+
+A comprehensive guide to building truly global websites with Scalar's localization features and best practices.
+
+## The Challenge of Global Content
+
+Building a truly global digital presence isn't just about translating words—it's about crafting experiences that feel native to each locale. This includes:
+
+- Language translation (including RTL languages)
+- Cultural adaptation of imagery and examples
+- Region-specific content and features
+- Localized dates, currencies, and measurements
+- Market-specific regulatory compliance
+
+Many content management systems treat localization as an afterthought, making multilingual implementations complex and fragile. Scalar, however, was designed with global content in mind from day one.
+
+## Scalar's Approach to Localization
+
+Scalar implements localization following these core principles:
+
+1. **Locale as a first-class concept:** Locales aren't bolted on—they're a fundamental part of the content model
+2. **Default locale with overrides:** Start with a default locale and override only what changes
+3. **Granular localization:** Localize at the field level, not just the entity level
+4. **Translation workflows:** Built-in tools for managing translation processes
+5. **Developer ergonomics:** Simple APIs that make implementation straightforward
+
+Let's explore how these principles translate into practice.
+
+## Setting Up Your Localization Strategy
+
+### Configuring Supported Locales
+
+Start by defining which locales your application will support:
+
+```typescript
+// scalar.config.ts
+export default defineConfig({
+  localization: {
+    defaultLocale: 'en-US',
+    supportedLocales: [
+      {
+        code: 'en-US',
+        name: 'English (US)',
+        direction: 'ltr',
+      },
+      {
+        code: 'fr-FR',
+        name: 'Français',
+        direction: 'ltr',
+      },
+      {
+        code: 'ar-AE',
+        name: 'العربية',
+        direction: 'rtl',
+      },
+      // Add more locales as needed
+    ],
+  },
+});
+```
+
+### Locale Fallback Chains
+
+For incomplete translations, Scalar provides fallback chains:
+
+```typescript
+// scalar.config.ts
+export default defineConfig({
+  localization: {
+    // ... other config
+    fallbacks: {
+      'fr-CA': ['fr-FR', 'en-US'],
+      'es-MX': ['es-ES', 'en-US'],
+      'pt-BR': ['pt-PT', 'en-US'],
+    },
+  },
+});
+```
+
+This means if content isn't available in Canadian French (fr-CA), Scalar will try European French (fr-FR), then fall back to US English.
+
+## Content Modeling for Localization
+
+### Field-Level Localization
+
+In your content models, specify which fields should be localized:
+
+```typescript
+// content-models.ts
+export const Product = defineType({
+  name: 'product',
+  fields: {
+    // Localized fields
+    name: fields.text({
+      localized: true,
+      required: true,
+    }),
+    description: fields.richText({
+      localized: true,
+    }),
+    marketingCopy: fields.richText({
+      localized: true,
+    }),
+
+    // Non-localized fields (shared across all locales)
+    sku: fields.text({
+      localized: false,
+      required: true,
+    }),
+    price: fields.number({
+      localized: false,
+      required: true,
+    }),
+    images: fields.array({
+      of: fields.image(),
+      localized: false,
+    }),
+  },
+});
+```
+
+### Handling Locale-Specific Content
+
+Sometimes, certain content should only exist in specific locales. Scalar handles this with conditional fields:
+
+```typescript
+export const Product = defineType({
+  // ... other fields
+  fields: {
+    // ... other fields
+
+    // EU-specific regulatory information
+    euCompliance: fields
+      .object({
+        ceMarking: fields.boolean(),
+        euEnergyLabel: fields.image(),
+        wasteDisposalInfo: fields.text(),
+      })
+      .when({
+        condition: (_, { locale }) =>
+          ['de-DE', 'fr-FR', 'it-IT', 'es-ES'].includes(locale),
+        otherwise: fields.hidden(),
+      }),
+
+    // US-specific regulatory information
+    usCompliance: fields
+      .object({
+        fccId: fields.text(),
+        californiaProposition65: fields.boolean(),
+      })
+      .when({
+        condition: (_, { locale }) => locale === 'en-US',
+        otherwise: fields.hidden(),
+      }),
+  },
+});
+```
+
+## Creating and Managing Localized Content
+
+### The Content Creator Experience
+
+Scalar's admin interface provides a seamless localization experience:
+
+1. **Locale Switcher:** Quickly toggle between locales
+2. **Visual Differentiation:** Clear highlighting of untranslated content
+3. **Side-by-Side Editing:** Compare translations while editing
+4. **Batch Translation:** Apply translations to multiple items simultaneously
+
+### Translation Workflows
+
+For teams managing translations at scale, Scalar includes workflow tools:
+
+```typescript
+// Configure translation workflows
+export default defineConfig({
+  localization: {
+    // ... other configs
+    workflows: {
+      enabled: true,
+      requiredApprovals: 1,
+      notificationRecipients: ['translations@example.com'],
+    },
+  },
+});
+```
+
+This enables a structured workflow where:
+
+1. Content is created in the primary locale
+2. Translation tasks are assigned to team members or external vendors
+3. Translations are submitted for review
+4. Approved translations are published
+
+### Translation Services Integration
+
+For automated translations, Scalar integrates with popular services:
+
+```typescript
+export default defineConfig({
+  localization: {
+    // ... other configs
+    translationServices: {
+      provider: 'deepl',
+      apiKey: process.env.DEEPL_API_KEY,
+      defaultQuality: 'standard',
+      allowedFieldTypes: ['text', 'richText'],
+    },
+  },
+});
+```
+
+While machine translation is never perfect, it can provide a useful starting point for human refinement.
+
+## Building the Frontend Experience
+
+### Fetching Localized Content
+
+When fetching content, specify the desired locale:
+
+#### REST API
+
+```typescript
+// Fetch in a specific locale
+const response = await fetch('/api/products?locale=fr-FR');
+const products = await response.json();
+
+// Or with the Scalar client
+import { createClient } from '@scalar/client';
+
+const client = createClient({
+  projectId: 'your-project-id',
+});
+
+const products = await client.getCollection('products').getMany({
+  locale: 'fr-FR',
+  // Other query parameters...
+});
+```
+
+#### GraphQL API
+
+```graphql
+query GetProducts($locale: String!) {
+  products(locale: $locale) {
+    id
+    name
+    description
+    price
+  }
+}
+```
+
+```typescript
+const { data } = await client.query(GET_PRODUCTS, {
+  variables: { locale: 'fr-FR' },
+});
+```
+
+### Dynamic Locale Switching
+
+For applications that allow users to switch languages on the client side:
+
+```tsx
+import { useLocale } from '@scalar/react-hooks';
+
+function LocaleSwitcher() {
+  const { locale, setLocale, supportedLocales } = useLocale();
+
+  return (
+    <select value={locale} onChange={(e) => setLocale(e.target.value)}>
+      {supportedLocales.map((loc) => (
+        <option key={loc.code} value={loc.code}>
+          {loc.name}
+        </option>
+      ))}
+    </select>
+  );
+}
+```
+
+This will automatically refetch content in the new locale.
+
+### Handling Direction Changes
+
+For RTL language support, ensure your UI adapts appropriately:
+
+```tsx
+import { useLocale } from '@scalar/react-hooks';
+
+function Layout({ children }) {
+  const { direction } = useLocale();
+
+  return (
+    <div dir={direction} className={`layout ${direction}`}>
+      {children}
+    </div>
+  );
+}
+```
+
+Combine this with CSS logical properties for optimal support:
+
+```css
+.container {
+  padding-inline-start: 1rem;
+  padding-inline-end: 2rem;
+  margin-inline-start: auto;
+  margin-inline-end: auto;
+  text-align: start;
+}
+```
+
+## URL Strategies for Multilingual Sites
+
+Scalar supports all common URL patterns for multilingual sites:
+
+### 1. Subdirectory Approach
+
+Example: `example.com/fr/products`
+
+```typescript
+// Next.js example with Scalar
+export async function getStaticPaths() {
+  const locales = ['en', 'fr', 'de', 'es'];
+  const slugs = await getProductSlugs();
+
+  const paths = locales.flatMap((locale) =>
+    slugs.map((slug) => ({
+      params: { slug },
+      locale,
+    })),
+  );
+
+  return { paths, fallback: 'blocking' };
+}
+
+export async function getStaticProps({ params, locale }) {
+  const product = await getProduct(params.slug, locale);
+  return { props: { product } };
+}
+```
+
+### 2. Subdomain Approach
+
+Example: `fr.example.com/products`
+
+This requires DNS configuration and server routing, but Scalar's API works the same way—just pass the locale parameter based on the subdomain.
+
+### 3. Country-Specific Domains
+
+Example: `example.fr` vs `example.de`
+
+Similar to the subdomain approach, but with separate domains for each locale.
+
+## Best Practices for Multilingual Content
+
+### 1. Start with Content Strategy
+
+Before implementing, define your localization strategy:
+
+- Which markets are priorities?
+- Will all content be translated, or just key pages?
+- How will you handle market-specific content?
+- Who will manage translations?
+- What is your quality assurance process?
+
+### 2. Design with Localization in Mind
+
+- Allow space for text expansion (German and Finnish, for example, often require more space than English)
+- Use culture-neutral imagery where possible
+- Implement flexible layouts that work for both LTR and RTL
+- Consider differences in date formats, number formatting, etc.
+
+### 3. Optimize Your Translation Process
+
+- Provide context for translators
+- Use translation memory to maintain consistency
+- Create a glossary of brand terms
+- Set up automated QA checks
+
+### 4. Implement Proper SEO
+
+- Use hreflang tags to indicate language relations
+- Ensure proper metadata in each language
+- Create locale-specific sitemaps
+
+```typescript
+// Example hreflang implementation
+export function ProductPage({ product, alternateLocales }) {
+  return (
+    <>
+      <Head>
+        <title>{product.title}</title>
+        {alternateLocales.map(alt => (
+          <link
+            key={alt.locale}
+            rel="alternate"
+            hreflang={alt.locale}
+            href={alt.url}
+          />
+        ))}
+      </Head>
+      {/* Page content */}
+    </>
+  );
+}
+```
+
+### 5. Monitor and Improve
+
+- Track user engagement across locales
+- Identify content that performs differently by region
+- Continuously refine your translation quality
+- Gather feedback from regional users
+
+## Case Study: Global E-commerce Site
+
+Let's look at how one Scalar customer implemented a multilingual e-commerce site supporting 12 languages and 18 locales:
+
+### Challenge
+
+They needed to localize:
+
+- Product information
+- Marketing content
+- Regional pricing and availability
+- Legal documentation
+- Customer support resources
+
+### Solution
+
+1. **Content Modeling:**
+
+   - Core product data stored in a single source of truth
+   - Localized fields for marketing copy, product names, and descriptions
+   - Regional variants for pricing, availability, and shipping
+
+2. **Workflow:**
+
+   - Primary content created in English
+   - Automated machine translation for initial drafts
+   - Regional teams review and refine translations
+   - Legal team approves regulated content
+
+3. **Technical Implementation:**
+   - Subdirectory URL strategy (`example.com/fr-fr/products`)
+   - Server-side rendering with locale detection
+   - CDN configuration for region-specific edge caching
+   - Separate search indexes for each locale
+
+### Results
+
+- 40% increase in conversion rates in non-English markets
+- 65% faster time-to-publish for new products globally
+- 30% reduction in translation costs
+
+## Conclusion
+
+Building truly global digital experiences is challenging, but Scalar's built-in localization features make it significantly more manageable. By treating localization as a core concern rather than an afterthought, Scalar enables teams to create authentic experiences for users worldwide.
+
+Whether you're localizing a small site into a handful of languages or managing a complex global enterprise, the principles and practices outlined in this guide will help you implement a robust, scalable localization strategy.
+
+For more detailed documentation and examples, visit our [localization guide](https://docs.scalar.dev/guides/localization) or join our [community Discord](https://discord.gg/scalar) to discuss your specific implementation.
+27:T3ed0,
+## Optimizing Content Performance with Scalar
+
+Learn how to leverage Scalar's performance features to deliver lightning-fast content experiences to your users.
+
+## Why Content Performance Matters
+
+In today's digital landscape, user expectations for performance continue to rise. Research consistently shows that:
+
+- 53% of users abandon sites that take longer than 3 seconds to load
+- Each 100ms of latency can reduce conversion rates by up to 1%
+- Poor performance disproportionately affects users in emerging markets
+- Search engines factor load times into ranking algorithms
+
+For content-heavy sites and applications, performance optimization begins with how content is structured, stored, and delivered. Scalar was built with performance as a core principle, providing tools that make it easy to deliver fast experiences without sacrificing content richness.
+
+## Content Delivery Architecture
+
+Before diving into specific optimizations, let's understand Scalar's content delivery architecture:
+
+```
+┌───────────────┐      ┌───────────────┐      ┌───────────────┐
+│               │      │               │      │               │
+│  Content API  │◄────►│  CDN Cache    │◄────►│  Edge Cache   │
+│               │      │               │      │               │
+└───────────────┘      └───────────────┘      └───────────────┘
+        ▲                       ▲                     ▲
+        │                       │                     │
+        ▼                       ▼                     ▼
+┌───────────────┐      ┌───────────────┐      ┌───────────────┐
+│               │      │               │      │               │
+│ Database/Cache│      │ Client Cache  │      │ Browser Cache │
+│               │      │               │      │               │
+└───────────────┘      └───────────────┘      └───────────────┘
+```
+
+This multi-layered approach provides numerous optimization opportunities. Let's explore them:
+
+## 1. Content Modeling for Performance
+
+How you structure your content has a significant impact on performance. Follow these best practices:
+
+### Normalize Your Data Model
+
+Properly normalized content models prevent duplication and improve query efficiency:
+
+```typescript
+// Instead of duplicating author information in each post
+const BlogPost = defineType({
+  name: 'blogPost',
+  fields: {
+    title: fields.text({ required: true }),
+    // Use a reference instead of embedding author data
+    author: fields.reference({
+      to: 'author',
+      required: true,
+    }),
+    // Other fields...
+  },
+});
+
+const Author = defineType({
+  name: 'author',
+  fields: {
+    name: fields.text({ required: true }),
+    bio: fields.richText(),
+    avatar: fields.image(),
+  },
+});
+```
+
+### Use Field Selection Wisely
+
+Not all fields are needed in all contexts. Design your queries to fetch only what's needed:
+
+```typescript
+// Fetch just what's needed for a list view
+const postSummaries = await scalar
+  .query('blogPost')
+  .select(['title', 'publishDate', 'slug'])
+  .orderBy({ publishDate: 'desc' })
+  .limit(10)
+  .exec();
+
+// Fetch everything for a detail view
+const fullPost = await scalar
+  .query('blogPost')
+  .where({ slug: 'performance-optimization' })
+  .include(['author', 'categories', 'relatedPosts'])
+  .first();
+```
+
+### Intelligent Pagination
+
+For large collections, implement pagination to limit payload size:
+
+```typescript
+// Cursor-based pagination for optimal performance
+const { items, nextCursor } = await scalar
+  .query('product')
+  .where({ category: 'electronics' })
+  .orderBy({ popularity: 'desc' })
+  .paginate({ cursor, limit: 20 });
+```
+
+## 2. Asset Optimization
+
+Content performance isn't just about data—media assets often account for the bulk of page weight.
+
+### Image Processing
+
+Scalar provides powerful image optimization capabilities:
+
+```typescript
+// In your content model
+const Product = defineType({
+  name: 'product',
+  fields: {
+    // Configure image processing defaults
+    image: fields.image({
+      variants: {
+        thumbnail: { width: 200, height: 200 },
+        medium: { width: 600, height: 600 },
+        large: { width: 1200, height: 1200 },
+      },
+      defaultFormat: 'webp',
+      transformations: {
+        quality: 85,
+        smartCrop: true,
+      },
+    }),
+  },
+});
+```
+
+When retrieving images, you can request specific variants or apply transformations on the fly:
+
+```tsx
+// In your React component
+function ProductCard({ product }) {
+  return (
+    <div className="product-card">
+      {/* Responsive images with srcset */}
+      <img
+        src={product.image.url({ variant: 'medium' })}
+        srcSet={`
+          ${product.image.url({ variant: 'thumbnail' })} 200w,
+          ${product.image.url({ variant: 'medium' })} 600w,
+          ${product.image.url({ variant: 'large' })} 1200w
+        `}
+        sizes="(max-width: 600px) 200px, (max-width: 1200px) 600px, 1200px"
+        alt={product.name}
+      />
+    </div>
+  );
+}
+```
+
+### Lazy Loading Media
+
+Implement lazy loading for below-the-fold content:
+
+```tsx
+// Using Scalar's React SDK for lazy-loaded images
+import { Image } from '@scalar/react-components';
+
+function ProductGallery({ products }) {
+  return (
+    <div className="product-gallery">
+      {products.map((product) => (
+        <Image
+          key={product.id}
+          src={product.image}
+          variant="medium"
+          lazyLoad
+          threshold={0.1} // Start loading when 10% visible
+        />
+      ))}
+    </div>
+  );
+}
+```
+
+## 3. Caching Strategies
+
+Proper caching dramatically improves content performance. Scalar provides several caching mechanisms:
+
+### CDN Configuration
+
+Configure CDN caching in your Scalar project settings:
+
+```typescript
+// scalar.config.ts
+export default defineConfig({
+  delivery: {
+    cdn: {
+      enabled: true,
+      cachePolicies: [
+        {
+          pattern: '/api/content/**',
+          maxAge: 3600, // 1 hour
+          sMaxAge: 86400, // 1 day
+          staleWhileRevalidate: true,
+        },
+        {
+          pattern: '/api/assets/**',
+          maxAge: 604800, // 7 days
+          immutable: true,
+        },
+      ],
+    },
+  },
+});
+```
+
+### Runtime Cache Control
+
+Adjust cache behavior at query time:
+
+```typescript
+// Highly dynamic content - no caching
+const liveScores = await scalar
+  .query('gameScore')
+  .where({ status: 'live' })
+  .cacheControl({ maxAge: 0 })
+  .exec();
+
+// Semi-static content - short cache
+const todaysPosts = await scalar
+  .query('blogPost')
+  .where({ publishDate: { $gte: today } })
+  .orderBy({ publishDate: 'desc' })
+  .cacheControl({ maxAge: 300 }) // 5 minutes
+  .exec();
+
+// Archival content - long cache
+const archiveContent = await scalar
+  .query('blogPost')
+  .where({ publishDate: { $lt: lastYear } })
+  .cacheControl({ maxAge: 604800 }) // 7 days
+  .exec();
+```
+
+### Automatic Cache Invalidation
+
+Scalar automatically invalidates caches when content changes, but you can also configure custom invalidation rules:
+
+```typescript
+export default defineConfig({
+  caching: {
+    invalidation: {
+      rules: [
+        // When a product changes, invalidate collection pages
+        {
+          contentType: 'product',
+          invalidate: ['/api/collections/**'],
+        },
+        // When homepage content changes, invalidate the homepage
+        {
+          contentType: 'homepage',
+          invalidate: ['/api/content/homepage', '/'],
+        },
+      ],
+    },
+  },
+});
+```
+
+## 4. Edge Computing
+
+For the ultimate in performance, Scalar supports edge computing capabilities:
+
+### Edge-Optimized API
+
+Deploy Scalar's API to edge locations worldwide:
+
+```typescript
+// scalar.config.ts
+export default defineConfig({
+  deployment: {
+    type: 'edge',
+    regions: ['auto'], // Deploy to all edge regions
+    providers: {
+      // Configure your preferred edge provider
+      cloudflare: {
+        enabled: true,
+      },
+    },
+  },
+});
+```
+
+### Edge Middleware
+
+Implement custom logic at the edge:
+
+```typescript
+// middleware.ts
+import { createEdgeMiddleware } from '@scalar/edge';
+
+export default createEdgeMiddleware({
+  async process(request, context) {
+    // Geo-based content customization
+    const country = request.headers.get('cf-ipcountry');
+    if (country) {
+      context.geo = { country };
+    }
+
+    // A/B testing at the edge
+    const testGroup = Math.random() < 0.5 ? 'A' : 'B';
+    context.experiments = { homePageVariant: testGroup };
+
+    return context;
+  },
+});
+```
+
+## 5. Real-time Content Delivery
+
+For dynamic applications, Scalar provides real-time capabilities that maintain high performance:
+
+### WebSocket Subscriptions
+
+Subscribe to content changes with minimal overhead:
+
+```typescript
+// In your client application
+import { createClient } from '@scalar/client';
+
+const client = createClient({
+  projectId: 'your-project-id',
+  realtime: true,
+});
+
+// Subscribe to changes
+const unsubscribe = client
+  .subscribe('comment')
+  .where({ postId: currentPostId })
+  .orderBy({ createdAt: 'desc' })
+  .limit(10)
+  .on('update', (comments) => {
+    // Update UI with new comments
+    updateCommentsUI(comments);
+  });
+
+// Later, when component unmounts
+unsubscribe();
+```
+
+### Optimized Delta Updates
+
+When subscribing to large content objects, Scalar only transmits changes:
+
+```typescript
+// Configure delta updates for specific content types
+export default defineConfig({
+  realtime: {
+    deltaUpdates: {
+      enabled: true,
+      contentTypes: ['dashboardData', 'analytics', 'userProfile'],
+    },
+  },
+});
+```
+
+## 6. Advanced Query Optimization
+
+For complex data models, query optimization becomes crucial:
+
+### Indexing Strategy
+
+Define indexes to support your common query patterns:
+
+```typescript
+// scalar.config.ts
+export default defineConfig({
+  database: {
+    indexes: [
+      {
+        contentType: 'product',
+        fields: [
+          { name: 'category', direction: 'asc' },
+          { name: 'price', direction: 'asc' },
+        ],
+        name: 'product_category_price',
+      },
+      {
+        contentType: 'blogPost',
+        fields: [
+          { name: 'tags', direction: 'asc' },
+          { name: 'publishDate', direction: 'desc' },
+        ],
+        name: 'blogpost_tags_date',
+      },
+    ],
+  },
+});
+```
+
+### Query Analysis
+
+Use Scalar's query analysis tools to identify slow queries:
+
+```bash
+# Enable query logging in development
+scalar dev --query-logging=true
+
+# Or in production configuration
+export default defineConfig({
+  database: {
+    monitoring: {
+      queryLogging: {
+        enabled: true,
+        slowQueryThreshold: 500 // Log queries taking > 500ms
+      }
+    }
+  }
+});
+```
+
+### Materialized Views
+
+For complex aggregations or reporting queries, use materialized views:
+
+```typescript
+// scalar.config.ts
+export default defineConfig({
+  database: {
+    materializedViews: [
+      {
+        name: 'popular_products',
+        query: `
+          SELECT 
+            p.id, 
+            p.name, 
+            p.slug, 
+            COUNT(o.id) as order_count
+          FROM product p
+          JOIN order_item oi ON p.id = oi.product_id
+          JOIN order o ON oi.order_id = o.id
+          WHERE o.created_at > NOW() - INTERVAL '30 days'
+          GROUP BY p.id, p.name, p.slug
+          ORDER BY order_count DESC
+          LIMIT 100
+        `,
+        refreshInterval: '1 hour',
+      },
+    ],
+  },
+});
+```
+
+## 7. Frontend Optimization
+
+While much of performance optimization happens on the backend, frontend techniques matter too:
+
+### State Management
+
+Scalar's client libraries include efficient state management:
+
+```typescript
+// React example with automatic request deduplication
+import { useContent } from '@scalar/react-hooks';
+
+function ProductList({ category }) {
+  // Multiple components can request the same data
+  // without duplicate network requests
+  const { data, loading, error } = useContent('product', {
+    where: { category },
+    orderBy: { popularity: 'desc' },
+    limit: 10,
+  });
+
+  // Render component...
+}
+```
+
+### Predictive Prefetching
+
+Implement predictive prefetching for common navigation paths:
+
+```typescript
+import { prefetchContent } from '@scalar/client';
+
+function ProductCard({ product }) {
+  const handleMouseEnter = () => {
+    // Prefetch full product details on hover
+    prefetchContent('product', {
+      where: { id: product.id },
+      include: ['related', 'reviews', 'variants']
+    });
+  };
+
+  return (
+    <div className="product-card" onMouseEnter={handleMouseEnter}>
+      {/* Product card content */}
+    </div>
+  );
+}
+```
+
+## 8. Monitoring and Optimization
+
+Continuous monitoring is essential for maintaining performance:
+
+### Real User Monitoring
+
+Implement RUM to understand actual user experience:
+
+```typescript
+// scalar.config.ts
+export default defineConfig({
+  monitoring: {
+    rum: {
+      enabled: true,
+      sampleRate: 0.1, // Monitor 10% of requests
+      excludePaths: ['/admin/**', '/api/health'],
+    },
+  },
+});
+```
+
+### Performance Dashboard
+
+Scalar provides a built-in performance dashboard showing:
+
+- API response times by endpoint
+- Cache hit rates
+- Asset delivery performance
+- Database query performance
+- Error rates
+
+Access this at `/admin/performance` in your Scalar admin interface.
+
+### Automated Optimization Suggestions
+
+Scalar analyzes your usage patterns and provides automated suggestions:
+
+```typescript
+// Run the performance advisor
+scalar performance:analyze
+
+// Sample output:
+// ✅ Query optimization: Add index on 'blogPost.author' to improve query performance
+// ✅ Cache optimization: Consider increasing cache TTL for '/api/products' to reduce database load
+// ✅ Asset optimization: 3 images exceed recommended size limits
+```
+
+## Case Study: E-commerce Performance Optimization
+
+Let's look at how one customer optimized their Scalar-powered e-commerce site:
+
+### Initial Challenges
+
+- Product listing pages loading in 3.5s (average)
+- Product detail pages loading in 2.8s
+- Cart updates taking 750ms
+- Mobile conversion rate 40% lower than desktop
+
+### Applied Optimizations
+
+1. **Content Model Redesign**
+
+   - Normalized product variants
+   - Created dedicated models for pricing and inventory
+   - Implemented intelligent content references
+
+2. **Image Pipeline**
+
+   - Implemented responsive image variants
+   - Adopted WebP with JPEG fallback
+   - Set up image quality tiers by importance
+
+3. **Caching Strategy**
+
+   - Product listings: 1 hour CDN cache
+   - Product details: 4 hour cache with revalidation
+   - Personalized content: Edge-computed with 5-minute cache
+
+4. **Regional Deployment**
+   - Deployed Scalar API to 6 edge regions
+   - Implemented regional database replicas
+   - Configured intelligent request routing
+
+### Results
+
+- Product listing pages: 950ms average load (73% improvement)
+- Product detail pages: 780ms average load (72% improvement)
+- Cart updates: 120ms (84% improvement)
+- Mobile conversion rate improved by 28%
+- 65% reduction in origin server load
+
+## Conclusion
+
+Performance optimization is an ongoing process, not a one-time effort. Scalar provides the tools and architecture to build high-performance content experiences, but the most significant gains come from thoughtful implementation and continuous refinement.
+
+By applying the strategies outlined in this guide, you can ensure your content delivers the speed and responsiveness users expect, regardless of scale or complexity.
+
+For more detailed performance guidance, explore our [performance documentation](https://docs.scalar.dev/guides/performance) or reach out to our [support team](https://scalar.dev/support) for personalized optimization recommendations.
+28:T656e,
+## Content Lifecycle Management with Scalar
+
+How to implement comprehensive governance from creation to archival using Scalar's workflow features.
+
+## Beyond Basic Content Management
+
+Modern organizations face increasingly complex content challenges:
+
+- Growing content volumes across multiple channels
+- Diverse content teams with specialized roles
+- Compliance and governance requirements
+- Need for content reuse and repurposing
+- Long-term content maintenance and archival
+
+Basic create-publish-update operations are no longer sufficient. Organizations need comprehensive content lifecycle management—a systematic approach to governing content from inception to retirement.
+
+Scalar provides a robust framework for implementing end-to-end content lifecycle management. This post explores how to leverage these capabilities to bring structure and efficiency to your content operations.
+
+## The Content Lifecycle Framework
+
+A well-designed content lifecycle typically includes these phases:
+
+1. **Planning** - Strategy, ideation, and scheduling
+2. **Creation** - Authoring, design, and assembly
+3. **Review** - Editing, approval, and compliance checks
+4. **Publishing** - Release, distribution, and promotion
+5. **Maintenance** - Updates, optimization, and monitoring
+6. **Archival** - Retirement, preservation, and pruning
+
+Let's examine how to implement each phase using Scalar.
+
+## Phase 1: Content Planning
+
+Effective content begins with proper planning. Scalar supports this phase through:
+
+### Content Calendar
+
+Scalar's calendar interface provides a visual overview of planned content:
+
+```typescript
+// Define scheduling metadata in your content model
+const BlogPost = defineType({
+  name: 'blogPost',
+  fields: {
+    // Standard content fields...
+
+    // Planning fields
+    plannedPublishDate: fields.date({
+      required: true,
+      description: 'Target date for publishing',
+    }),
+    author: fields.reference({
+      to: 'author',
+      required: true,
+    }),
+    status: fields.select({
+      options: [
+        { label: 'Planned', value: 'planned' },
+        { label: 'In Progress', value: 'in-progress' },
+        { label: 'In Review', value: 'in-review' },
+        { label: 'Ready', value: 'ready' },
+        { label: 'Published', value: 'published' },
+        { label: 'Updated', value: 'updated' },
+        { label: 'Archived', value: 'archived' },
+      ],
+      defaultValue: 'planned',
+    }),
+    priority: fields.select({
+      options: [
+        { label: 'Low', value: 'low' },
+        { label: 'Medium', value: 'medium' },
+        { label: 'High', value: 'high' },
+      ],
+      defaultValue: 'medium',
+    }),
+  },
+});
+```
+
+### Content Strategy Metadata
+
+Enhance your content with strategic context:
+
+```typescript
+const ContentPiece = defineType({
+  // ... other fields
+
+  // Strategy fields
+  contentGoal: fields.select({
+    options: [
+      { label: 'Acquisition', value: 'acquisition' },
+      { label: 'Conversion', value: 'conversion' },
+      { label: 'Retention', value: 'retention' },
+      { label: 'Support', value: 'support' },
+      { label: 'Brand Building', value: 'brand' },
+    ],
+  }),
+  targetPersona: fields.reference({
+    to: 'persona',
+    many: true,
+  }),
+  targetKeywords: fields.array({
+    of: fields.text(),
+  }),
+  contentBrief: fields.document({
+    description: 'Strategic brief for this content piece',
+  }),
+});
+```
+
+### Assignment and Workflow Initialization
+
+Set up automated processes to streamline planning:
+
+```typescript
+// Define a workflow rule
+export default defineConfig({
+  workflows: {
+    rules: [
+      {
+        name: 'Assign New Content',
+        on: {
+          event: 'create',
+          contentType: 'blogPost',
+        },
+        actions: [
+          {
+            type: 'notification',
+            to: ['content-team@example.com'],
+            subject: 'New content piece assigned: {{title}}',
+            message: `
+              A new content piece has been planned:
+              Title: {{title}}
+              Due Date: {{plannedPublishDate}}
+              Author: {{author.name}}
+              Priority: {{priority}}
+            `,
+          },
+          {
+            type: 'update',
+            field: 'status',
+            value: 'planned',
+          },
+        ],
+      },
+    ],
+  },
+});
+```
+
+## Phase 2: Content Creation
+
+The creation phase is where ideas transform into structured content. Scalar provides several features to support efficient creation:
+
+### Structured Content Templates
+
+Create templates for common content types:
+
+```typescript
+// Define a template
+export const blogPostTemplate = {
+  title: 'New Blog Post',
+  description: 'Enter a compelling description here...',
+  content: {
+    type: 'doc',
+    content: [
+      {
+        type: 'heading',
+        attrs: { level: 1 },
+        content: [{ type: 'text', text: 'Main Headline' }],
+      },
+      {
+        type: 'paragraph',
+        content: [
+          {
+            type: 'text',
+            text: 'Start with a compelling introduction...',
+          },
+        ],
+      },
+      {
+        type: 'heading',
+        attrs: { level: 2 },
+        content: [{ type: 'text', text: 'First Subheading' }],
+      },
+      {
+        type: 'paragraph',
+        content: [
+          {
+            type: 'text',
+            text: 'Explain your first point...',
+          },
+        ],
+      },
+      // Additional structure...
+    ],
+  },
+  status: 'in-progress',
+};
+
+// Register the template
+export default defineConfig({
+  templates: {
+    blogPost: [
+      {
+        name: 'Standard Blog Post',
+        template: blogPostTemplate,
+      },
+      {
+        name: 'How-To Guide',
+        template: howToTemplate,
+      },
+      // Other templates...
+    ],
+  },
+});
+```
+
+### Collaborative Authoring
+
+Enable real-time collaboration between team members:
+
+```typescript
+// Configure collaboration features
+export default defineConfig({
+  collaboration: {
+    enabled: true,
+    trackChanges: true,
+    presence: true,
+    comments: {
+      enabled: true,
+      notifications: true,
+    },
+  },
+});
+```
+
+### Progress Tracking
+
+Monitor content creation progress:
+
+```typescript
+const BlogPost = defineType({
+  // ... other fields
+
+  completionStatus: fields.object({
+    outline: fields.boolean({ defaultValue: false }),
+    firstDraft: fields.boolean({ defaultValue: false }),
+    mediaAssets: fields.boolean({ defaultValue: false }),
+    technicalReview: fields.boolean({ defaultValue: false }),
+    finalEdit: fields.boolean({ defaultValue: false }),
+  }),
+  completionPercentage: fields.computed({
+    resolve: (doc) => {
+      const statuses = doc.completionStatus;
+      const completed = Object.values(statuses).filter(Boolean).length;
+      const total = Object.values(statuses).length;
+      return (completed / total) * 100;
+    },
+  }),
+});
+```
+
+## Phase 3: Review and Approval
+
+The review phase ensures content meets quality standards before publishing. Scalar's workflow engine excels at orchestrating complex reviews:
+
+### Multi-Stage Approval Workflows
+
+Define comprehensive approval processes:
+
+```typescript
+// scalar.config.ts
+export default defineConfig({
+  workflows: {
+    approvals: {
+      types: {
+        blogPost: {
+          stages: [
+            {
+              name: 'Editorial Review',
+              description: 'Check for grammar, style, and structure',
+              assignees: ['editor-group'],
+              requiredApprovals: 1,
+            },
+            {
+              name: 'Technical Review',
+              description: 'Verify technical accuracy',
+              assignees: ['technical-reviewers'],
+              requiredApprovals: 1,
+              conditional: (content) =>
+                content.category === 'technical' ||
+                content.tags.includes('technical'),
+            },
+            {
+              name: 'Legal Review',
+              assignees: ['legal-team'],
+              requiredApprovals: 1,
+              conditional: (content) =>
+                content.requiresLegalReview ||
+                content.tags.includes('compliance'),
+            },
+            {
+              name: 'Final Approval',
+              assignees: ['content-director'],
+              requiredApprovals: 1,
+            },
+          ],
+        },
+      },
+    },
+  },
+});
+```
+
+### Review UI
+
+Scalar provides a dedicated interface for reviews with:
+
+- Side-by-side comparison with previous versions
+- Inline commenting and threaded discussions
+- Suggested edits functionality
+- Approval/rejection with required feedback
+- Audit trail of all review activities
+
+### Quality Checks
+
+Implement automated quality validations:
+
+```typescript
+// Configure quality checks
+export default defineConfig({
+  validation: {
+    rules: [
+      {
+        name: 'Minimum Content Length',
+        contentType: 'blogPost',
+        check: (doc) => {
+          const wordCount = doc.content.textContent.split(/\s+/).length;
+          return {
+            valid: wordCount >= 800,
+            message: `Article contains ${wordCount} words, minimum is 800`,
+          };
+        },
+      },
+      {
+        name: 'SEO Title Length',
+        contentType: 'blogPost',
+        check: (doc) => {
+          return {
+            valid: doc.title.length <= 60,
+            message: `Title is ${doc.title.length} chars, should be 60 or less`,
+          };
+        },
+      },
+      {
+        name: 'Required Images',
+        contentType: 'blogPost',
+        check: (doc) => {
+          const imageCount = doc.content.querySelectorAll('image').length;
+          return {
+            valid: imageCount >= 2,
+            message: `Article contains ${imageCount} images, minimum is 2`,
+          };
+        },
+      },
+    ],
+  },
+});
+```
+
+## Phase 4: Publishing
+
+The publishing phase makes content available to its intended audience. Scalar provides robust tools for controlled, scheduled release:
+
+### Scheduled Publishing
+
+Set up content to publish automatically at the optimal time:
+
+```typescript
+// Configure scheduled publishing
+export default defineConfig({
+  publishing: {
+    scheduling: {
+      enabled: true,
+      timezone: 'America/New_York',
+      schedulingField: 'publishDate',
+    },
+  },
+});
+
+// In your content model
+const BlogPost = defineType({
+  // ... other fields
+
+  publishDate: fields.datetime({
+    description: 'When this content should go live',
+  }),
+
+  expiryDate: fields.datetime({
+    description: 'When this content should be unpublished (optional)',
+  }),
+});
+```
+
+### Publishing Workflows
+
+Automate actions that should occur upon publishing:
+
+```typescript
+// Define publishing workflow
+export default defineConfig({
+  workflows: {
+    rules: [
+      {
+        name: 'Content Publishing Actions',
+        on: {
+          event: 'publish',
+          contentType: 'blogPost',
+        },
+        actions: [
+          {
+            // Send notifications
+            type: 'notification',
+            to: ['marketing@example.com', 'social@example.com'],
+            subject: 'New blog post published: {{title}}',
+            message: `
+              A new blog post has been published:
+              Title: {{title}}
+              URL: {{url}}
+              Author: {{author.name}}
+              Category: {{category}}
+              
+              Please promote this content through appropriate channels.
+            `,
+          },
+          {
+            // Update status
+            type: 'update',
+            field: 'status',
+            value: 'published',
+          },
+          {
+            // Trigger webhook to external systems
+            type: 'webhook',
+            url: 'https://api.example.com/social-scheduler',
+            method: 'POST',
+            body: {
+              contentType: 'blogPost',
+              title: '{{title}}',
+              excerpt: '{{description}}',
+              url: '{{url}}',
+              image: '{{coverImage.url}}',
+            },
+          },
+        ],
+      },
+    ],
+  },
+});
+```
+
+### Multi-Channel Distribution
+
+Configure content for distribution across multiple channels:
+
+```typescript
+const ContentPiece = defineType({
+  // ... other fields
+
+  distribution: fields.object({
+    website: fields.boolean({ defaultValue: true }),
+    emailNewsletter: fields.boolean({ defaultValue: false }),
+    socialMedia: fields.object({
+      twitter: fields.boolean({ defaultValue: false }),
+      linkedin: fields.boolean({ defaultValue: false }),
+      facebook: fields.boolean({ defaultValue: false }),
+      instagram: fields.boolean({ defaultValue: false }),
+    }),
+    syndication: fields.array({
+      of: fields.select({
+        options: [
+          { label: 'Medium', value: 'medium' },
+          { label: 'Dev.to', value: 'devto' },
+          { label: 'Partner Network', value: 'partners' },
+        ],
+      }),
+    }),
+  }),
+
+  channelSpecificContent: fields.object({
+    socialHeadline: fields.text({
+      description: 'Alternative headline for social media (optional)',
+    }),
+    emailSubject: fields.text({
+      description: 'Subject line when used in emails',
+    }),
+    twitterText: fields.text({
+      description: 'Twitter-specific copy (optional)',
+      validation: { maxLength: 280 },
+    }),
+  }),
+});
+```
+
+## Phase 5: Content Maintenance
+
+After publishing, content requires ongoing maintenance. Scalar's features support efficient content upkeep:
+
+### Content Freshness Tracking
+
+Monitor content age and relevance:
+
+```typescript
+const BlogPost = defineType({
+  // ... other fields
+
+  lastReviewedDate: fields.date(),
+
+  reviewFrequency: fields.select({
+    options: [
+      { label: 'Monthly', value: 'monthly' },
+      { label: 'Quarterly', value: 'quarterly' },
+      { label: 'Annually', value: 'annually' },
+      { label: 'As Needed', value: 'as-needed' },
+    ],
+    defaultValue: 'quarterly',
+  }),
+
+  freshnessScore: fields.computed({
+    resolve: (doc) => {
+      if (!doc.lastReviewedDate) return 0;
+
+      const today = new Date();
+      const reviewed = new Date(doc.lastReviewedDate);
+      const daysSinceReview = Math.floor(
+        (today - reviewed) / (1000 * 60 * 60 * 24),
+      );
+
+      // Calculate score based on review frequency
+      switch (doc.reviewFrequency) {
+        case 'monthly':
+          return Math.max(0, 100 - (daysSinceReview / 30) * 100);
+        case 'quarterly':
+          return Math.max(0, 100 - (daysSinceReview / 90) * 100);
+        case 'annually':
+          return Math.max(0, 100 - (daysSinceReview / 365) * 100);
+        default:
+          return 50; // Middle score for "as needed"
+      }
+    },
+  }),
+});
+```
+
+### Update Workflows
+
+Automate maintenance processes:
+
+```typescript
+// Configure content review reminders
+export default defineConfig({
+  workflows: {
+    rules: [
+      {
+        name: 'Content Review Reminder',
+        schedule: '0 9 * * 1', // Every Monday at 9am
+        query: {
+          contentType: 'blogPost',
+          where: {
+            lastReviewedDate: {
+              $lt: '{{now-90d}}', // Content not reviewed in 90 days
+            },
+            status: 'published',
+          },
+        },
+        actions: [
+          {
+            type: 'notification',
+            to: ['{{content.author.email}}', 'content-manager@example.com'],
+            subject: 'Content Review Needed: {{content.title}}',
+            message: `
+              The following content is due for review:
+              
+              Title: {{content.title}}
+              Last Reviewed: {{content.lastReviewedDate}}
+              URL: {{content.url}}
+              
+              Please review this content for accuracy and relevance.
+            `,
+          },
+          {
+            type: 'update',
+            field: 'reviewStatus',
+            value: 'due',
+          },
+        ],
+      },
+    ],
+  },
+});
+```
+
+### Performance Monitoring
+
+Track content effectiveness over time:
+
+```typescript
+const BlogPost = defineType({
+  // ... other fields
+
+  analytics: fields.object({
+    views: fields.number({ defaultValue: 0 }),
+    uniqueVisitors: fields.number({ defaultValue: 0 }),
+    averageTimeOnPage: fields.number({ defaultValue: 0 }),
+    conversionRate: fields.number({ defaultValue: 0 }),
+    lastUpdated: fields.datetime(),
+  }),
+
+  performanceTrend: fields.select({
+    options: [
+      { label: 'Increasing', value: 'increasing' },
+      { label: 'Stable', value: 'stable' },
+      { label: 'Decreasing', value: 'decreasing' },
+      { label: 'Not Enough Data', value: 'insufficient' },
+    ],
+    defaultValue: 'insufficient',
+  }),
+});
+```
+
+## Phase 6: Archival and Content Pruning
+
+The final phase of the content lifecycle involves strategic retirement of outdated content. Scalar provides tools for responsible content pruning:
+
+### Archival Workflow
+
+Set up processes for content retirement:
+
+```typescript
+// Configure archival workflow
+export default defineConfig({
+  workflows: {
+    rules: [
+      {
+        name: 'Content Archival Process',
+        on: {
+          event: 'update',
+          contentType: 'blogPost',
+          condition: (before, after) =>
+            before.status !== 'archived' && after.status === 'archived',
+        },
+        actions: [
+          {
+            // Create redirect
+            type: 'createRedirect',
+            source: '{{slug}}',
+            destination: '/blog',
+            isPermanent: true,
+          },
+          {
+            // Notify team
+            type: 'notification',
+            to: ['content-team@example.com'],
+            subject: 'Content Archived: {{title}}',
+            message: `
+              The following content has been archived:
+              
+              Title: {{title}}
+              URL: {{url}}
+              Archived By: {{user.email}}
+              Reason: {{archivalReason}}
+              
+              A 301 redirect has been created to the blog index.
+            `,
+          },
+          {
+            // Remove from search index
+            type: 'webhook',
+            url: 'https://api.example.com/search-index/remove',
+            method: 'POST',
+            body: {
+              id: '{{id}}',
+              url: '{{url}}',
+            },
+          },
+        ],
+      },
+    ],
+  },
+});
+```
+
+### Archival Metadata
+
+Add fields to track content retirement:
+
+```typescript
+const ContentPiece = defineType({
+  // ... other fields
+
+  archivalMetadata: fields
+    .object({
+      archivalDate: fields.date(),
+      archivalReason: fields.select({
+        options: [
+          { label: 'Outdated Information', value: 'outdated' },
+          { label: 'Low Performance', value: 'low-performance' },
+          { label: 'Redundant Content', value: 'redundant' },
+          { label: 'Product Discontinued', value: 'discontinued' },
+          { label: 'Legal/Compliance', value: 'legal' },
+          { label: 'Other', value: 'other' },
+        ],
+      }),
+      archivalNotes: fields.text(),
+      replacementContentId: fields.reference({
+        to: ['blogPost', 'page', 'document'],
+      }),
+    })
+    .when({
+      condition: (doc) => doc.status === 'archived',
+      required: true,
+    }),
+});
+```
+
+### Content Preservation
+
+Ensure content is properly preserved for future reference:
+
+```typescript
+// Configure content preservation settings
+export default defineConfig({
+  archival: {
+    preservation: {
+      enabled: true,
+      strategy: 'snapshot',
+      formats: ['html', 'json', 'pdf'],
+      storage: {
+        provider: 's3',
+        bucket: 'content-archive',
+        pathPrefix: 'archives/',
+      },
+      metadata: {
+        includeVersionHistory: true,
+        includeAnalytics: true,
+      },
+    },
+  },
+});
+```
+
+## Implementing a Complete Lifecycle System
+
+To bring all these elements together into a cohesive system:
+
+### 1. Define Clear Statuses
+
+Create a comprehensive set of statuses that reflect your lifecycle:
+
+```typescript
+const contentStatuses = [
+  { label: 'Draft', value: 'draft' },
+  { label: 'In Review', value: 'in-review' },
+  { label: 'Approved', value: 'approved' },
+  { label: 'Scheduled', value: 'scheduled' },
+  { label: 'Published', value: 'published' },
+  { label: 'Update Needed', value: 'update-needed' },
+  { label: 'Updating', value: 'updating' },
+  { label: 'Archived', value: 'archived' },
+];
+```
+
+### 2. Create Dashboard Views
+
+Configure role-specific dashboards:
+
+```typescript
+// Configure dashboards
+export default defineConfig({
+  dashboards: {
+    editors: {
+      widgets: [
+        {
+          type: 'content-list',
+          title: 'Content Needing Review',
+          query: {
+            contentType: 'blogPost',
+            where: { status: 'in-review' },
+            orderBy: { updatedAt: 'asc' },
+          },
+        },
+        {
+          type: 'calendar',
+          title: 'Publishing Calendar',
+          query: {
+            contentType: 'blogPost',
+            where: {
+              status: { $in: ['approved', 'scheduled'] },
+            },
+          },
+          dateField: 'publishDate',
+        },
+      ],
+    },
+    contentManagers: {
+      widgets: [
+        {
+          type: 'metrics',
+          title: 'Content Health',
+          metrics: [
+            {
+              name: 'Fresh Content',
+              query: {
+                contentType: 'blogPost',
+                where: { freshnessScore: { $gte: 70 } },
+              },
+              calculation: 'count',
+            },
+            {
+              name: 'Stale Content',
+              query: {
+                contentType: 'blogPost',
+                where: { freshnessScore: { $lt: 30 } },
+              },
+              calculation: 'count',
+            },
+          ],
+        },
+        {
+          type: 'chart',
+          title: 'Content by Status',
+          chartType: 'pie',
+          query: {
+            contentType: 'blogPost',
+            groupBy: 'status',
+          },
+        },
+      ],
+    },
+  },
+});
+```
+
+### 3. Set Up Role-Based Permissions
+
+Configure permissions aligned with your workflow:
+
+```typescript
+// Configure role-based permissions
+export default defineConfig({
+  roles: {
+    'content-creator': {
+      permissions: [
+        {
+          contentType: '*',
+          actions: ['create', 'read', 'update'],
+          conditions: {
+            status: { $nin: ['approved', 'published', 'archived'] },
+          },
+        },
+      ],
+    },
+    editor: {
+      permissions: [
+        {
+          contentType: '*',
+          actions: ['create', 'read', 'update', 'approve'],
+          conditions: {
+            status: { $nin: ['archived'] },
+          },
+        },
+      ],
+    },
+    'content-manager': {
+      permissions: [
+        {
+          contentType: '*',
+          actions: [
+            'create',
+            'read',
+            'update',
+            'approve',
+            'publish',
+            'archive',
+          ],
+        },
+      ],
+    },
+  },
+});
+```
+
+### 4. Connect External Systems
+
+Integrate with other tools in your content ecosystem:
+
+```typescript
+// Configure integrations
+export default defineConfig({
+  integrations: {
+    analytics: {
+      type: 'google-analytics',
+      propertyId: 'UA-XXXXXXXXX-X',
+      syncSchedule: '0 0 * * *', // Daily at midnight
+    },
+    marketing: {
+      type: 'hubspot',
+      apiKey: process.env.HUBSPOT_API_KEY,
+      mappings: {
+        blogPost: {
+          contentType: 'BLOG_POST',
+          fields: {
+            title: 'name',
+            publishDate: 'publish_date',
+            'author.name': 'author',
+            url: 'url',
+          },
+        },
+      },
+    },
+    translation: {
+      type: 'smartling',
+      apiKey: process.env.SMARTLING_API_KEY,
+      projectId: process.env.SMARTLING_PROJECT_ID,
+    },
+  },
+});
+```
+
+## Case Study: Enterprise Content Lifecycle Implementation
+
+A large financial services company implemented comprehensive content lifecycle management with Scalar. Here's how they structured their approach:
+
+### Challenge
+
+With over 5,000 content pieces across multiple product lines, they struggled with:
+
+- Inconsistent review processes
+- Outdated regulatory information
+- Poor visibility into content performance
+- Inefficient update workflows
+- Content duplication and overlap
+
+### Solution
+
+They implemented a Scalar-powered content hub with:
+
+1. **Centralized Content Repository**
+
+   - Unified content types across the organization
+   - Standardized metadata and tagging
+   - Integrated taxonomy management
+
+2. **Compliance-Focused Workflow**
+
+   - Legal and compliance review stages
+   - Automated expiration for time-sensitive content
+   - Complete audit trails for regulatory purposes
+
+3. **Performance-Driven Maintenance**
+
+   - Automated analytics collection
+   - Quarterly review cycles based on content type
+   - Structured archival process with proper redirects
+
+4. **Integration Ecosystem**
+   - Connected to customer support knowledge base
+   - Integrated with marketing automation
+   - Linked to learning management system
+
+### Results
+
+After implementation, they achieved:
+
+- 65% reduction in compliance incidents
+- 40% improvement in content update efficiency
+- 30% reduction in duplicate content
+- 85% of content now reviewed within appropriate timeframes
+- Complete defensible audit trail for regulators
+
+## Conclusion
+
+Effective content lifecycle management isn't just about tools—it's about establishing clear processes that govern how content moves through your organization. Scalar provides the technical framework to implement these processes, but success depends on aligning technology with your team's workflows and organizational needs.
+
+By implementing comprehensive lifecycle management, you can ensure your content remains accurate, relevant, and effective throughout its useful life—from initial planning through eventual archival.
+
+To learn more about content lifecycle management with Scalar, explore our [detailed documentation](https://docs.scalar.dev/guides/content-lifecycle) or join our [community forum](https://community.scalar.dev) to discuss best practices with other content operations professionals.
+29:T6020,
+## Building Custom Field Types in Scalar
+
+Extend Scalar's content modeling capabilities with custom fields tailored to your specific business needs.
+
+## Beyond Standard Fields
+
+Scalar comes with a robust set of built-in field types that cover most content modeling needs:
+
+- **Text-based fields:** text, multiline, richText, markdown, etc.
+- **Numeric fields:** number, integer, decimal, etc.
+- **Selection fields:** select, multiSelect, boolean, etc.
+- **Media fields:** image, file, video, audio, etc.
+- **Relationship fields:** reference, relation, etc.
+- **Structural fields:** object, array, etc.
+
+However, there are always domain-specific requirements that call for specialized content structures. This is where custom field types come in.
+
+Custom fields allow you to extend Scalar's type system with your own field implementations that perfectly match your business domain. In this guide, we'll explore how to build, implement, and deploy custom fields in Scalar.
+
+## Use Cases for Custom Fields
+
+Before diving into implementation, let's consider some real-world scenarios where custom fields can add significant value:
+
+### E-commerce Product Specifications
+
+Standard fields might be insufficient for complex product data like:
+
+- Size charts with unit conversion
+- Color swatches with hex values and named colors
+- Nutrition facts for food products
+- Technical specifications with standardized values
+
+### Location and Geospatial Data
+
+Projects dealing with location data might need:
+
+- Address fields with formatting and validation
+- Map coordinates with visual selection
+- Region selectors with hierarchical data
+- Distance calculators
+
+### Specialized Content Types
+
+Domain-specific content often requires custom structures:
+
+- Code snippets with syntax highlighting
+- Mathematical equations with rendering
+- Chemical formulas
+- Medical data with standardized codes
+
+### Interactive Elements
+
+Custom fields can power interactive content:
+
+- Quizzes and assessments
+- Interactive calculators
+- Configurable forms
+- Embedded widgets
+
+Let's build some practical examples to demonstrate how custom fields work in Scalar.
+
+## Building Your First Custom Field
+
+We'll start with a relatively simple but practical example: a color picker field that stores and validates color values.
+
+### 1. Setting Up the Development Environment
+
+First, create a new package for your custom field:
+
+```bash
+mkdir scalar-color-field
+cd scalar-color-field
+npm init -y
+npm install --save-dev @scalar/field-types react typescript
+```
+
+Create a TypeScript configuration:
+
+```json
+// tsconfig.json
+{
+  "compilerOptions": {
+    "target": "es2018",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "declaration": true,
+    "outDir": "./dist",
+    "strict": true,
+    "jsx": "react",
+    "esModuleInterop": true,
+    "skipLibCheck": true
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", "dist"]
+}
+```
+
+### 2. Defining the Field Schema
+
+Create the field type definition:
+
+```typescript
+// src/schema.ts
+import { defineField, FieldValidators } from '@scalar/field-types';
+
+// Define the color field schema
+export interface ColorFieldSchema {
+  defaultValue?: string;
+  allowedFormats?: ('hex' | 'rgb' | 'rgba' | 'hsl')[];
+  presets?: {
+    name: string;
+    value: string;
+  }[];
+}
+
+// Define color field specific validators
+export interface ColorFieldValidators extends FieldValidators {
+  hexOnly?: boolean;
+  includeAlpha?: boolean;
+}
+
+// Define the field type
+export const colorField = defineField<
+  ColorFieldSchema,
+  ColorFieldValidators,
+  string
+>({
+  // Type name used in content models
+  name: 'color',
+
+  // Default configuration
+  defaultConfig: {
+    allowedFormats: ['hex', 'rgb', 'rgba'],
+    presets: [],
+  },
+
+  // Field schema validations
+  validateConfig: (config) => {
+    const errors = [];
+
+    // Validate default value matches allowed formats
+    if (
+      config.defaultValue &&
+      !isValidColor(config.defaultValue, config.allowedFormats)
+    ) {
+      errors.push(
+        `Default value "${config.defaultValue}" must be a valid color in one of the allowed formats.`,
+      );
+    }
+
+    // Return validation results
+    return { valid: errors.length === 0, errors };
+  },
+
+  // Value validation logic
+  validateValue: (value, config, validators) => {
+    if (value === undefined || value === null) {
+      return { valid: true };
+    }
+
+    const errors = [];
+
+    // Check if it's a valid color
+    if (!isValidColor(value, config.allowedFormats)) {
+      errors.push(`Value must be a valid color in one of the allowed formats.`);
+    }
+
+    // Check hex-only validation if specified
+    if (validators?.hexOnly && !value.startsWith('#')) {
+      errors.push('Value must be in hexadecimal format.');
+    }
+
+    // Check alpha validation if specified
+    if (
+      validators?.includeAlpha === false &&
+      (value.startsWith('rgba') ||
+        (value.includes(',') && value.split(',').length > 3))
+    ) {
+      errors.push('Alpha values are not allowed.');
+    }
+
+    return { valid: errors.length === 0, errors };
+  },
+});
+
+// Helper function to validate colors
+function isValidColor(
+  value: string,
+  allowedFormats?: ('hex' | 'rgb' | 'rgba' | 'hsl')[],
+): boolean {
+  // Basic validation for various color formats
+  const patterns = {
+    hex: /^#([A-Fa-f0-9]{3}|[A-Fa-f0-9]{6}|[A-Fa-f0-9]{8})$/,
+    rgb: /^rgb\(\s*\d+\s*,\s*\d+\s*,\s*\d+\s*\)$/,
+    rgba: /^rgba\(\s*\d+\s*,\s*\d+\s*,\s*\d+\s*,\s*(0|0\.\d+|1|1\.0+)\s*\)$/,
+    hsl: /^hsl\(\s*\d+\s*,\s*\d+%\s*,\s*\d+%\s*\)$/,
+  };
+
+  // If no formats are specified, allow all
+  const formats = allowedFormats || ['hex', 'rgb', 'rgba', 'hsl'];
+
+  // Check if the value matches any of the allowed formats
+  return formats.some((format) => patterns[format].test(value));
+}
+```
+
+### 3. Creating the Input Component
+
+Next, create the React component that renders the color picker:
+
+```tsx
+// src/ColorInput.tsx
+import React, { useState, useEffect } from 'react';
+import { FieldInputProps } from '@scalar/field-types';
+import { ColorFieldSchema } from './schema';
+
+export const ColorInput: React.FC<
+  FieldInputProps<string, ColorFieldSchema>
+> = ({ value, onChange, config, disabled, error }) => {
+  const [colorValue, setColorValue] = useState(
+    value || config.defaultValue || '#000000',
+  );
+
+  // Update the parent when local value changes
+  useEffect(() => {
+    if (value !== colorValue) {
+      onChange(colorValue);
+    }
+  }, [colorValue]);
+
+  // Update local state when the value prop changes
+  useEffect(() => {
+    if (value && value !== colorValue) {
+      setColorValue(value);
+    }
+  }, [value]);
+
+  // Handle input changes
+  const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    setColorValue(e.target.value);
+  };
+
+  // Handle preset selection
+  const handlePresetClick = (presetValue: string) => {
+    setColorValue(presetValue);
+  };
+
+  return (
+    <div className="color-field-container">
+      <div className="color-picker-row">
+        <input
+          type="color"
+          value={colorValue.startsWith('#') ? colorValue : '#000000'}
+          onChange={handleInputChange}
+          disabled={disabled}
+          className="color-picker"
+        />
+        <input
+          type="text"
+          value={colorValue}
+          onChange={handleInputChange}
+          disabled={disabled}
+          className={`color-text-input ${error ? 'has-error' : ''}`}
+          placeholder="Enter color value"
+        />
+      </div>
+
+      {config.presets && config.presets.length > 0 && (
+        <div className="color-presets">
+          {config.presets.map((preset, index) => (
+            <button
+              key={index}
+              type="button"
+              className="color-preset-button"
+              style={{ backgroundColor: preset.value }}
+              title={preset.name}
+              onClick={() => handlePresetClick(preset.value)}
+              disabled={disabled}
+            />
+          ))}
+        </div>
+      )}
+
+      {error && <div className="color-field-error">{error}</div>}
+    </div>
+  );
+};
+```
+
+### 4. Defining the Preview Component
+
+Create a component for displaying the color in read-only contexts:
+
+```tsx
+// src/ColorPreview.tsx
+import React from 'react';
+import { FieldPreviewProps } from '@scalar/field-types';
+import { ColorFieldSchema } from './schema';
+
+export const ColorPreview: React.FC<
+  FieldPreviewProps<string, ColorFieldSchema>
+> = ({ value, config }) => {
+  if (!value) {
+    return <span className="empty-color">No color selected</span>;
+  }
+
+  return (
+    <div className="color-preview">
+      <div className="color-swatch" style={{ backgroundColor: value }} />
+      <span className="color-value">{value}</span>
+    </div>
+  );
+};
+```
+
+### 5. Creating the Main Export
+
+Tie everything together in your main file:
+
+```tsx
+// src/index.ts
+import { registerFieldType } from '@scalar/field-types';
+import { colorField } from './schema';
+import { ColorInput } from './ColorInput';
+import { ColorPreview } from './ColorPreview';
+
+// Register the field type
+registerFieldType({
+  type: colorField,
+  Input: ColorInput,
+  Preview: ColorPreview,
+});
+
+// Export all components and types
+export { colorField, ColorInput, ColorPreview };
+export * from './schema';
+```
+
+### 6. Building and Publishing
+
+Create a build script in your package.json:
+
+```json
+{
+  "name": "scalar-color-field",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "peerDependencies": {
+    "@scalar/field-types": "^1.0.0",
+    "react": "^17.0.0 || ^18.0.0"
+  },
+  "devDependencies": {
+    "@scalar/field-types": "^1.0.0",
+    "@types/react": "^18.0.0",
+    "react": "^18.0.0",
+    "typescript": "^4.5.5"
+  }
+}
+```
+
+Run the build and publish your package:
+
+```bash
+npm run build
+npm publish
+```
+
+## Using Custom Fields in Scalar
+
+Now that we've created our custom color field, let's see how to use it in a Scalar project.
+
+### Installing the Custom Field
+
+In your Scalar project:
+
+```bash
+npm install scalar-color-field
+```
+
+### Registering the Field
+
+In your Scalar configuration:
+
+```typescript
+// scalar.config.ts
+import { defineConfig } from '@scalar/config';
+import 'scalar-color-field'; // This registers the field type
+
+export default defineConfig({
+  // Your Scalar configuration
+});
+```
+
+### Using the Field in a Content Model
+
+```typescript
+// content-types.ts
+import { defineType, fields } from 'scalar';
+import { colorField } from 'scalar-color-field';
+
+const Product = defineType({
+  name: 'product',
+  fields: {
+    name: fields.text({ required: true }),
+
+    // Use the custom color field
+    primaryColor: colorField({
+      allowedFormats: ['hex', 'rgb'],
+      presets: [
+        { name: 'Brand Blue', value: '#0066cc' },
+        { name: 'Brand Red', value: '#cc0000' },
+        { name: 'Brand Green', value: '#00cc66' },
+      ],
+      validation: {
+        hexOnly: true,
+      },
+    }),
+
+    // Other fields...
+  },
+});
+```
+
+## Building More Complex Custom Fields
+
+Now that we understand the basics, let's explore a more complex custom field: an address field with formatting and validation.
+
+### Address Field Schema
+
+```typescript
+// src/schema.ts
+import { defineField, FieldValidators } from '@scalar/field-types';
+
+// Define the address data structure
+export interface AddressData {
+  street1: string;
+  street2?: string;
+  city: string;
+  state: string;
+  zipCode: string;
+  country: string;
+  coordinates?: {
+    latitude: number;
+    longitude: number;
+  };
+}
+
+// Define the address field schema
+export interface AddressFieldSchema {
+  defaultValue?: Partial<AddressData>;
+  availableCountries?: string[];
+  requireCoordinates?: boolean;
+  formatString?: string;
+}
+
+// Define address field specific validators
+export interface AddressFieldValidators extends FieldValidators {
+  validateZipCode?: boolean;
+  requireStreet2?: boolean;
+}
+
+// Define the field type
+export const addressField = defineField<
+  AddressFieldSchema,
+  AddressFieldValidators,
+  AddressData
+>({
+  name: 'address',
+
+  defaultConfig: {
+    availableCountries: ['US', 'CA', 'GB'],
+    requireCoordinates: false,
+    formatString:
+      '{{street1}}{{#if street2}}, {{street2}}{{/if}}, {{city}}, {{state}} {{zipCode}}, {{country}}',
+  },
+
+  // Custom serialization to JSON
+  toJSON: (value) => {
+    if (!value) return null;
+    return JSON.stringify(value);
+  },
+
+  // Custom parsing from JSON
+  fromJSON: (json) => {
+    if (!json) return null;
+    try {
+      return JSON.parse(json);
+    } catch (e) {
+      return null;
+    }
+  },
+
+  // Format the address for display
+  format: (value, config) => {
+    if (!value) return '';
+
+    // Use the format string to format the address
+    let formatted = config.formatString || '';
+
+    // Replace simple tokens
+    Object.entries(value).forEach(([key, val]) => {
+      if (typeof val === 'string') {
+        formatted = formatted.replace(new RegExp(`{{${key}}}`, 'g'), val);
+      }
+    });
+
+    // Handle conditionals
+    const conditionalRegex = /{{#if (\w+)}}(.*?){{\/if}}/g;
+    formatted = formatted.replace(conditionalRegex, (match, field, content) => {
+      return value[field] ? content : '';
+    });
+
+    return formatted;
+  },
+
+  // Validate the field configuration
+  validateConfig: (config) => {
+    const errors = [];
+
+    // Validate format string
+    if (config.formatString && !config.formatString.includes('{{street1}}')) {
+      errors.push('Format string must include {{street1}} token');
+    }
+
+    return { valid: errors.length === 0, errors };
+  },
+
+  // Validate the field value
+  validateValue: (value, config, validators) => {
+    if (!value) {
+      return { valid: true };
+    }
+
+    const errors = [];
+
+    // Check required fields
+    ['street1', 'city', 'state', 'zipCode', 'country'].forEach((field) => {
+      if (!value[field]) {
+        errors.push(`${field} is required`);
+      }
+    });
+
+    // Check if street2 is required
+    if (validators?.requireStreet2 && !value.street2) {
+      errors.push('street2 is required');
+    }
+
+    // Check if coordinates are required
+    if (config.requireCoordinates && !value.coordinates) {
+      errors.push('Coordinates are required');
+    }
+
+    // Check available countries
+    if (
+      value.country &&
+      config.availableCountries &&
+      !config.availableCountries.includes(value.country)
+    ) {
+      errors.push(
+        `Country must be one of: ${config.availableCountries.join(', ')}`,
+      );
+    }
+
+    // Validate zip code format if enabled
+    if (validators?.validateZipCode && value.zipCode) {
+      // Simple zip code validation for US
+      if (value.country === 'US' && !/^\d{5}(-\d{4})?$/.test(value.zipCode)) {
+        errors.push('Invalid US zip code format');
+      }
+      // Add other country postal code validations as needed
+    }
+
+    return { valid: errors.length === 0, errors };
+  },
+});
+```
+
+The implementation would follow a similar pattern to our color field, but with more complex input and preview components. This example demonstrates the flexibility of Scalar's custom field API to handle complex, structured data types.
+
+## Advanced Field Features
+
+Let's explore some advanced features you can implement in your custom fields:
+
+### 1. Remote Data Integration
+
+Fields can fetch data from external sources:
+
+```tsx
+// ProductSkuInput component
+const ProductSkuInput: React.FC<FieldInputProps<string>> = ({
+  value,
+  onChange,
+  config,
+}) => {
+  const [skuData, setSkuData] = useState(null);
+  const [loading, setLoading] = useState(false);
+
+  // Fetch product data when SKU changes
+  useEffect(() => {
+    if (!value) return;
+
+    setLoading(true);
+    fetch(`/api/products/validate-sku?sku=${value}`)
+      .then((res) => res.json())
+      .then((data) => {
+        setSkuData(data);
+        setLoading(false);
+      })
+      .catch(() => {
+        setSkuData(null);
+        setLoading(false);
+      });
+  }, [value]);
+
+  return (
+    <div className="sku-field">
+      <input
+        type="text"
+        value={value || ''}
+        onChange={(e) => onChange(e.target.value)}
+      />
+
+      {loading && <div className="sku-loading">Validating SKU...</div>}
+
+      {skuData && (
+        <div className="sku-data">
+          <div className="sku-valid">✓ Valid SKU</div>
+          <div className="sku-details">
+            <div>Product: {skuData.name}</div>
+            <div>Stock: {skuData.stockLevel}</div>
+            <div>Category: {skuData.category}</div>
+          </div>
+        </div>
+      )}
+    </div>
+  );
+};
+```
+
+### 2. Custom Validation Rules
+
+Implement complex validation logic:
+
+```typescript
+// ISBN field validator
+validateValue: (value, config, validators) => {
+  if (!value) return { valid: true };
+
+  const errors = [];
+
+  // Remove hyphens and spaces
+  const cleanISBN = value.replace(/[-\s]/g, '');
+
+  // Validate ISBN-10
+  if (cleanISBN.length === 10) {
+    let sum = 0;
+    for (let i = 0; i < 9; i++) {
+      sum += parseInt(cleanISBN[i]) * (10 - i);
+    }
+
+    // Handle X check digit
+    if (cleanISBN[9].toUpperCase() === 'X') {
+      sum += 10;
+    } else {
+      sum += parseInt(cleanISBN[9]);
+    }
+
+    if (sum % 11 !== 0) {
+      errors.push('Invalid ISBN-10 check digit');
+    }
+  }
+  // Validate ISBN-13
+  else if (cleanISBN.length === 13) {
+    let sum = 0;
+    for (let i = 0; i < 12; i++) {
+      sum += parseInt(cleanISBN[i]) * (i % 2 === 0 ? 1 : 3);
+    }
+
+    const checkDigit = (10 - (sum % 10)) % 10;
+    if (parseInt(cleanISBN[12]) !== checkDigit) {
+      errors.push('Invalid ISBN-13 check digit');
+    }
+  } else {
+    errors.push('ISBN must be 10 or 13 characters (excluding hyphens)');
+  }
+
+  return { valid: errors.length === 0, errors };
+};
+```
+
+### 3. Compound Fields
+
+Create fields that combine multiple inputs:
+
+```tsx
+// PriceInput component
+const PriceInput: React.FC<
+  FieldInputProps<{ amount: number; currency: string }>
+> = ({ value, onChange, config }) => {
+  const currentValue = value || { amount: 0, currency: 'USD' };
+
+  const handleAmountChange = (e) => {
+    onChange({
+      ...currentValue,
+      amount: parseFloat(e.target.value),
+    });
+  };
+
+  const handleCurrencyChange = (e) => {
+    onChange({
+      ...currentValue,
+      currency: e.target.value,
+    });
+  };
+
+  return (
+    <div className="price-field">
+      <div className="price-inputs">
+        <select
+          value={currentValue.currency}
+          onChange={handleCurrencyChange}
+          className="currency-select"
+        >
+          <option value="USD">$</option>
+          <option value="EUR">€</option>
+          <option value="GBP">£</option>
+          <option value="JPY">¥</option>
+        </select>
+
+        <input
+          type="number"
+          value={currentValue.amount}
+          onChange={handleAmountChange}
+          step="0.01"
+          min="0"
+          className="amount-input"
+        />
+      </div>
+    </div>
+  );
+};
+```
+
+### 4. Rich Media Fields
+
+Create fields for specialized media:
+
+```tsx
+// 360 Degree Product View field
+const ProductView360Input: React.FC<FieldInputProps<string[]>> = ({
+  value,
+  onChange,
+  config,
+}) => {
+  const [images, setImages] = useState(value || []);
+  const [uploadProgress, setUploadProgress] = useState(0);
+
+  const handleFileUpload = async (files) => {
+    setUploadProgress(0);
+
+    const uploadedUrls = [];
+    let completed = 0;
+
+    for (const file of files) {
+      // Upload the file
+      const formData = new FormData();
+      formData.append('file', file);
+
+      const response = await fetch('/api/upload', {
+        method: 'POST',
+        body: formData,
+        onUploadProgress: (progressEvent) => {
+          const progress =
+            (completed + progressEvent.loaded / progressEvent.total) /
+            files.length;
+          setUploadProgress(progress * 100);
+        },
+      });
+
+      const result = await response.json();
+      uploadedUrls.push(result.url);
+      completed += 1 / files.length;
+    }
+
+    // Sort images by filename to ensure correct order
+    const sortedUrls = uploadedUrls.sort();
+
+    setImages(sortedUrls);
+    onChange(sortedUrls);
+    setUploadProgress(100);
+  };
+
+  return (
+    <div className="product-view-360">
+      <div className="upload-zone">
+        <input
+          type="file"
+          multiple
+          accept="image/*"
+          onChange={(e) => handleFileUpload(e.target.files)}
+        />
+        <div className="upload-instructions">
+          Upload 24-36 images taken at equal intervals around the product
+        </div>
+      </div>
+
+      {uploadProgress > 0 && uploadProgress < 100 && (
+        <div className="progress-bar">
+          <div className="progress" style={{ width: `${uploadProgress}%` }} />
+        </div>
+      )}
+
+      {images.length > 0 && (
+        <div className="preview-360">
+          <div className="image-count">{images.length} images</div>
+          <div className="preview-container">
+            {/* 360 view preview component */}
+          </div>
+        </div>
+      )}
+    </div>
+  );
+};
+```
+
+## Sharing and Publishing Field Types
+
+To make your custom fields reusable across projects and teams:
+
+### 1. Field Type Registries
+
+Create a central registry for your organization's field types:
+
+```typescript
+// @your-org/scalar-fields/src/index.ts
+
+// Import and re-export all custom fields
+export { colorField } from './color-field';
+export { addressField } from './address-field';
+export { priceField } from './price-field';
+export { skuField } from './sku-field';
+// And so on...
+
+// Register all fields
+import './color-field';
+import './address-field';
+import './price-field';
+import './sku-field';
+// And so on...
+```
+
+### 2. Documentation
+
+Add comprehensive documentation:
+
+````typescript
+// Documented field type
+export const productSpecificationField = defineField<ProductSpecSchema>({
+  name: 'productSpec',
+
+  /**
+   * Product specification field for standardized technical specifications.
+   *
+   * @example
+   * ```typescript
+   * const Product = defineType({
+   *   fields: {
+   *     technicalSpecs: productSpecificationField({
+   *       categories: ['dimensions', 'performance', 'connectivity'],
+   *       allowCustomSpecs: true
+   *     })
+   *   }
+   * });
+   * ```
+   *
+   * @see Documentation at https://your-docs-site.com/fields/product-spec
+   */
+
+  // Field implementation...
+});
+````
+
+### 3. Testing
+
+Add tests to ensure quality:
+
+```typescript
+// Field type test
+describe('colorField', () => {
+  it('validates hex colors correctly', () => {
+    const field = colorField({
+      allowedFormats: ['hex'],
+    });
+
+    const valid = field.validateValue('#FF5733', field.config);
+    expect(valid.valid).toBe(true);
+
+    const invalid = field.validateValue('rgb(255, 87, 51)', field.config);
+    expect(invalid.valid).toBe(false);
+    expect(invalid.errors).toContain(
+      'Value must be a valid color in one of the allowed formats.',
+    );
+  });
+
+  // More tests...
+});
+```
+
+## Case Study: Domain-Specific Fields
+
+Here's how one organization leveraged custom fields for their specific domain:
+
+### Healthcare Document Management System
+
+A healthcare provider built custom fields for their clinical documentation system:
+
+**1. Medication Field**
+
+- Autocomplete from medication database
+- Dose calculator with unit conversion
+- Interaction checker
+- Formulary status indicator
+
+**2. Diagnosis Code Field**
+
+- ICD-10 code validator
+- Hierarchical code browser
+- Related codes suggestion
+
+**3. Vitals Field**
+
+- Range validation by patient demographics
+- Trend visualization
+- Anomaly highlighting
+
+These custom fields significantly improved data quality and clinical workflow efficiency. By building these as reusable field types, they maintained consistency across their suite of healthcare applications.
+
+## Conclusion
+
+Custom field types allow you to extend Scalar's capabilities to perfectly match your business domain. By creating specialized fields, you can:
+
+- Improve data quality through custom validation
+- Enhance the editing experience with domain-specific inputs
+- Ensure consistent data structures across your content models
+- Reduce implementation complexity for specialized content types
+
+Whether you're building simple UI enhancements like color pickers or complex domain-specific fields like medical record components, Scalar's field type system provides the flexibility to meet your needs.
+
+Ready to build your own custom fields? Check out our [field type SDK documentation](https://docs.scalar.dev/sdk/field-types) and join our [developer community](https://discord.gg/scalar) to share your creations with other Scalar developers.
+c:["$","$L1a",null,{"blogPosts":[{"slug":"blog-1","title":"Code-first content modeling","description":"Explore the advantages of code-first schemas and how Scalar brings structure and flexibility to your stack.","date":"2025-04-11","authors":[{"name":"Rob Austin","image":"/images/blog/authors/robert-austin.webp"}],"tags":["Product"],"content":"$1b"},{"slug":"blog-2","title":"How Scalar generates GraphQL APIs instantly","description":"Learn how Scalar turns your content models into ready-to-query GraphQL endpoints - no backend setup required.","date":"2025-04-08","authors":[{"name":"Fedir Davydov","image":"/images/blog/authors/fedir-davydov.webp"}],"tags":["Product"],"content":"$1c"},{"slug":"blog-3","title":"Scaling content teams without slowing down","description":"Role-based permissions, draft workflows, and live preview - how Scalar empowers content editors to move fast without breaking things.","date":"2025-04-05","authors":[{"name":"Yassine Zaanouni","image":"/images/blog/authors/yassine-zaanouni.webp"}],"tags":["Product"],"content":"$1d"},{"slug":"blog-4","title":"Introducing Scalar Cloud","description":"We are launching Scalar Cloud - everything you love about Scalar, now hosted with autoscale, team features, and zero setup.","date":"2025-04-01","authors":[{"name":"Rob Austin","image":"/images/blog/authors/robert-austin.webp"}],"tags":["Changelog"],"content":"$1e"},{"slug":"blog-5","title":"REST vs GraphQL","description":"A practical look at when to use GraphQL vs REST APIs for headless CMS integrations - and how Scalar supports both.","date":"2025-03-28","authors":[{"name":"Yassine Zaanouni","image":"/images/blog/authors/yassine-zaanouni.webp"}],"tags":["Guides"],"content":"$1f"},{"slug":"blog-6","title":"Building a blog with Scalar, Next.js, and Tailwind","description":"Follow this step-by-step guide to launch a performant, developer-friendly blog using Scalar CMS and your favorite tools.","date":"2025-03-25","authors":[{"name":"Yassine Zaanouni","image":"/images/blog/authors/yassine-zaanouni.webp"}],"tags":["Guides"],"content":"$20"},{"slug":"blog-7","title":"From markdown to structured content","description":"Why content teams are moving away from flat files and how structured data unlocks collaboration, APIs, and automation.","date":"2025-03-20","authors":[{"name":"Rob Austin","image":"/images/blog/authors/robert-austin.webp"}],"tags":["Product"],"content":"$21"},{"slug":"blog-8","title":"How we built Scalar's visual model editor","description":"Go behind the scenes with our product team on building Scalar's drag-and-drop schema editor - and what's coming next.","date":"2025-03-16","authors":[{"name":"Fedir Davydov","image":"/images/blog/authors/fedir-davydov.webp"}],"tags":["Product"],"content":"$22"},{"slug":"blog-9","title":"Open Source at the core of Scalar","description":"Why we chose to open source Scalar, how we think about sustainability, and how you can get involved.","date":"2025-03-12","authors":[{"name":"Yassine Zaanouni","image":"/images/blog/authors/yassine-zaanouni.webp"}],"tags":["Community"],"content":"$23"},{"slug":"blog-10","title":"Designing a CMS developers actually want to use","description":"A deep dive into our design philosophy at Scalar - from intuitive APIs to a clean UI that feels like part of your stack.","date":"2025-03-07","authors":[{"name":"Rob Austin","image":"/images/blog/authors/robert-austin.webp"},{"name":"Fedir Davydov","image":"/images/blog/authors/fedir-davydov.webp"}],"tags":["Community"],"content":"$24"},{"slug":"blog-11","title":"Serverless Deployment for Scalar Applications","description":"Learn how to deploy your Scalar CMS to serverless environments for better scaling, cost efficiency, and simplified management.","date":"2025-03-03","authors":[{"name":"Yassine Zaanouni","image":"/images/blog/authors/yassine-zaanouni.webp"}],"tags":["Guides"],"content":"$25"},{"slug":"blog-12","title":"Implementing Multilingual Content with Scalar","description":"A comprehensive guide to building truly global websites with Scalar's localization features and best practices.","date":"2025-02-28","authors":[{"name":"Fedir Davydov","image":"/images/blog/authors/fedir-davydov.webp"},{"name":"Rob Austin","image":"/images/blog/authors/robert-austin.webp"}],"tags":["Guides"],"content":"$26"},{"slug":"blog-13","title":"Optimizing Content Performance with Scalar","description":"Learn how to leverage Scalar's performance features to deliver lightning-fast content experiences to your users.","date":"2025-02-25","authors":[{"name":"Yassine Zaanouni","image":"/images/blog/authors/yassine-zaanouni.webp"}],"tags":["Guides"],"content":"$27"},{"slug":"blog-14","title":"Content Lifecycle Management with Scalar","description":"How to implement comprehensive governance from creation to archival using Scalar's workflow features.","date":"2025-02-22","authors":[{"name":"Rob Austin","image":"/images/blog/authors/robert-austin.webp"}],"tags":["Guides"],"content":"$28"},{"slug":"blog-15","title":"Building Custom Field Types in Scalar","description":"Extend Scalar's content modeling capabilities with custom fields tailored to your specific business needs.","date":"2025-02-19","authors":[{"name":"Fedir Davydov","image":"/images/blog/authors/fedir-davydov.webp"},{"name":"Yassine Zaanouni","image":"/images/blog/authors/yassine-zaanouni.webp"}],"tags":["Guides"],"content":"$29"}]}]
+11:null
+15:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+10:null
+19:{"metadata":[["$","title","0",{"children":"Blog - Scalar | EveryX"}],["$","meta","1",{"name":"description","content":"Latest news, updates, and insights from the Scalar team"}],["$","meta","2",{"name":"author","content":"EveryX - Shadcnblocks.com"}],["$","meta","3",{"name":"keywords","content":"Next.js,React,JavaScript,TypeScript,TailwindCSS,Template,Shadcn/UI,Web Development"}],["$","meta","4",{"name":"creator","content":"EveryX - Shadcnblocks.com"}],["$","meta","5",{"name":"publisher","content":"EveryX"}],["$","meta","6",{"name":"robots","content":"index, follow"}],["$","meta","7",{"property":"og:title","content":"EveryX - Scalar Variant"}],["$","meta","8",{"property":"og:description","content":"EveryX landing page variant built with the premium Scalar theme."}],["$","meta","9",{"property":"og:site_name","content":"EveryX"}],["$","meta","10",{"property":"og:image","content":"https://your-domain.com/og-image.jpg"}],["$","meta","11",{"property":"og:image:width","content":"1200"}],["$","meta","12",{"property":"og:image:height","content":"630"}],["$","meta","13",{"property":"og:image:alt","content":"EveryX - Scalar Variant"}],["$","meta","14",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","15",{"name":"twitter:creator","content":"@shadcnblocks"}],["$","meta","16",{"name":"twitter:title","content":"EveryX - Scalar Variant"}],["$","meta","17",{"name":"twitter:description","content":"EveryX landing page variant built with the premium Scalar theme."}],["$","meta","18",{"name":"twitter:image","content":"https://your-domain.com/og-image.jpg"}],["$","link","19",{"rel":"shortcut icon","href":"/favicon/favicon.ico"}],["$","link","20",{"rel":"icon","href":"/favicon/favicon.ico","sizes":"48x48"}],["$","link","21",{"rel":"icon","href":"/favicon/favicon.svg","type":"image/svg+xml"}],["$","link","22",{"rel":"icon","href":"/favicon/favicon-96x96.png","sizes":"96x96","type":"image/png"}],["$","link","23",{"rel":"icon","href":"/favicon/favicon.svg","type":"image/svg+xml"}],["$","link","24",{"rel":"icon","href":"/favicon/favicon.ico"}],["$","link","25",{"rel":"apple-touch-icon","href":"/favicon/apple-touch-icon.png","sizes":"180x180"}]],"error":null,"digest":"$undefined"}
+13:{"metadata":"$19:metadata","error":null,"digest":"$undefined"}
