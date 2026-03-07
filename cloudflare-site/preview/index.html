@@ -7,117 +7,273 @@
   <style>
     :root {
       --bg: #0f1118;
-      --card: #161a23;
-      --text: #eaf0ff;
-      --muted: #9ca8c8;
-      --accent: #8b5cf6;
-      --accent2: #f97316;
+      --bg-elevated: #131826;
+      --card: #111723;
+      --card-active: #171f30;
+      --line: #283043;
+      --line-strong: #cfd8f6;
+      --text: #edf2ff;
+      --muted: #98a4c6;
+      --button-bg: #090d16;
+      --button-line: #273047;
     }
+
     * { box-sizing: border-box; }
-    body {
+
+    html, body {
       margin: 0;
-      font-family: Inter, system-ui, sans-serif;
+      min-height: 100%;
+      background: var(--bg);
       color: var(--text);
-      background: radial-gradient(circle at 20% 0%, #1d2340, transparent 45%), var(--bg);
+      font-family: Inter, system-ui, sans-serif;
     }
+
+    body {
+      padding: 28px 28px 24px;
+    }
+
     .wrap {
-      max-width: 1280px;
+      width: min(100%, 1960px);
       margin: 0 auto;
-      padding: 24px;
     }
+
     h1 {
-      margin: 0 0 8px;
+      margin: 0;
       font-size: 28px;
+      line-height: 1.08;
+      font-weight: 600;
+      letter-spacing: -0.04em;
     }
-    p { margin: 0; color: var(--muted); }
-    .grid {
-      margin-top: 18px;
+
+    .subtitle {
+      margin: 12px 0 0;
+      color: var(--muted);
+      font-size: 16px;
+      line-height: 1.45;
+    }
+
+    .selector-desktop {
+      margin-top: 22px;
       display: grid;
       grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 16px;
+    }
+
+    .selector-mobile {
+      display: none;
+      margin-top: 18px;
       gap: 12px;
+      align-items: center;
     }
-    .card {
+
+    .selector-card {
+      border: 1px solid var(--line);
       background: var(--card);
-      border: 1px solid #2a3040;
-      border-radius: 14px;
-      padding: 14px;
+      border-radius: 20px;
+      min-height: 78px;
+      padding: 14px 16px;
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 12px;
       cursor: pointer;
-      transition: transform .15s ease, border-color .2s ease;
+      transition: border-color .18s ease, background-color .18s ease;
     }
-    .card:hover { transform: translateY(-1px); border-color: #536088; }
-    .card.active { border-color: var(--accent); box-shadow: 0 0 0 1px var(--accent) inset; }
-    .card h2 { margin: 0 0 6px; font-size: 16px; }
-    .meta { font-size: 13px; color: var(--muted); }
-    .actions { margin-top: 8px; display: flex; gap: 8px; }
-    .actions a {
-      text-decoration: none;
-      color: white;
-      font-size: 12px;
-      border-radius: 999px;
-      padding: 6px 10px;
-      background: linear-gradient(90deg, var(--accent), var(--accent2));
+
+    .selector-card:hover {
+      border-color: #4d5a7a;
     }
-    .preview {
-      margin-top: 16px;
+
+    .selector-card.active {
+      background: var(--card-active);
+      border-color: var(--line-strong);
+      box-shadow: 0 0 0 1px rgba(207, 216, 246, 0.28) inset;
+    }
+
+    .selector-title {
+      display: flex;
+      align-items: center;
+      min-height: 46px;
+      font-size: 18px;
+      line-height: 1.15;
+      font-weight: 600;
+      letter-spacing: -0.03em;
+      text-align: left;
+    }
+
+    .open-link,
+    .open-button {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-width: 96px;
+      height: 44px;
+      padding: 0 18px;
       border-radius: 16px;
-      overflow: hidden;
-      border: 1px solid #2a3040;
-      background: #0b0d14;
-      height: calc(100vh - 280px);
-      min-height: 560px;
+      border: 1px solid var(--button-line);
+      background: var(--button-bg);
+      color: var(--text);
+      font-size: 13px;
+      font-weight: 600;
+      text-decoration: none;
+      white-space: nowrap;
+      cursor: pointer;
     }
+
+    .open-link:hover,
+    .open-button:hover {
+      border-color: #4d5a7a;
+    }
+
+    .select-wrap {
+      position: relative;
+      flex: 1 1 auto;
+    }
+
+    select {
+      width: 100%;
+      appearance: none;
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      background: var(--card);
+      color: var(--text);
+      padding: 0 48px 0 16px;
+      height: 48px;
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 48px;
+      outline: none;
+    }
+
+    .select-wrap::after {
+      content: "";
+      position: absolute;
+      top: 50%;
+      right: 18px;
+      width: 8px;
+      height: 8px;
+      border-right: 2px solid var(--muted);
+      border-bottom: 2px solid var(--muted);
+      transform: translateY(-65%) rotate(45deg);
+      pointer-events: none;
+    }
+
+    .stage-shell {
+      margin-top: 18px;
+      width: 100%;
+      border: 1px solid var(--line);
+      border-radius: 22px;
+      overflow: hidden;
+      background: #0a0d14;
+      height: clamp(560px, calc(100vh - 230px), 1120px);
+    }
+
     iframe {
+      display: block;
       width: 100%;
       height: 100%;
       border: 0;
-      background: #fff;
+      background: #0a0d14;
     }
+
     @media (max-width: 960px) {
-      .grid { grid-template-columns: 1fr; }
-      .preview { height: 70vh; }
+      body {
+        padding: 18px 16px 16px;
+      }
+
+      .selector-desktop {
+        display: none;
+      }
+
+      .selector-mobile {
+        display: flex;
+      }
+
+      .subtitle {
+        font-size: 15px;
+      }
+
+      .stage-shell {
+        height: 72vh;
+        min-height: 420px;
+        border-radius: 18px;
+      }
     }
   </style>
 </head>
 <body>
   <div class="wrap">
     <h1>EveryX Landing Variants Preview</h1>
-    <p>Review wireframe backup plus two redesigned variants before Cloudflare/GitHub deployment.</p>
+    <p class="subtitle">Review wireframe backup plus two redesigned variants before Cloudflare/GitHub deployment.</p>
 
-    <div class="grid" id="cards">
-      <div class="card active" data-src="../wireframe/index.html">
-        <h2>Wireframe Backup</h2>
-        <div class="meta">Path: <code>/wireframe</code></div>
-        <div class="actions"><a href="../wireframe/index.html" target="_blank" rel="noopener">Open</a></div>
+    <div class="selector-desktop" id="cards"></div>
+
+    <div class="selector-mobile">
+      <div class="select-wrap">
+        <select id="mobileSelect" aria-label="Choose preview page"></select>
       </div>
-      <div class="card" data-src="../variant-a/index.html">
-        <h2>Variant A (Scalar)</h2>
-        <div class="meta">Path: <code>/variant-a</code></div>
-        <div class="actions"><a href="../variant-a/index.html" target="_blank" rel="noopener">Open</a></div>
-      </div>
-      <div class="card" data-src="../variant-b/index.html">
-        <h2>Variant B (Plasma)</h2>
-        <div class="meta">Path: <code>/variant-b</code></div>
-        <div class="actions"><a href="../variant-b/index.html" target="_blank" rel="noopener">Open</a></div>
-      </div>
+      <a class="open-button" id="mobileOpen" href="../variant-a/index.html" target="_blank" rel="noopener">Open</a>
     </div>
 
-    <div class="preview">
-      <iframe id="stage" src="../wireframe/index.html" title="EveryX Preview"></iframe>
+    <div class="stage-shell">
+      <iframe id="stage" src="../variant-a/index.html" title="EveryX Preview"></iframe>
     </div>
   </div>
 
   <script>
     (function () {
-      var cards = Array.from(document.querySelectorAll('.card'));
-      var frame = document.getElementById('stage');
-      cards.forEach(function (card) {
+      var items = [
+        { key: 'variant-a', label: 'Variant A', src: '../variant-a/index.html' },
+        { key: 'variant-b', label: 'Variant B', src: '../variant-b/index.html' },
+        { key: 'wireframe', label: 'Wireframe Backup', src: '../wireframe/index.html' }
+      ];
+
+      var cardsRoot = document.getElementById('cards');
+      var stage = document.getElementById('stage');
+      var mobileSelect = document.getElementById('mobileSelect');
+      var mobileOpen = document.getElementById('mobileOpen');
+      var activeKey = 'variant-a';
+
+      function setActive(key) {
+        activeKey = key;
+        var item = items.find(function (entry) { return entry.key === key; }) || items[0];
+        stage.src = item.src;
+        mobileSelect.value = key;
+        mobileOpen.href = item.src;
+        Array.from(cardsRoot.querySelectorAll('.selector-card')).forEach(function (card) {
+          card.classList.toggle('active', card.getAttribute('data-key') === key);
+        });
+      }
+
+      items.forEach(function (item) {
+        var card = document.createElement('button');
+        card.type = 'button';
+        card.className = 'selector-card' + (item.key === activeKey ? ' active' : '');
+        card.setAttribute('data-key', item.key);
+        card.innerHTML = '<span class="selector-title">' + item.label + '</span><a class="open-link" href="' + item.src + '" target="_blank" rel="noopener">Open</a>';
         card.addEventListener('click', function (event) {
           if (event.target.closest('a')) return;
-          cards.forEach(function (c) { c.classList.remove('active'); });
-          card.classList.add('active');
-          frame.src = card.getAttribute('data-src');
+          setActive(item.key);
         });
+        cardsRoot.appendChild(card);
+
+        var option = document.createElement('option');
+        option.value = item.key;
+        option.textContent = item.label;
+        mobileSelect.appendChild(option);
       });
+
+      mobileSelect.addEventListener('change', function () {
+        setActive(mobileSelect.value);
+      });
+
+      cardsRoot.addEventListener('click', function (event) {
+        var link = event.target.closest('a');
+        if (!link) return;
+        event.stopPropagation();
+      });
+
+      setActive(activeKey);
     })();
   </script>
 </body>
